@@ -20,3 +20,15 @@ DATE | SLUG | vehicle-folder | raw-url
 2026-08-30 | magma-rift | modely-2025-premium | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-08-30/modely-2025-premium/magma-rift.png
 2026-08-30 | magma-rift | modely-l | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-08-30/modely-l/magma-rift.png
 2026-08-30 | magma-rift | modely | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-08-30/modely/magma-rift.png
+2026-08-31 | ion-bloom | cybertruck | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-08-31/cybertruck/ion-bloom.png
+2026-08-31 | ion-bloom | model3-2024-base | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-08-31/model3-2024-base/ion-bloom.png
+2026-08-31 | ion-bloom | model3-2024-performance | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-08-31/model3-2024-performance/ion-bloom.png
+2026-08-31 | ion-bloom | model3 | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-08-31/model3/ion-bloom.png
+2026-08-31 | ion-bloom | models-2021 | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-08-31/models-2021/ion-bloom.png
+2026-08-31 | ion-bloom | models-2025-plaid | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-08-31/models-2025-plaid/ion-bloom.png
+2026-08-31 | ion-bloom | modelx-2021 | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-08-31/modelx-2021/ion-bloom.png
+2026-08-31 | ion-bloom | modely-2025-base | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-08-31/modely-2025-base/ion-bloom.png
+2026-08-31 | ion-bloom | modely-2025-performance | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-08-31/modely-2025-performance/ion-bloom.png
+2026-08-31 | ion-bloom | modely-2025-premium | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-08-31/modely-2025-premium/ion-bloom.png
+2026-08-31 | ion-bloom | modely-l | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-08-31/modely-l/ion-bloom.png
+2026-08-31 | ion-bloom | modely | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-08-31/modely/ion-bloom.png
