@@ -32,3 +32,15 @@ DATE | SLUG | vehicle-folder | raw-url
 2026-08-31 | ion-bloom | modely-2025-premium | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-08-31/modely-2025-premium/ion-bloom.png
 2026-08-31 | ion-bloom | modely-l | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-08-31/modely-l/ion-bloom.png
 2026-08-31 | ion-bloom | modely | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-08-31/modely/ion-bloom.png
+2026-09-01 | taxi-steam | cybertruck | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-01/cybertruck/taxi-steam.png
+2026-09-01 | taxi-steam | model3-2024-base | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-01/model3-2024-base/taxi-steam.png
+2026-09-01 | taxi-steam | model3-2024-performance | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-01/model3-2024-performance/taxi-steam.png
+2026-09-01 | taxi-steam | model3 | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-01/model3/taxi-steam.png
+2026-09-01 | taxi-steam | models-2021 | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-01/models-2021/taxi-steam.png
+2026-09-01 | taxi-steam | models-2025-plaid | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-01/models-2025-plaid/taxi-steam.png
+2026-09-01 | taxi-steam | modelx-2021 | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-01/modelx-2021/taxi-steam.png
+2026-09-01 | taxi-steam | modely-2025-base | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-01/modely-2025-base/taxi-steam.png
+2026-09-01 | taxi-steam | modely-2025-performance | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-01/modely-2025-performance/taxi-steam.png
+2026-09-01 | taxi-steam | modely-2025-premium | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-01/modely-2025-premium/taxi-steam.png
+2026-09-01 | taxi-steam | modely-l | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-01/modely-l/taxi-steam.png
+2026-09-01 | taxi-steam | modely | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-01/modely/taxi-steam.png
