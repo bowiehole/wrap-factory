@@ -44,3 +44,15 @@ DATE | SLUG | vehicle-folder | raw-url
 2026-09-01 | taxi-steam | modely-2025-premium | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-01/modely-2025-premium/taxi-steam.png
 2026-09-01 | taxi-steam | modely-l | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-01/modely-l/taxi-steam.png
 2026-09-01 | taxi-steam | modely | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-01/modely/taxi-steam.png
+2026-09-02 | robotaxi | cybertruck | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-02/cybertruck/robotaxi.png
+2026-09-02 | robotaxi | model3 | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-02/model3/robotaxi.png
+2026-09-02 | robotaxi | model3-2024-base | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-02/model3-2024-base/robotaxi.png
+2026-09-02 | robotaxi | model3-2024-performance | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-02/model3-2024-performance/robotaxi.png
+2026-09-02 | robotaxi | models-2021 | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-02/models-2021/robotaxi.png
+2026-09-02 | robotaxi | models-2025-plaid | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-02/models-2025-plaid/robotaxi.png
+2026-09-02 | robotaxi | modelx-2021 | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-02/modelx-2021/robotaxi.png
+2026-09-02 | robotaxi | modely | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-02/modely/robotaxi.png
+2026-09-02 | robotaxi | modely-2025-base | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-02/modely-2025-base/robotaxi.png
+2026-09-02 | robotaxi | modely-2025-performance | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-02/modely-2025-performance/robotaxi.png
+2026-09-02 | robotaxi | modely-2025-premium | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-02/modely-2025-premium/robotaxi.png
+2026-09-02 | robotaxi | modely-l | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-02/modely-l/robotaxi.png
