@@ -76,3 +76,15 @@ DATE | SLUG | vehicle-folder | raw-url
 2026-09-02 | robotaxi | modely-2025-performance | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-02/modely-2025-performance/robotaxi.png
 2026-09-02 | robotaxi | modely-2025-premium | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-02/modely-2025-premium/robotaxi.png
 2026-09-02 | robotaxi | modely-l | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-02/modely-l/robotaxi.png
+2026-09-03 | norther | cybertruck | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-03/cybertruck/norther.png
+2026-09-03 | norther | model3 | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-03/model3/norther.png
+2026-09-03 | norther | model3-2024-base | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-03/model3-2024-base/norther.png
+2026-09-03 | norther | model3-2024-performance | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-03/model3-2024-performance/norther.png
+2026-09-03 | norther | models-2021 | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-03/models-2021/norther.png
+2026-09-03 | norther | models-2025-plaid | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-03/models-2025-plaid/norther.png
+2026-09-03 | norther | modelx-2021 | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-03/modelx-2021/norther.png
+2026-09-03 | norther | modely | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-03/modely/norther.png
+2026-09-03 | norther | modely-2025-base | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-03/modely-2025-base/norther.png
+2026-09-03 | norther | modely-2025-performance | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-03/modely-2025-performance/norther.png
+2026-09-03 | norther | modely-2025-premium | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-03/modely-2025-premium/norther.png
+2026-09-03 | norther | modely-l | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-03/modely-l/norther.png
