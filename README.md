@@ -4,6 +4,26 @@ Invented skins for Tesla Paint Shop custom wraps. Each date applies one concept 
 
 Paint only the white UV islands. Files are PNG, match official template pixels, and stay under 1 MB.
 
+
+## Workshop
+
+Directed skins, fitted with a human in the loop. Not 8am inventions. See [`workshop/`](workshop/).
+
+| Job | Slug | vehicle-folder | raw-url
+|---|---|---|---
+| robotaxi | robotaxi | cybertruck | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/robotaxi/cybertruck/robotaxi.png
+| robotaxi | robotaxi | model3 | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/robotaxi/model3/robotaxi.png
+| robotaxi | robotaxi | model3-2024-base | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/robotaxi/model3-2024-base/robotaxi.png
+| robotaxi | robotaxi | model3-2024-performance | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/robotaxi/model3-2024-performance/robotaxi.png
+| robotaxi | robotaxi | models-2021 | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/robotaxi/models-2021/robotaxi.png
+| robotaxi | robotaxi | models-2025-plaid | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/robotaxi/models-2025-plaid/robotaxi.png
+| robotaxi | robotaxi | modelx-2021 | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/robotaxi/modelx-2021/robotaxi.png
+| robotaxi | robotaxi | modely | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/robotaxi/modely/robotaxi.png
+| robotaxi | robotaxi | modely-2025-base | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/robotaxi/modely-2025-base/robotaxi.png
+| robotaxi | robotaxi | modely-2025-performance | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/robotaxi/modely-2025-performance/robotaxi.png
+| robotaxi | robotaxi | modely-2025-premium | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/robotaxi/modely-2025-premium/robotaxi.png
+| robotaxi | robotaxi | modely-l | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/robotaxi/modely-l/robotaxi.png
+
 ## Catalog
 
 DATE | SLUG | vehicle-folder | raw-url
