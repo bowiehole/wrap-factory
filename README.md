@@ -88,3 +88,15 @@ DATE | SLUG | vehicle-folder | raw-url
 2026-09-03 | norther | modely-2025-performance | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-03/modely-2025-performance/norther.png
 2026-09-03 | norther | modely-2025-premium | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-03/modely-2025-premium/norther.png
 2026-09-03 | norther | modely-l | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-03/modely-l/norther.png
+2026-09-04 | la-dusk | cybertruck | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-04/cybertruck/la-dusk.png
+2026-09-04 | la-dusk | model3-2024-base | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-04/model3-2024-base/la-dusk.png
+2026-09-04 | la-dusk | model3-2024-performance | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-04/model3-2024-performance/la-dusk.png
+2026-09-04 | la-dusk | model3 | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-04/model3/la-dusk.png
+2026-09-04 | la-dusk | models-2021 | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-04/models-2021/la-dusk.png
+2026-09-04 | la-dusk | models-2025-plaid | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-04/models-2025-plaid/la-dusk.png
+2026-09-04 | la-dusk | modelx-2021 | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-04/modelx-2021/la-dusk.png
+2026-09-04 | la-dusk | modely-2025-base | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-04/modely-2025-base/la-dusk.png
+2026-09-04 | la-dusk | modely-2025-performance | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-04/modely-2025-performance/la-dusk.png
+2026-09-04 | la-dusk | modely-2025-premium | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-04/modely-2025-premium/la-dusk.png
+2026-09-04 | la-dusk | modely-l | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-04/modely-l/la-dusk.png
+2026-09-04 | la-dusk | modely | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-04/modely/la-dusk.png
