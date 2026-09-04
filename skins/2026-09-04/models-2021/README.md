@@ -1,10 +1,10 @@
 # Model S (2021+) — la-dusk
 
 - **Slug:** `la-dusk`
-- **Brief:** Los Angeles dusk impression: coral-magenta sun disk on the roof bleeding into indigo night toward the rockers, with soft palm-frond silhouettes and thin freeway light ribbons drifting downhill — regenerated, no logos.
+- **Brief:** Los Angeles dusk: coral-magenta sunburst bleeding into indigo night toward the rockers, with continuous freeway ribbons and palm silhouettes that cross door seams (continuous side UV rebuild).
 - **Official folder:** `models-2021`
 - **Pixel size:** 1024×1024
-- **File size:** 436.1 KB
+- **File size:** 375.4 KB
 - **File:** `la-dusk.png`
 
 ## Tesla upload steps

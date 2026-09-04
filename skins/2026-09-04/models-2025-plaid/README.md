@@ -1,10 +1,10 @@
 # Model S (2025+) Plaid — la-dusk
 
 - **Slug:** `la-dusk`
-- **Brief:** Los Angeles dusk impression: coral-magenta sun disk on the roof bleeding into indigo night toward the rockers, with soft palm-frond silhouettes and thin freeway light ribbons drifting downhill — regenerated, no logos.
+- **Brief:** Los Angeles dusk: coral-magenta sunburst bleeding into indigo night toward the rockers, with continuous freeway ribbons and palm silhouettes that cross door seams (continuous side UV rebuild).
 - **Official folder:** `models-2025-plaid`
 - **Pixel size:** 1024×1024
-- **File size:** 420.8 KB
+- **File size:** 371.0 KB
 - **File:** `la-dusk.png`
 
 ## Tesla upload steps

@@ -1,10 +1,10 @@
 # Model Y L — la-dusk
 
 - **Slug:** `la-dusk`
-- **Brief:** Los Angeles dusk impression: coral-magenta sun disk on the roof bleeding into indigo night toward the rockers, with soft palm-frond silhouettes and thin freeway light ribbons drifting downhill — regenerated, no logos.
+- **Brief:** Los Angeles dusk: coral-magenta sunburst bleeding into indigo night toward the rockers, with continuous freeway ribbons and palm silhouettes that cross door seams (continuous side UV rebuild).
 - **Official folder:** `modely-l`
 - **Pixel size:** 1024×1024
-- **File size:** 482.5 KB
+- **File size:** 406.5 KB
 - **File:** `la-dusk.png`
 
 ## Tesla upload steps

@@ -1,10 +1,10 @@
 # Model 3 (2024+) Standard & Premium — la-dusk
 
 - **Slug:** `la-dusk`
-- **Brief:** Los Angeles dusk impression: coral-magenta sun disk on the roof bleeding into indigo night toward the rockers, with soft palm-frond silhouettes and thin freeway light ribbons drifting downhill — regenerated, no logos.
+- **Brief:** Los Angeles dusk: coral-magenta sunburst bleeding into indigo night toward the rockers, with continuous freeway ribbons and palm silhouettes that cross door seams (continuous side UV rebuild).
 - **Official folder:** `model3-2024-base`
 - **Pixel size:** 1024×1024
-- **File size:** 518.5 KB
+- **File size:** 461.1 KB
 - **File:** `la-dusk.png`
 
 ## Tesla upload steps
