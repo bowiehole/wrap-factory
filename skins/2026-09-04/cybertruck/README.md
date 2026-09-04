@@ -1,10 +1,10 @@
 # Cybertruck — la-dusk
 
 - **Slug:** `la-dusk`
-- **Brief:** Los Angeles dusk: coral-magenta sunburst bleeding into indigo night toward the rockers, with continuous freeway ribbons and palm silhouettes that cross door seams (continuous side UV rebuild).
+- **Brief:** Los Angeles dusk impression: coral-magenta sun disk on the roof bleeding into indigo night toward the rockers, with soft palm-frond silhouettes and thin freeway light ribbons drifting downhill — regenerated, no logos.
 - **Official folder:** `cybertruck`
 - **Pixel size:** 1024×768
-- **File size:** 318.6 KB
+- **File size:** 499.0 KB
 - **File:** `la-dusk.png`
 
 **Size note:** official template is 1024×768 (non-square). Both edges are within 512–1024; export matches the official pixels.
