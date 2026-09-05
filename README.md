@@ -100,3 +100,15 @@ DATE | SLUG | vehicle-folder | raw-url
 2026-09-04 | la-dusk | modely-2025-premium | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-04/modely-2025-premium/la-dusk.png
 2026-09-04 | la-dusk | modely-l | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-04/modely-l/la-dusk.png
 2026-09-04 | la-dusk | modely | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-04/modely/la-dusk.png
+2026-09-05 | reef-flash | cybertruck | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-05/cybertruck/reef-flash.png
+2026-09-05 | reef-flash | model3-2024-base | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-05/model3-2024-base/reef-flash.png
+2026-09-05 | reef-flash | model3-2024-performance | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-05/model3-2024-performance/reef-flash.png
+2026-09-05 | reef-flash | model3 | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-05/model3/reef-flash.png
+2026-09-05 | reef-flash | models-2021 | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-05/models-2021/reef-flash.png
+2026-09-05 | reef-flash | models-2025-plaid | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-05/models-2025-plaid/reef-flash.png
+2026-09-05 | reef-flash | modelx-2021 | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-05/modelx-2021/reef-flash.png
+2026-09-05 | reef-flash | modely-2025-base | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-05/modely-2025-base/reef-flash.png
+2026-09-05 | reef-flash | modely-2025-performance | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-05/modely-2025-performance/reef-flash.png
+2026-09-05 | reef-flash | modely-2025-premium | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-05/modely-2025-premium/reef-flash.png
+2026-09-05 | reef-flash | modely-l | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-05/modely-l/reef-flash.png
+2026-09-05 | reef-flash | modely | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-05/modely/reef-flash.png
