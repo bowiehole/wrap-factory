@@ -185,3 +185,15 @@ DATE | SLUG | vehicle-folder | raw-url
 2026-09-05 | reef-flash | modely-2025-premium | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-05/modely-2025-premium/reef-flash.png
 2026-09-05 | reef-flash | modely-l | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-05/modely-l/reef-flash.png
 2026-09-05 | reef-flash | modely | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-05/modely/reef-flash.png
+2026-09-06 | chi-lake | cybertruck | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-06/cybertruck/chi-lake.png
+2026-09-06 | chi-lake | model3-2024-base | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-06/model3-2024-base/chi-lake.png
+2026-09-06 | chi-lake | model3-2024-performance | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-06/model3-2024-performance/chi-lake.png
+2026-09-06 | chi-lake | model3 | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-06/model3/chi-lake.png
+2026-09-06 | chi-lake | models-2021 | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-06/models-2021/chi-lake.png
+2026-09-06 | chi-lake | models-2025-plaid | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-06/models-2025-plaid/chi-lake.png
+2026-09-06 | chi-lake | modelx-2021 | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-06/modelx-2021/chi-lake.png
+2026-09-06 | chi-lake | modely-2025-base | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-06/modely-2025-base/chi-lake.png
+2026-09-06 | chi-lake | modely-2025-performance | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-06/modely-2025-performance/chi-lake.png
+2026-09-06 | chi-lake | modely-2025-premium | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-06/modely-2025-premium/chi-lake.png
+2026-09-06 | chi-lake | modely-l | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-06/modely-l/chi-lake.png
+2026-09-06 | chi-lake | modely | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-06/modely/chi-lake.png
