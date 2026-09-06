@@ -1,0 +1,1280 @@
+{
+  "generatedAt": "2026-09-06T13:42:46.140Z",
+  "repo": "bowiehole/wrap-factory",
+  "site": "https://teslawrapfactory.com",
+  "vehicleOrder": [
+    "cybertruck",
+    "model3",
+    "model3-2024-base",
+    "model3-2024-performance",
+    "modely",
+    "modely-2025-base",
+    "modely-2025-premium",
+    "modely-2025-performance",
+    "modely-l",
+    "models-2021",
+    "models-2025-plaid",
+    "modelx-2021"
+  ],
+  "vehicleLabels": {
+    "cybertruck": "Cybertruck",
+    "model3": "Model 3",
+    "model3-2024-base": "Model 3 2024 Base",
+    "model3-2024-performance": "Model 3 2024 Performance",
+    "modely": "Model Y",
+    "modely-2025-base": "Model Y 2025 Base",
+    "modely-2025-premium": "Model Y 2025 Premium",
+    "modely-2025-performance": "Model Y 2025 Performance",
+    "modely-l": "Model Y L",
+    "models-2021": "Model S 2021",
+    "models-2025-plaid": "Model S 2025 Plaid",
+    "modelx-2021": "Model X 2021"
+  },
+  "drops": [
+    {
+      "kind": "factory",
+      "id": "factory-2026-09-06-chi-lake",
+      "date": "2026-09-06",
+      "slug": "chi-lake",
+      "title": "chi-lake",
+      "brief": "Chicago lakefront night: Michigan teal and midnight navy cascading from the roof, with amber L-train window sparks and soft skyline reflections drifting downhill toward hood, rockers, and tail — regenerated impression, no logos.",
+      "previewVehicle": "cybertruck",
+      "vehicles": {
+        "cybertruck": {
+          "label": "Cybertruck",
+          "file": "chi-lake.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-06/cybertruck/chi-lake.png",
+          "bytes": 279036
+        },
+        "model3": {
+          "label": "Model 3",
+          "file": "chi-lake.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-06/model3/chi-lake.png",
+          "bytes": 433432
+        },
+        "model3-2024-base": {
+          "label": "Model 3 2024 Base",
+          "file": "chi-lake.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-06/model3-2024-base/chi-lake.png",
+          "bytes": 464664
+        },
+        "model3-2024-performance": {
+          "label": "Model 3 2024 Performance",
+          "file": "chi-lake.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-06/model3-2024-performance/chi-lake.png",
+          "bytes": 462915
+        },
+        "models-2021": {
+          "label": "Model S 2021",
+          "file": "chi-lake.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-06/models-2021/chi-lake.png",
+          "bytes": 383535
+        },
+        "models-2025-plaid": {
+          "label": "Model S 2025 Plaid",
+          "file": "chi-lake.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-06/models-2025-plaid/chi-lake.png",
+          "bytes": 376355
+        },
+        "modelx-2021": {
+          "label": "Model X 2021",
+          "file": "chi-lake.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-06/modelx-2021/chi-lake.png",
+          "bytes": 306016
+        },
+        "modely": {
+          "label": "Model Y",
+          "file": "chi-lake.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-06/modely/chi-lake.png",
+          "bytes": 441164
+        },
+        "modely-2025-base": {
+          "label": "Model Y 2025 Base",
+          "file": "chi-lake.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-06/modely-2025-base/chi-lake.png",
+          "bytes": 335746
+        },
+        "modely-2025-performance": {
+          "label": "Model Y 2025 Performance",
+          "file": "chi-lake.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-06/modely-2025-performance/chi-lake.png",
+          "bytes": 379001
+        },
+        "modely-2025-premium": {
+          "label": "Model Y 2025 Premium",
+          "file": "chi-lake.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-06/modely-2025-premium/chi-lake.png",
+          "bytes": 372591
+        },
+        "modely-l": {
+          "label": "Model Y L",
+          "file": "chi-lake.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-06/modely-l/chi-lake.png",
+          "bytes": 411479
+        }
+      }
+    },
+    {
+      "kind": "factory",
+      "id": "factory-2026-09-05-reef-flash",
+      "date": "2026-09-05",
+      "slug": "reef-flash",
+      "title": "reef-flash",
+      "brief": "Abyssal navy with electric turquoise and hot-magenta reef-scale flashes cascading from the roof downhill toward hood, rockers, and tail — animal-as-texture, high contrast for the touchscreen.",
+      "previewVehicle": "cybertruck",
+      "vehicles": {
+        "cybertruck": {
+          "label": "Cybertruck",
+          "file": "reef-flash.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-05/cybertruck/reef-flash.png",
+          "bytes": 385370
+        },
+        "model3": {
+          "label": "Model 3",
+          "file": "reef-flash.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-05/model3/reef-flash.png",
+          "bytes": 574491
+        },
+        "model3-2024-base": {
+          "label": "Model 3 2024 Base",
+          "file": "reef-flash.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-05/model3-2024-base/reef-flash.png",
+          "bytes": 628028
+        },
+        "model3-2024-performance": {
+          "label": "Model 3 2024 Performance",
+          "file": "reef-flash.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-05/model3-2024-performance/reef-flash.png",
+          "bytes": 626375
+        },
+        "models-2021": {
+          "label": "Model S 2021",
+          "file": "reef-flash.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-05/models-2021/reef-flash.png",
+          "bytes": 511091
+        },
+        "models-2025-plaid": {
+          "label": "Model S 2025 Plaid",
+          "file": "reef-flash.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-05/models-2025-plaid/reef-flash.png",
+          "bytes": 498132
+        },
+        "modelx-2021": {
+          "label": "Model X 2021",
+          "file": "reef-flash.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-05/modelx-2021/reef-flash.png",
+          "bytes": 404112
+        },
+        "modely": {
+          "label": "Model Y",
+          "file": "reef-flash.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-05/modely/reef-flash.png",
+          "bytes": 590600
+        },
+        "modely-2025-base": {
+          "label": "Model Y 2025 Base",
+          "file": "reef-flash.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-05/modely-2025-base/reef-flash.png",
+          "bytes": 437696
+        },
+        "modely-2025-performance": {
+          "label": "Model Y 2025 Performance",
+          "file": "reef-flash.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-05/modely-2025-performance/reef-flash.png",
+          "bytes": 503057
+        },
+        "modely-2025-premium": {
+          "label": "Model Y 2025 Premium",
+          "file": "reef-flash.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-05/modely-2025-premium/reef-flash.png",
+          "bytes": 490914
+        },
+        "modely-l": {
+          "label": "Model Y L",
+          "file": "reef-flash.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-05/modely-l/reef-flash.png",
+          "bytes": 539753
+        }
+      }
+    },
+    {
+      "kind": "factory",
+      "id": "factory-2026-09-04-la-dusk",
+      "date": "2026-09-04",
+      "slug": "la-dusk",
+      "title": "la-dusk",
+      "brief": "Los Angeles dusk impression: coral-magenta sun disk on the roof bleeding into indigo night toward the rockers, with soft palm-frond silhouettes and thin freeway light ribbons drifting downhill — regenerated, no logos.",
+      "previewVehicle": "cybertruck",
+      "vehicles": {
+        "cybertruck": {
+          "label": "Cybertruck",
+          "file": "la-dusk.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-04/cybertruck/la-dusk.png",
+          "bytes": 511005
+        },
+        "model3": {
+          "label": "Model 3",
+          "file": "la-dusk.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-04/model3/la-dusk.png",
+          "bytes": 483826
+        },
+        "model3-2024-base": {
+          "label": "Model 3 2024 Base",
+          "file": "la-dusk.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-04/model3-2024-base/la-dusk.png",
+          "bytes": 530955
+        },
+        "model3-2024-performance": {
+          "label": "Model 3 2024 Performance",
+          "file": "la-dusk.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-04/model3-2024-performance/la-dusk.png",
+          "bytes": 528254
+        },
+        "models-2021": {
+          "label": "Model S 2021",
+          "file": "la-dusk.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-04/models-2021/la-dusk.png",
+          "bytes": 446567
+        },
+        "models-2025-plaid": {
+          "label": "Model S 2025 Plaid",
+          "file": "la-dusk.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-04/models-2025-plaid/la-dusk.png",
+          "bytes": 430913
+        },
+        "modelx-2021": {
+          "label": "Model X 2021",
+          "file": "la-dusk.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-04/modelx-2021/la-dusk.png",
+          "bytes": 344742
+        },
+        "modely": {
+          "label": "Model Y",
+          "file": "la-dusk.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-04/modely/la-dusk.png",
+          "bytes": 539076
+        },
+        "modely-2025-base": {
+          "label": "Model Y 2025 Base",
+          "file": "la-dusk.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-04/modely-2025-base/la-dusk.png",
+          "bytes": 387887
+        },
+        "modely-2025-performance": {
+          "label": "Model Y 2025 Performance",
+          "file": "la-dusk.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-04/modely-2025-performance/la-dusk.png",
+          "bytes": 450052
+        },
+        "modely-2025-premium": {
+          "label": "Model Y 2025 Premium",
+          "file": "la-dusk.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-04/modely-2025-premium/la-dusk.png",
+          "bytes": 436681
+        },
+        "modely-l": {
+          "label": "Model Y L",
+          "file": "la-dusk.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-04/modely-l/la-dusk.png",
+          "bytes": 494099
+        }
+      }
+    },
+    {
+      "kind": "factory",
+      "id": "factory-2026-09-03-norther",
+      "date": "2026-09-03",
+      "slug": "norther",
+      "title": "norther",
+      "brief": "Texas blue norther: ice-white rime on deep navy, heavier at the roof and blowing out toward hood, rockers, and tail.",
+      "previewVehicle": "cybertruck",
+      "vehicles": {
+        "cybertruck": {
+          "label": "Cybertruck",
+          "file": "norther.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-03/cybertruck/norther.png",
+          "bytes": 795758
+        },
+        "model3": {
+          "label": "Model 3",
+          "file": "norther.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-03/model3/norther.png",
+          "bytes": 786372
+        },
+        "model3-2024-base": {
+          "label": "Model 3 2024 Base",
+          "file": "norther.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-03/model3-2024-base/norther.png",
+          "bytes": 860569
+        },
+        "model3-2024-performance": {
+          "label": "Model 3 2024 Performance",
+          "file": "norther.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-03/model3-2024-performance/norther.png",
+          "bytes": 858787
+        },
+        "models-2021": {
+          "label": "Model S 2021",
+          "file": "norther.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-03/models-2021/norther.png",
+          "bytes": 704146
+        },
+        "models-2025-plaid": {
+          "label": "Model S 2025 Plaid",
+          "file": "norther.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-03/models-2025-plaid/norther.png",
+          "bytes": 677234
+        },
+        "modelx-2021": {
+          "label": "Model X 2021",
+          "file": "norther.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-03/modelx-2021/norther.png",
+          "bytes": 560279
+        },
+        "modely": {
+          "label": "Model Y",
+          "file": "norther.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-03/modely/norther.png",
+          "bytes": 871683
+        },
+        "modely-2025-base": {
+          "label": "Model Y 2025 Base",
+          "file": "norther.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-03/modely-2025-base/norther.png",
+          "bytes": 625892
+        },
+        "modely-2025-performance": {
+          "label": "Model Y 2025 Performance",
+          "file": "norther.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-03/modely-2025-performance/norther.png",
+          "bytes": 735775
+        },
+        "modely-2025-premium": {
+          "label": "Model Y 2025 Premium",
+          "file": "norther.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-03/modely-2025-premium/norther.png",
+          "bytes": 710424
+        },
+        "modely-l": {
+          "label": "Model Y L",
+          "file": "norther.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-03/modely-l/norther.png",
+          "bytes": 798311
+        }
+      }
+    },
+    {
+      "kind": "factory",
+      "id": "factory-2026-09-02-robotaxi",
+      "date": "2026-09-02",
+      "slug": "robotaxi",
+      "title": "robotaxi",
+      "brief": "Glossy champagne-gold Cybercab paint with original ROBOTAXI lettering on the doors, hood, and tailgate for the September 3 2026 Austin launch.",
+      "previewVehicle": "cybertruck",
+      "vehicles": {
+        "cybertruck": {
+          "label": "Cybertruck",
+          "file": "robotaxi.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-02/cybertruck/robotaxi.png",
+          "bytes": 117858
+        },
+        "model3": {
+          "label": "Model 3",
+          "file": "robotaxi.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-02/model3/robotaxi.png",
+          "bytes": 115045
+        },
+        "model3-2024-base": {
+          "label": "Model 3 2024 Base",
+          "file": "robotaxi.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-02/model3-2024-base/robotaxi.png",
+          "bytes": 120910
+        },
+        "model3-2024-performance": {
+          "label": "Model 3 2024 Performance",
+          "file": "robotaxi.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-02/model3-2024-performance/robotaxi.png",
+          "bytes": 123710
+        },
+        "models-2021": {
+          "label": "Model S 2021",
+          "file": "robotaxi.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-02/models-2021/robotaxi.png",
+          "bytes": 99685
+        },
+        "models-2025-plaid": {
+          "label": "Model S 2025 Plaid",
+          "file": "robotaxi.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-02/models-2025-plaid/robotaxi.png",
+          "bytes": 98452
+        },
+        "modelx-2021": {
+          "label": "Model X 2021",
+          "file": "robotaxi.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-02/modelx-2021/robotaxi.png",
+          "bytes": 87619
+        },
+        "modely": {
+          "label": "Model Y",
+          "file": "robotaxi.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-02/modely/robotaxi.png",
+          "bytes": 122235
+        },
+        "modely-2025-base": {
+          "label": "Model Y 2025 Base",
+          "file": "robotaxi.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-02/modely-2025-base/robotaxi.png",
+          "bytes": 95459
+        },
+        "modely-2025-performance": {
+          "label": "Model Y 2025 Performance",
+          "file": "robotaxi.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-02/modely-2025-performance/robotaxi.png",
+          "bytes": 107517
+        },
+        "modely-2025-premium": {
+          "label": "Model Y 2025 Premium",
+          "file": "robotaxi.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-02/modely-2025-premium/robotaxi.png",
+          "bytes": 105665
+        },
+        "modely-l": {
+          "label": "Model Y L",
+          "file": "robotaxi.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-02/modely-l/robotaxi.png",
+          "bytes": 114582
+        }
+      }
+    },
+    {
+      "kind": "factory",
+      "id": "factory-2026-09-01-taxi-steam",
+      "date": "2026-09-01",
+      "slug": "taxi-steam",
+      "title": "taxi-steam",
+      "brief": "Wet-asphalt night wrap with taxi-yellow lane stripes and steam veils rising from a subway-tile roof, skyline silhouettes as texture running downhill toward hood, rockers, and tailgate.",
+      "previewVehicle": "cybertruck",
+      "vehicles": {
+        "cybertruck": {
+          "label": "Cybertruck",
+          "file": "taxi-steam.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-01/cybertruck/taxi-steam.png",
+          "bytes": 394124
+        },
+        "model3": {
+          "label": "Model 3",
+          "file": "taxi-steam.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-01/model3/taxi-steam.png",
+          "bytes": 396451
+        },
+        "model3-2024-base": {
+          "label": "Model 3 2024 Base",
+          "file": "taxi-steam.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-01/model3-2024-base/taxi-steam.png",
+          "bytes": 428284
+        },
+        "model3-2024-performance": {
+          "label": "Model 3 2024 Performance",
+          "file": "taxi-steam.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-01/model3-2024-performance/taxi-steam.png",
+          "bytes": 429500
+        },
+        "models-2021": {
+          "label": "Model S 2021",
+          "file": "taxi-steam.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-01/models-2021/taxi-steam.png",
+          "bytes": 367158
+        },
+        "models-2025-plaid": {
+          "label": "Model S 2025 Plaid",
+          "file": "taxi-steam.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-01/models-2025-plaid/taxi-steam.png",
+          "bytes": 358544
+        },
+        "modelx-2021": {
+          "label": "Model X 2021",
+          "file": "taxi-steam.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-01/modelx-2021/taxi-steam.png",
+          "bytes": 302654
+        },
+        "modely": {
+          "label": "Model Y",
+          "file": "taxi-steam.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-01/modely/taxi-steam.png",
+          "bytes": 430248
+        },
+        "modely-2025-base": {
+          "label": "Model Y 2025 Base",
+          "file": "taxi-steam.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-01/modely-2025-base/taxi-steam.png",
+          "bytes": 317622
+        },
+        "modely-2025-performance": {
+          "label": "Model Y 2025 Performance",
+          "file": "taxi-steam.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-01/modely-2025-performance/taxi-steam.png",
+          "bytes": 376802
+        },
+        "modely-2025-premium": {
+          "label": "Model Y 2025 Premium",
+          "file": "taxi-steam.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-01/modely-2025-premium/taxi-steam.png",
+          "bytes": 361071
+        },
+        "modely-l": {
+          "label": "Model Y L",
+          "file": "taxi-steam.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-01/modely-l/taxi-steam.png",
+          "bytes": 385051
+        }
+      }
+    },
+    {
+      "kind": "factory",
+      "id": "factory-2026-08-31-ion-bloom",
+      "date": "2026-08-31",
+      "slug": "ion-bloom",
+      "title": "ion-bloom",
+      "brief": "Ink-black bodywork blooming high-contrast ion-violet flowers from the roof, each petal edged in electric-cyan that cascades downhill toward hood, rockers, and tailgate.",
+      "previewVehicle": "cybertruck",
+      "vehicles": {
+        "cybertruck": {
+          "label": "Cybertruck",
+          "file": "ion-bloom.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-08-31/cybertruck/ion-bloom.png",
+          "bytes": 398824
+        },
+        "model3": {
+          "label": "Model 3",
+          "file": "ion-bloom.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-08-31/model3/ion-bloom.png",
+          "bytes": 389063
+        },
+        "model3-2024-base": {
+          "label": "Model 3 2024 Base",
+          "file": "ion-bloom.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-08-31/model3-2024-base/ion-bloom.png",
+          "bytes": 414767
+        },
+        "model3-2024-performance": {
+          "label": "Model 3 2024 Performance",
+          "file": "ion-bloom.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-08-31/model3-2024-performance/ion-bloom.png",
+          "bytes": 416528
+        },
+        "models-2021": {
+          "label": "Model S 2021",
+          "file": "ion-bloom.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-08-31/models-2021/ion-bloom.png",
+          "bytes": 343634
+        },
+        "models-2025-plaid": {
+          "label": "Model S 2025 Plaid",
+          "file": "ion-bloom.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-08-31/models-2025-plaid/ion-bloom.png",
+          "bytes": 333271
+        },
+        "modelx-2021": {
+          "label": "Model X 2021",
+          "file": "ion-bloom.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-08-31/modelx-2021/ion-bloom.png",
+          "bytes": 272078
+        },
+        "modely": {
+          "label": "Model Y",
+          "file": "ion-bloom.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-08-31/modely/ion-bloom.png",
+          "bytes": 426392
+        },
+        "modely-2025-base": {
+          "label": "Model Y 2025 Base",
+          "file": "ion-bloom.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-08-31/modely-2025-base/ion-bloom.png",
+          "bytes": 305791
+        },
+        "modely-2025-performance": {
+          "label": "Model Y 2025 Performance",
+          "file": "ion-bloom.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-08-31/modely-2025-performance/ion-bloom.png",
+          "bytes": 360430
+        },
+        "modely-2025-premium": {
+          "label": "Model Y 2025 Premium",
+          "file": "ion-bloom.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-08-31/modely-2025-premium/ion-bloom.png",
+          "bytes": 348941
+        },
+        "modely-l": {
+          "label": "Model Y L",
+          "file": "ion-bloom.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-08-31/modely-l/ion-bloom.png",
+          "bytes": 392052
+        }
+      }
+    },
+    {
+      "kind": "factory",
+      "id": "factory-2026-08-30-magma-rift",
+      "date": "2026-08-30",
+      "slug": "magma-rift",
+      "title": "magma-rift",
+      "brief": "Charcoal basalt split by high-contrast molten-gold magma rifts that originate on the roof and flow downhill toward rockers, hood, and tailgate.",
+      "previewVehicle": "cybertruck",
+      "vehicles": {
+        "cybertruck": {
+          "label": "Cybertruck",
+          "file": "magma-rift.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-08-30/cybertruck/magma-rift.png",
+          "bytes": 664585
+        },
+        "model3": {
+          "label": "Model 3",
+          "file": "magma-rift.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-08-30/model3/magma-rift.png",
+          "bytes": 620381
+        },
+        "model3-2024-base": {
+          "label": "Model 3 2024 Base",
+          "file": "magma-rift.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-08-30/model3-2024-base/magma-rift.png",
+          "bytes": 674832
+        },
+        "model3-2024-performance": {
+          "label": "Model 3 2024 Performance",
+          "file": "magma-rift.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-08-30/model3-2024-performance/magma-rift.png",
+          "bytes": 672010
+        },
+        "models-2021": {
+          "label": "Model S 2021",
+          "file": "magma-rift.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-08-30/models-2021/magma-rift.png",
+          "bytes": 540037
+        },
+        "models-2025-plaid": {
+          "label": "Model S 2025 Plaid",
+          "file": "magma-rift.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-08-30/models-2025-plaid/magma-rift.png",
+          "bytes": 513832
+        },
+        "modelx-2021": {
+          "label": "Model X 2021",
+          "file": "magma-rift.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-08-30/modelx-2021/magma-rift.png",
+          "bytes": 419881
+        },
+        "modely": {
+          "label": "Model Y",
+          "file": "magma-rift.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-08-30/modely/magma-rift.png",
+          "bytes": 694885
+        },
+        "modely-2025-base": {
+          "label": "Model Y 2025 Base",
+          "file": "magma-rift.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-08-30/modely-2025-base/magma-rift.png",
+          "bytes": 470517
+        },
+        "modely-2025-performance": {
+          "label": "Model Y 2025 Performance",
+          "file": "magma-rift.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-08-30/modely-2025-performance/magma-rift.png",
+          "bytes": 582855
+        },
+        "modely-2025-premium": {
+          "label": "Model Y 2025 Premium",
+          "file": "magma-rift.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-08-30/modely-2025-premium/magma-rift.png",
+          "bytes": 559136
+        },
+        "modely-l": {
+          "label": "Model Y L",
+          "file": "magma-rift.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-08-30/modely-l/magma-rift.png",
+          "bytes": 632697
+        }
+      }
+    },
+    {
+      "kind": "workshop",
+      "id": "workshop-ember-cascade",
+      "date": null,
+      "slug": "ember-cascade",
+      "title": "ember-cascade",
+      "brief": "Ember cascade: warm fire-scale cascade (sister-line accidental drop).",
+      "previewVehicle": "cybertruck",
+      "vehicles": {
+        "cybertruck": {
+          "label": "Cybertruck",
+          "file": "ember-cascade.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/ember-cascade/cybertruck/ember-cascade.png",
+          "bytes": 145715
+        },
+        "model3": {
+          "label": "Model 3",
+          "file": "ember-cascade.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/ember-cascade/model3/ember-cascade.png",
+          "bytes": 202354
+        },
+        "model3-2024-base": {
+          "label": "Model 3 2024 Base",
+          "file": "ember-cascade.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/ember-cascade/model3-2024-base/ember-cascade.png",
+          "bytes": 221102
+        },
+        "model3-2024-performance": {
+          "label": "Model 3 2024 Performance",
+          "file": "ember-cascade.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/ember-cascade/model3-2024-performance/ember-cascade.png",
+          "bytes": 216144
+        },
+        "models-2021": {
+          "label": "Model S 2021",
+          "file": "ember-cascade.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/ember-cascade/models-2021/ember-cascade.png",
+          "bytes": 195496
+        },
+        "models-2025-plaid": {
+          "label": "Model S 2025 Plaid",
+          "file": "ember-cascade.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/ember-cascade/models-2025-plaid/ember-cascade.png",
+          "bytes": 186399
+        },
+        "modelx-2021": {
+          "label": "Model X 2021",
+          "file": "ember-cascade.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/ember-cascade/modelx-2021/ember-cascade.png",
+          "bytes": 162319
+        },
+        "modely": {
+          "label": "Model Y",
+          "file": "ember-cascade.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/ember-cascade/modely/ember-cascade.png",
+          "bytes": 204404
+        },
+        "modely-2025-base": {
+          "label": "Model Y 2025 Base",
+          "file": "ember-cascade.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/ember-cascade/modely-2025-base/ember-cascade.png",
+          "bytes": 178529
+        },
+        "modely-2025-performance": {
+          "label": "Model Y 2025 Performance",
+          "file": "ember-cascade.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/ember-cascade/modely-2025-performance/ember-cascade.png",
+          "bytes": 182577
+        },
+        "modely-2025-premium": {
+          "label": "Model Y 2025 Premium",
+          "file": "ember-cascade.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/ember-cascade/modely-2025-premium/ember-cascade.png",
+          "bytes": 187010
+        },
+        "modely-l": {
+          "label": "Model Y L",
+          "file": "ember-cascade.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/ember-cascade/modely-l/ember-cascade.png",
+          "bytes": 189412
+        }
+      }
+    },
+    {
+      "kind": "workshop",
+      "id": "workshop-laser-vein",
+      "date": null,
+      "slug": "laser-vein",
+      "title": "laser-vein",
+      "brief": "High-contrast laser-vein network in electric cyan and hot magenta originating at the roof center and flowing outward under gravity.",
+      "previewVehicle": "cybertruck",
+      "vehicles": {
+        "cybertruck": {
+          "label": "Cybertruck",
+          "file": "laser-vein.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/laser-vein/cybertruck/laser-vein.png",
+          "bytes": 575918
+        },
+        "model3": {
+          "label": "Model 3",
+          "file": "laser-vein.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/laser-vein/model3/laser-vein.png",
+          "bytes": 627101
+        },
+        "model3-2024-base": {
+          "label": "Model 3 2024 Base",
+          "file": "laser-vein.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/laser-vein/model3-2024-base/laser-vein.png",
+          "bytes": 680731
+        },
+        "model3-2024-performance": {
+          "label": "Model 3 2024 Performance",
+          "file": "laser-vein.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/laser-vein/model3-2024-performance/laser-vein.png",
+          "bytes": 681865
+        },
+        "models-2021": {
+          "label": "Model S 2021",
+          "file": "laser-vein.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/laser-vein/models-2021/laser-vein.png",
+          "bytes": 554347
+        },
+        "models-2025-plaid": {
+          "label": "Model S 2025 Plaid",
+          "file": "laser-vein.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/laser-vein/models-2025-plaid/laser-vein.png",
+          "bytes": 542956
+        },
+        "modelx-2021": {
+          "label": "Model X 2021",
+          "file": "laser-vein.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/laser-vein/modelx-2021/laser-vein.png",
+          "bytes": 445551
+        },
+        "modely": {
+          "label": "Model Y",
+          "file": "laser-vein.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/laser-vein/modely/laser-vein.png",
+          "bytes": 713697
+        },
+        "modely-2025-base": {
+          "label": "Model Y 2025 Base",
+          "file": "laser-vein.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/laser-vein/modely-2025-base/laser-vein.png",
+          "bytes": 502734
+        },
+        "modely-2025-performance": {
+          "label": "Model Y 2025 Performance",
+          "file": "laser-vein.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/laser-vein/modely-2025-performance/laser-vein.png",
+          "bytes": 599544
+        },
+        "modely-2025-premium": {
+          "label": "Model Y 2025 Premium",
+          "file": "laser-vein.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/laser-vein/modely-2025-premium/laser-vein.png",
+          "bytes": 569750
+        },
+        "modely-l": {
+          "label": "Model Y L",
+          "file": "laser-vein.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/laser-vein/modely-l/laser-vein.png",
+          "bytes": 630695
+        }
+      }
+    },
+    {
+      "kind": "workshop",
+      "id": "workshop-neon-cascade",
+      "date": null,
+      "slug": "neon-cascade",
+      "title": "neon-cascade",
+      "brief": "High-contrast neon cyan-to-magenta liquid cascades dripping from the vehicle crown (UV center), flowing downhill across every panel.",
+      "previewVehicle": "cybertruck",
+      "vehicles": {
+        "cybertruck": {
+          "label": "Cybertruck",
+          "file": "neon-cascade.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/neon-cascade/cybertruck/neon-cascade.png",
+          "bytes": 814935
+        },
+        "model3": {
+          "label": "Model 3",
+          "file": "neon-cascade.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/neon-cascade/model3/neon-cascade.png",
+          "bytes": 901257
+        },
+        "model3-2024-base": {
+          "label": "Model 3 2024 Base",
+          "file": "neon-cascade.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/neon-cascade/model3-2024-base/neon-cascade.png",
+          "bytes": 693533
+        },
+        "model3-2024-performance": {
+          "label": "Model 3 2024 Performance",
+          "file": "neon-cascade.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/neon-cascade/model3-2024-performance/neon-cascade.png",
+          "bytes": 686650
+        },
+        "models-2021": {
+          "label": "Model S 2021",
+          "file": "neon-cascade.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/neon-cascade/models-2021/neon-cascade.png",
+          "bytes": 799291
+        },
+        "models-2025-plaid": {
+          "label": "Model S 2025 Plaid",
+          "file": "neon-cascade.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/neon-cascade/models-2025-plaid/neon-cascade.png",
+          "bytes": 758280
+        },
+        "modelx-2021": {
+          "label": "Model X 2021",
+          "file": "neon-cascade.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/neon-cascade/modelx-2021/neon-cascade.png",
+          "bytes": 607944
+        },
+        "modely": {
+          "label": "Model Y",
+          "file": "neon-cascade.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/neon-cascade/modely/neon-cascade.png",
+          "bytes": 717692
+        },
+        "modely-2025-base": {
+          "label": "Model Y 2025 Base",
+          "file": "neon-cascade.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/neon-cascade/modely-2025-base/neon-cascade.png",
+          "bytes": 696171
+        },
+        "modely-2025-performance": {
+          "label": "Model Y 2025 Performance",
+          "file": "neon-cascade.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/neon-cascade/modely-2025-performance/neon-cascade.png",
+          "bytes": 847823
+        },
+        "modely-2025-premium": {
+          "label": "Model Y 2025 Premium",
+          "file": "neon-cascade.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/neon-cascade/modely-2025-premium/neon-cascade.png",
+          "bytes": 820547
+        },
+        "modely-l": {
+          "label": "Model Y L",
+          "file": "neon-cascade.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/neon-cascade/modely-l/neon-cascade.png",
+          "bytes": 934768
+        }
+      }
+    },
+    {
+      "kind": "workshop",
+      "id": "workshop-neon-vortex",
+      "date": null,
+      "slug": "neon-vortex",
+      "title": "neon-vortex",
+      "brief": "Deep-space black pierced by neon-cyan and magenta energy vortex centered on the roof, plasma trails cascading downhill.",
+      "previewVehicle": "cybertruck",
+      "vehicles": {
+        "cybertruck": {
+          "label": "Cybertruck",
+          "file": "neon-vortex.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/neon-vortex/cybertruck/neon-vortex.png",
+          "bytes": 903221
+        },
+        "model3": {
+          "label": "Model 3",
+          "file": "neon-vortex.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/neon-vortex/model3/neon-vortex.png",
+          "bytes": 944936
+        },
+        "model3-2024-base": {
+          "label": "Model 3 2024 Base",
+          "file": "neon-vortex.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/neon-vortex/model3-2024-base/neon-vortex.png",
+          "bytes": 790947
+        },
+        "model3-2024-performance": {
+          "label": "Model 3 2024 Performance",
+          "file": "neon-vortex.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/neon-vortex/model3-2024-performance/neon-vortex.png",
+          "bytes": 784917
+        },
+        "models-2021": {
+          "label": "Model S 2021",
+          "file": "neon-vortex.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/neon-vortex/models-2021/neon-vortex.png",
+          "bytes": 829861
+        },
+        "models-2025-plaid": {
+          "label": "Model S 2025 Plaid",
+          "file": "neon-vortex.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/neon-vortex/models-2025-plaid/neon-vortex.png",
+          "bytes": 784503
+        },
+        "modelx-2021": {
+          "label": "Model X 2021",
+          "file": "neon-vortex.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/neon-vortex/modelx-2021/neon-vortex.png",
+          "bytes": 618755
+        },
+        "modely": {
+          "label": "Model Y",
+          "file": "neon-vortex.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/neon-vortex/modely/neon-vortex.png",
+          "bytes": 829930
+        },
+        "modely-2025-base": {
+          "label": "Model Y 2025 Base",
+          "file": "neon-vortex.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/neon-vortex/modely-2025-base/neon-vortex.png",
+          "bytes": 711461
+        },
+        "modely-2025-performance": {
+          "label": "Model Y 2025 Performance",
+          "file": "neon-vortex.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/neon-vortex/modely-2025-performance/neon-vortex.png",
+          "bytes": 882462
+        },
+        "modely-2025-premium": {
+          "label": "Model Y 2025 Premium",
+          "file": "neon-vortex.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/neon-vortex/modely-2025-premium/neon-vortex.png",
+          "bytes": 855080
+        },
+        "modely-l": {
+          "label": "Model Y L",
+          "file": "neon-vortex.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/neon-vortex/modely-l/neon-vortex.png",
+          "bytes": 994696
+        }
+      }
+    },
+    {
+      "kind": "workshop",
+      "id": "workshop-plasma-veil",
+      "date": null,
+      "slug": "plasma-veil",
+      "title": "plasma-veil",
+      "brief": "Deep-space violet body with high-contrast cyan-to-magenta plasma ribbons that birth at the roof/hood high points and cascade outward under gravity toward hood, rockers and tail.",
+      "previewVehicle": "cybertruck",
+      "vehicles": {
+        "cybertruck": {
+          "label": "Cybertruck",
+          "file": "plasma-veil.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/plasma-veil/cybertruck/plasma-veil.png",
+          "bytes": 235218
+        },
+        "model3": {
+          "label": "Model 3",
+          "file": "plasma-veil.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/plasma-veil/model3/plasma-veil.png",
+          "bytes": 277239
+        },
+        "model3-2024-base": {
+          "label": "Model 3 2024 Base",
+          "file": "plasma-veil.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/plasma-veil/model3-2024-base/plasma-veil.png",
+          "bytes": 305453
+        },
+        "model3-2024-performance": {
+          "label": "Model 3 2024 Performance",
+          "file": "plasma-veil.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/plasma-veil/model3-2024-performance/plasma-veil.png",
+          "bytes": 303151
+        },
+        "models-2021": {
+          "label": "Model S 2021",
+          "file": "plasma-veil.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/plasma-veil/models-2021/plasma-veil.png",
+          "bytes": 255451
+        },
+        "models-2025-plaid": {
+          "label": "Model S 2025 Plaid",
+          "file": "plasma-veil.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/plasma-veil/models-2025-plaid/plasma-veil.png",
+          "bytes": 242170
+        },
+        "modelx-2021": {
+          "label": "Model X 2021",
+          "file": "plasma-veil.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/plasma-veil/modelx-2021/plasma-veil.png",
+          "bytes": 200594
+        },
+        "modely": {
+          "label": "Model Y",
+          "file": "plasma-veil.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/plasma-veil/modely/plasma-veil.png",
+          "bytes": 304475
+        },
+        "modely-2025-base": {
+          "label": "Model Y 2025 Base",
+          "file": "plasma-veil.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/plasma-veil/modely-2025-base/plasma-veil.png",
+          "bytes": 211802
+        },
+        "modely-2025-performance": {
+          "label": "Model Y 2025 Performance",
+          "file": "plasma-veil.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/plasma-veil/modely-2025-performance/plasma-veil.png",
+          "bytes": 251666
+        },
+        "modely-2025-premium": {
+          "label": "Model Y 2025 Premium",
+          "file": "plasma-veil.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/plasma-veil/modely-2025-premium/plasma-veil.png",
+          "bytes": 247503
+        },
+        "modely-l": {
+          "label": "Model Y L",
+          "file": "plasma-veil.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/plasma-veil/modely-l/plasma-veil.png",
+          "bytes": 278860
+        }
+      }
+    },
+    {
+      "kind": "workshop",
+      "id": "workshop-plasma-vein",
+      "date": null,
+      "slug": "plasma-vein",
+      "title": "plasma-vein",
+      "brief": "Deep void-black panels laced with electric-cyan and magenta plasma veins originating at the roof center and flowing downhill.",
+      "previewVehicle": "cybertruck",
+      "vehicles": {
+        "cybertruck": {
+          "label": "Cybertruck",
+          "file": "plasma-vein.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/plasma-vein/cybertruck/plasma-vein.png",
+          "bytes": 85207
+        },
+        "model3": {
+          "label": "Model 3",
+          "file": "plasma-vein.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/plasma-vein/model3/plasma-vein.png",
+          "bytes": 131884
+        },
+        "model3-2024-base": {
+          "label": "Model 3 2024 Base",
+          "file": "plasma-vein.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/plasma-vein/model3-2024-base/plasma-vein.png",
+          "bytes": 145238
+        },
+        "model3-2024-performance": {
+          "label": "Model 3 2024 Performance",
+          "file": "plasma-vein.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/plasma-vein/model3-2024-performance/plasma-vein.png",
+          "bytes": 145988
+        },
+        "models-2021": {
+          "label": "Model S 2021",
+          "file": "plasma-vein.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/plasma-vein/models-2021/plasma-vein.png",
+          "bytes": 132049
+        },
+        "models-2025-plaid": {
+          "label": "Model S 2025 Plaid",
+          "file": "plasma-vein.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/plasma-vein/models-2025-plaid/plasma-vein.png",
+          "bytes": 129628
+        },
+        "modelx-2021": {
+          "label": "Model X 2021",
+          "file": "plasma-vein.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/plasma-vein/modelx-2021/plasma-vein.png",
+          "bytes": 111887
+        },
+        "modely": {
+          "label": "Model Y",
+          "file": "plasma-vein.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/plasma-vein/modely/plasma-vein.png",
+          "bytes": 147234
+        },
+        "modely-2025-base": {
+          "label": "Model Y 2025 Base",
+          "file": "plasma-vein.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/plasma-vein/modely-2025-base/plasma-vein.png",
+          "bytes": 120601
+        },
+        "modely-2025-performance": {
+          "label": "Model Y 2025 Performance",
+          "file": "plasma-vein.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/plasma-vein/modely-2025-performance/plasma-vein.png",
+          "bytes": 133013
+        },
+        "modely-2025-premium": {
+          "label": "Model Y 2025 Premium",
+          "file": "plasma-vein.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/plasma-vein/modely-2025-premium/plasma-vein.png",
+          "bytes": 131074
+        },
+        "modely-l": {
+          "label": "Model Y L",
+          "file": "plasma-vein.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/plasma-vein/modely-l/plasma-vein.png",
+          "bytes": 130594
+        }
+      }
+    },
+    {
+      "kind": "workshop",
+      "id": "workshop-robotaxi",
+      "date": null,
+      "slug": "robotaxi",
+      "title": "robotaxi",
+      "brief": "Glossy champagne-gold Cybercab molded paint. No side lettering, matching production Cybercab.",
+      "previewVehicle": "cybertruck",
+      "vehicles": {
+        "cybertruck": {
+          "label": "Cybertruck",
+          "file": "robotaxi.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/robotaxi/cybertruck/robotaxi.png",
+          "bytes": 718081
+        },
+        "model3": {
+          "label": "Model 3",
+          "file": "robotaxi.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/robotaxi/model3/robotaxi.png",
+          "bytes": 698066
+        },
+        "model3-2024-base": {
+          "label": "Model 3 2024 Base",
+          "file": "robotaxi.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/robotaxi/model3-2024-base/robotaxi.png",
+          "bytes": 757312
+        },
+        "model3-2024-performance": {
+          "label": "Model 3 2024 Performance",
+          "file": "robotaxi.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/robotaxi/model3-2024-performance/robotaxi.png",
+          "bytes": 754856
+        },
+        "models-2021": {
+          "label": "Model S 2021",
+          "file": "robotaxi.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/robotaxi/models-2021/robotaxi.png",
+          "bytes": 621792
+        },
+        "models-2025-plaid": {
+          "label": "Model S 2025 Plaid",
+          "file": "robotaxi.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/robotaxi/models-2025-plaid/robotaxi.png",
+          "bytes": 597560
+        },
+        "modelx-2021": {
+          "label": "Model X 2021",
+          "file": "robotaxi.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/robotaxi/modelx-2021/robotaxi.png",
+          "bytes": 494750
+        },
+        "modely": {
+          "label": "Model Y",
+          "file": "robotaxi.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/robotaxi/modely/robotaxi.png",
+          "bytes": 776006
+        },
+        "modely-2025-base": {
+          "label": "Model Y 2025 Base",
+          "file": "robotaxi.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/robotaxi/modely-2025-base/robotaxi.png",
+          "bytes": 556370
+        },
+        "modely-2025-performance": {
+          "label": "Model Y 2025 Performance",
+          "file": "robotaxi.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/robotaxi/modely-2025-performance/robotaxi.png",
+          "bytes": 660021
+        },
+        "modely-2025-premium": {
+          "label": "Model Y 2025 Premium",
+          "file": "robotaxi.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/robotaxi/modely-2025-premium/robotaxi.png",
+          "bytes": 635636
+        },
+        "modely-l": {
+          "label": "Model Y L",
+          "file": "robotaxi.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/robotaxi/modely-l/robotaxi.png",
+          "bytes": 711368
+        }
+      }
+    }
+  ]
+}

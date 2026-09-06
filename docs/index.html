@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Digital UV wraps for Tesla Paint Shop — browse factory skins and workshop drops from Tesla Wrap Factory." />
+  <title>Tesla Wrap Factory</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://raw.githubusercontent.com" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="brand">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <div>
+          <h1 class="brand-name">Tesla Wrap Factory</h1>
+          <p class="tagline">Digital UV wraps for Tesla Paint Shop</p>
+        </div>
+      </div>
+      <div class="header-controls">
+        <nav class="filter-tabs" role="tablist" aria-label="Filter by kind">
+          <button type="button" class="tab active" data-filter="all" role="tab" aria-selected="true">All</button>
+          <button type="button" class="tab" data-filter="factory" role="tab" aria-selected="false">Factory</button>
+          <button type="button" class="tab" data-filter="workshop" role="tab" aria-selected="false">Workshop</button>
+        </nav>
+        <label class="search-wrap">
+          <span class="sr-only">Search wraps</span>
+          <input type="search" id="search" placeholder="Search slug or title…" autocomplete="off" />
+        </label>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="status-bar">
+      <p id="status" class="status">Loading catalog…</p>
+    </div>
+    <div id="grid" class="grid" aria-live="polite"></div>
+    <p id="empty" class="empty hidden">No drops match your filters.</p>
+  </main>
+
+  <footer class="site-footer">
+    <p>
+      <a href="https://github.com/bowiehole/wrap-factory" rel="noopener noreferrer">github.com/bowiehole/wrap-factory</a>
+      <span class="sep">·</span>
+      Digital wraps for Tesla Paint Shop
+    </p>
+    <p class="footer-note">Not affiliated with Tesla, Inc. UV texture packs for Paint Shop — not physical vinyl.</p>
+  </footer>
+
+  <!-- Detail modal -->
+  <div id="modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-backdrop" data-close></div>
+    <div class="modal-panel">
+      <button type="button" class="modal-close" data-close aria-label="Close">&times;</button>
+      <div class="modal-hero">
+        <img id="modal-preview" alt="" />
+        <span id="modal-badge" class="badge"></span>
+      </div>
+      <div class="modal-body">
+        <h2 id="modal-title"></h2>
+        <p id="modal-meta" class="modal-meta"></p>
+        <p id="modal-brief" class="modal-brief"></p>
+        <h3 class="downloads-heading">Download UV wraps</h3>
+        <div id="downloads" class="downloads"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
