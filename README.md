@@ -7,7 +7,7 @@ Paint only the white UV islands. Files are PNG, match official template pixels, 
 
 ## Workshop
 
-Directed skins, fitted with a human in the loop. Not 8am inventions. See [`workshop/`](workshop/).
+Directed skins and sister-line parks. Not 8am inventions. See [`workshop/`](workshop/).
 
 | Job | Slug | vehicle-folder | raw-url
 |---|---|---|---
@@ -23,6 +23,79 @@ Directed skins, fitted with a human in the loop. Not 8am inventions. See [`works
 | robotaxi | robotaxi | modely-2025-performance | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/robotaxi/modely-2025-performance/robotaxi.png
 | robotaxi | robotaxi | modely-2025-premium | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/robotaxi/modely-2025-premium/robotaxi.png
 | robotaxi | robotaxi | modely-l | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/robotaxi/modely-l/robotaxi.png
+| plasma-veil | plasma-veil | cybertruck | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/plasma-veil/cybertruck/plasma-veil.png
+| plasma-veil | plasma-veil | model3 | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/plasma-veil/model3/plasma-veil.png
+| plasma-veil | plasma-veil | model3-2024-base | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/plasma-veil/model3-2024-base/plasma-veil.png
+| plasma-veil | plasma-veil | model3-2024-performance | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/plasma-veil/model3-2024-performance/plasma-veil.png
+| plasma-veil | plasma-veil | models-2021 | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/plasma-veil/models-2021/plasma-veil.png
+| plasma-veil | plasma-veil | models-2025-plaid | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/plasma-veil/models-2025-plaid/plasma-veil.png
+| plasma-veil | plasma-veil | modelx-2021 | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/plasma-veil/modelx-2021/plasma-veil.png
+| plasma-veil | plasma-veil | modely | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/plasma-veil/modely/plasma-veil.png
+| plasma-veil | plasma-veil | modely-2025-base | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/plasma-veil/modely-2025-base/plasma-veil.png
+| plasma-veil | plasma-veil | modely-2025-performance | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/plasma-veil/modely-2025-performance/plasma-veil.png
+| plasma-veil | plasma-veil | modely-2025-premium | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/plasma-veil/modely-2025-premium/plasma-veil.png
+| plasma-veil | plasma-veil | modely-l | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/plasma-veil/modely-l/plasma-veil.png
+| ember-cascade | ember-cascade | cybertruck | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/ember-cascade/cybertruck/ember-cascade.png
+| ember-cascade | ember-cascade | model3 | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/ember-cascade/model3/ember-cascade.png
+| ember-cascade | ember-cascade | model3-2024-base | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/ember-cascade/model3-2024-base/ember-cascade.png
+| ember-cascade | ember-cascade | model3-2024-performance | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/ember-cascade/model3-2024-performance/ember-cascade.png
+| ember-cascade | ember-cascade | models-2021 | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/ember-cascade/models-2021/ember-cascade.png
+| ember-cascade | ember-cascade | models-2025-plaid | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/ember-cascade/models-2025-plaid/ember-cascade.png
+| ember-cascade | ember-cascade | modelx-2021 | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/ember-cascade/modelx-2021/ember-cascade.png
+| ember-cascade | ember-cascade | modely | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/ember-cascade/modely/ember-cascade.png
+| ember-cascade | ember-cascade | modely-2025-base | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/ember-cascade/modely-2025-base/ember-cascade.png
+| ember-cascade | ember-cascade | modely-2025-performance | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/ember-cascade/modely-2025-performance/ember-cascade.png
+| ember-cascade | ember-cascade | modely-2025-premium | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/ember-cascade/modely-2025-premium/ember-cascade.png
+| ember-cascade | ember-cascade | modely-l | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/ember-cascade/modely-l/ember-cascade.png
+| neon-vortex | neon-vortex | cybertruck | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/neon-vortex/cybertruck/neon-vortex.png
+| neon-vortex | neon-vortex | model3 | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/neon-vortex/model3/neon-vortex.png
+| neon-vortex | neon-vortex | model3-2024-base | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/neon-vortex/model3-2024-base/neon-vortex.png
+| neon-vortex | neon-vortex | model3-2024-performance | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/neon-vortex/model3-2024-performance/neon-vortex.png
+| neon-vortex | neon-vortex | models-2021 | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/neon-vortex/models-2021/neon-vortex.png
+| neon-vortex | neon-vortex | models-2025-plaid | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/neon-vortex/models-2025-plaid/neon-vortex.png
+| neon-vortex | neon-vortex | modelx-2021 | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/neon-vortex/modelx-2021/neon-vortex.png
+| neon-vortex | neon-vortex | modely | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/neon-vortex/modely/neon-vortex.png
+| neon-vortex | neon-vortex | modely-2025-base | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/neon-vortex/modely-2025-base/neon-vortex.png
+| neon-vortex | neon-vortex | modely-2025-performance | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/neon-vortex/modely-2025-performance/neon-vortex.png
+| neon-vortex | neon-vortex | modely-2025-premium | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/neon-vortex/modely-2025-premium/neon-vortex.png
+| neon-vortex | neon-vortex | modely-l | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/neon-vortex/modely-l/neon-vortex.png
+| laser-vein | laser-vein | cybertruck | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/laser-vein/cybertruck/laser-vein.png
+| laser-vein | laser-vein | model3 | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/laser-vein/model3/laser-vein.png
+| laser-vein | laser-vein | model3-2024-base | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/laser-vein/model3-2024-base/laser-vein.png
+| laser-vein | laser-vein | model3-2024-performance | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/laser-vein/model3-2024-performance/laser-vein.png
+| laser-vein | laser-vein | models-2021 | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/laser-vein/models-2021/laser-vein.png
+| laser-vein | laser-vein | models-2025-plaid | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/laser-vein/models-2025-plaid/laser-vein.png
+| laser-vein | laser-vein | modelx-2021 | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/laser-vein/modelx-2021/laser-vein.png
+| laser-vein | laser-vein | modely | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/laser-vein/modely/laser-vein.png
+| laser-vein | laser-vein | modely-2025-base | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/laser-vein/modely-2025-base/laser-vein.png
+| laser-vein | laser-vein | modely-2025-performance | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/laser-vein/modely-2025-performance/laser-vein.png
+| laser-vein | laser-vein | modely-2025-premium | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/laser-vein/modely-2025-premium/laser-vein.png
+| laser-vein | laser-vein | modely-l | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/laser-vein/modely-l/laser-vein.png
+| neon-cascade | neon-cascade | cybertruck | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/neon-cascade/cybertruck/neon-cascade.png
+| neon-cascade | neon-cascade | model3 | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/neon-cascade/model3/neon-cascade.png
+| neon-cascade | neon-cascade | model3-2024-base | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/neon-cascade/model3-2024-base/neon-cascade.png
+| neon-cascade | neon-cascade | model3-2024-performance | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/neon-cascade/model3-2024-performance/neon-cascade.png
+| neon-cascade | neon-cascade | models-2021 | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/neon-cascade/models-2021/neon-cascade.png
+| neon-cascade | neon-cascade | models-2025-plaid | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/neon-cascade/models-2025-plaid/neon-cascade.png
+| neon-cascade | neon-cascade | modelx-2021 | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/neon-cascade/modelx-2021/neon-cascade.png
+| neon-cascade | neon-cascade | modely | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/neon-cascade/modely/neon-cascade.png
+| neon-cascade | neon-cascade | modely-2025-base | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/neon-cascade/modely-2025-base/neon-cascade.png
+| neon-cascade | neon-cascade | modely-2025-performance | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/neon-cascade/modely-2025-performance/neon-cascade.png
+| neon-cascade | neon-cascade | modely-2025-premium | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/neon-cascade/modely-2025-premium/neon-cascade.png
+| neon-cascade | neon-cascade | modely-l | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/neon-cascade/modely-l/neon-cascade.png
+| plasma-vein | plasma-vein | cybertruck | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/plasma-vein/cybertruck/plasma-vein.png
+| plasma-vein | plasma-vein | model3 | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/plasma-vein/model3/plasma-vein.png
+| plasma-vein | plasma-vein | model3-2024-base | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/plasma-vein/model3-2024-base/plasma-vein.png
+| plasma-vein | plasma-vein | model3-2024-performance | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/plasma-vein/model3-2024-performance/plasma-vein.png
+| plasma-vein | plasma-vein | models-2021 | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/plasma-vein/models-2021/plasma-vein.png
+| plasma-vein | plasma-vein | models-2025-plaid | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/plasma-vein/models-2025-plaid/plasma-vein.png
+| plasma-vein | plasma-vein | modelx-2021 | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/plasma-vein/modelx-2021/plasma-vein.png
+| plasma-vein | plasma-vein | modely | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/plasma-vein/modely/plasma-vein.png
+| plasma-vein | plasma-vein | modely-2025-base | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/plasma-vein/modely-2025-base/plasma-vein.png
+| plasma-vein | plasma-vein | modely-2025-performance | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/plasma-vein/modely-2025-performance/plasma-vein.png
+| plasma-vein | plasma-vein | modely-2025-premium | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/plasma-vein/modely-2025-premium/plasma-vein.png
+| plasma-vein | plasma-vein | modely-l | https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/plasma-vein/modely-l/plasma-vein.png
+
 
 ## Catalog
 
