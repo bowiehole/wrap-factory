@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-06T13:42:46.140Z",
+  "generatedAt": "2026-09-06T15:09:42.414Z",
   "repo": "bowiehole/wrap-factory",
   "site": "https://teslawrapfactory.com",
   "vehicleOrder": [
@@ -37,7 +37,7 @@
       "date": "2026-09-06",
       "slug": "chi-lake",
       "title": "chi-lake",
-      "brief": "Chicago lakefront night: Michigan teal and midnight navy cascading from the roof, with amber L-train window sparks and soft skyline reflections drifting downhill toward hood, rockers, and tail — regenerated impression, no logos.",
+      "brief": "Chicago lakefront night: Michigan teal and midnight navy cascading from the roof, with amber L-train window sparks and soft skyline reflections drifting downhill — continuous UV remaster so sides flow fender→doors→quarter (Cybertruck unchanged). Regenerated impression, no logos.",
       "previewVehicle": "cybertruck",
       "vehicles": {
         "cybertruck": {
@@ -50,67 +50,67 @@
           "label": "Model 3",
           "file": "chi-lake.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-06/model3/chi-lake.png",
-          "bytes": 433432
+          "bytes": 544280
         },
         "model3-2024-base": {
           "label": "Model 3 2024 Base",
           "file": "chi-lake.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-06/model3-2024-base/chi-lake.png",
-          "bytes": 464664
+          "bytes": 585008
         },
         "model3-2024-performance": {
           "label": "Model 3 2024 Performance",
           "file": "chi-lake.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-06/model3-2024-performance/chi-lake.png",
-          "bytes": 462915
+          "bytes": 584527
         },
         "models-2021": {
           "label": "Model S 2021",
           "file": "chi-lake.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-06/models-2021/chi-lake.png",
-          "bytes": 383535
+          "bytes": 454707
         },
         "models-2025-plaid": {
           "label": "Model S 2025 Plaid",
           "file": "chi-lake.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-06/models-2025-plaid/chi-lake.png",
-          "bytes": 376355
+          "bytes": 447392
         },
         "modelx-2021": {
           "label": "Model X 2021",
           "file": "chi-lake.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-06/modelx-2021/chi-lake.png",
-          "bytes": 306016
+          "bytes": 373800
         },
         "modely": {
           "label": "Model Y",
           "file": "chi-lake.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-06/modely/chi-lake.png",
-          "bytes": 441164
+          "bytes": 563482
         },
         "modely-2025-base": {
           "label": "Model Y 2025 Base",
           "file": "chi-lake.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-06/modely-2025-base/chi-lake.png",
-          "bytes": 335746
+          "bytes": 433763
         },
         "modely-2025-performance": {
           "label": "Model Y 2025 Performance",
           "file": "chi-lake.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-06/modely-2025-performance/chi-lake.png",
-          "bytes": 379001
+          "bytes": 489778
         },
         "modely-2025-premium": {
           "label": "Model Y 2025 Premium",
           "file": "chi-lake.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-06/modely-2025-premium/chi-lake.png",
-          "bytes": 372591
+          "bytes": 491887
         },
         "modely-l": {
           "label": "Model Y L",
           "file": "chi-lake.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-06/modely-l/chi-lake.png",
-          "bytes": 411479
+          "bytes": 549439
         }
       }
     },
