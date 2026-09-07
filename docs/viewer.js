@@ -159,12 +159,12 @@ function ensureScene() {
   const camera = new THREE.PerspectiveCamera(40, 1, 0.1, 200);
   camera.position.set(3.2, 1.4, 4.2);
 
-  const hemi = new THREE.HemisphereLight(0xffffff, 0x222233, 1.1);
+  const hemi = new THREE.HemisphereLight(0xffffff, 0x222233, 1.35);
   scene.add(hemi);
-  const dir = new THREE.DirectionalLight(0xffffff, 1.4);
+  const dir = new THREE.DirectionalLight(0xffffff, 1.7);
   dir.position.set(4, 8, 5);
   scene.add(dir);
-  const fill = new THREE.DirectionalLight(0xaaccff, 0.45);
+  const fill = new THREE.DirectionalLight(0xaaccff, 0.7);
   fill.position.set(-4, 2, -3);
   scene.add(fill);
 
@@ -225,8 +225,16 @@ function applyWrap(root, texture) {
     const mats = Array.isArray(obj.material) ? obj.material : [obj.material];
     mats.forEach(function (mat, i) {
       if (mat && mat.name === "Tesla_Wrap") {
-        const cloned = mat.clone();
-        cloned.map = texture;
+        const cloned = new THREE.MeshStandardMaterial({
+          name: "Tesla_Wrap",
+          map: texture,
+          color: 0xffffff,
+          roughness: 0.68,
+          metalness: 0.05,
+          emissiveMap: texture,
+          emissive: new THREE.Color(0xffffff),
+          emissiveIntensity: 0.42,
+        });
         cloned.needsUpdate = true;
         if (Array.isArray(obj.material)) obj.material[i] = cloned;
         else obj.material = cloned;
