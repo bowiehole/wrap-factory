@@ -178,7 +178,7 @@ function ensureScene() {
   const camera = new THREE.PerspectiveCamera(40, 1, 0.1, 200);
   camera.position.set(3.2, 1.4, 4.2);
 
-  const hemi = new THREE.HemisphereLight(0xffffff, 0x222233, 1.55);
+  const hemi = new THREE.HemisphereLight(0xffffff, 0x222233, 1.3);
   scene.add(hemi);
   const dir = new THREE.DirectionalLight(0xffffff, 1.9);
   dir.position.set(4, 8, 5);
@@ -252,7 +252,7 @@ function applyWrap(root, texture) {
           metalness: 0.05,
           emissiveMap: texture,
           emissive: new THREE.Color(0xffffff),
-          emissiveIntensity: 0.65,
+          emissiveIntensity: 0.85,
         });
         cloned.needsUpdate = true;
         if (Array.isArray(obj.material)) obj.material[i] = cloned;
