@@ -3,8 +3,25 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Digital UV wraps for Tesla Paint Shop — browse factory skins and workshop drops from Tesla Wrap Factory." />
-  <title>Tesla Wrap Factory</title>
+  <title>Tesla Wrap Factory — Digital UV wraps for Tesla Paint Shop</title>
+  <meta name="description" content="Browse factory and workshop digital UV wraps for Tesla Paint Shop. Free PNG texture packs for Cybertruck, Model 3, Y, S, and X. Fan-made — not affiliated with Tesla, Inc." />
+  <link rel="canonical" href="https://teslawrapfactory.com/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://teslawrapfactory.com/" />
+  <meta property="og:title" content="Tesla Wrap Factory" />
+  <meta property="og:description" content="Digital UV wraps for Tesla Paint Shop — factory skins and workshop drops. Fan-made; not affiliated with Tesla, Inc." />
+  <meta property="og:site_name" content="Tesla Wrap Factory" />
+  <meta property="og:image" content="https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-06/cybertruck/chi-lake.png" />
+  <meta property="og:image:alt" content="Tesla Wrap Factory — sample Cybertruck UV wrap atlas" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Tesla Wrap Factory" />
+  <meta name="twitter:description" content="Digital UV wraps for Tesla Paint Shop — factory skins and workshop drops. Fan-made; not official Tesla." />
+  <meta name="twitter:image" content="https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-06/cybertruck/chi-lake.png" />
+
   <link rel="stylesheet" href="styles.css" />
   <link rel="preconnect" href="https://raw.githubusercontent.com" />
 </head>
@@ -44,9 +61,12 @@
     <p>
       <a href="https://github.com/bowiehole/wrap-factory" rel="noopener noreferrer">github.com/bowiehole/wrap-factory</a>
       <span class="sep">·</span>
-      Digital wraps for Tesla Paint Shop
+      Digital UV wraps for Tesla Paint Shop
     </p>
-    <p class="footer-note">Not affiliated with Tesla, Inc. UV texture packs for Paint Shop — not physical vinyl.</p>
+    <p class="footer-note">
+      <strong>Not an official Tesla product.</strong> Not affiliated with, endorsed by, or partnered with Tesla, Inc.
+      Fan-made UV texture packs for Paint Shop only — not physical vinyl wraps.
+    </p>
   </footer>
 
   <!-- Detail modal -->
@@ -54,20 +74,69 @@
     <div class="modal-backdrop" data-close></div>
     <div class="modal-panel">
       <button type="button" class="modal-close" data-close aria-label="Close">&times;</button>
+
       <div class="modal-hero">
         <img id="modal-preview" alt="" />
         <span id="modal-badge" class="badge"></span>
       </div>
+
+      <div id="stills-strip" class="stills-strip hidden" role="listbox" aria-label="Preview angles"></div>
+
       <div class="modal-body">
-        <h2 id="modal-title"></h2>
-        <p id="modal-meta" class="modal-meta"></p>
+        <div class="modal-heading-row">
+          <div>
+            <h2 id="modal-title"></h2>
+            <p id="modal-meta" class="modal-meta"></p>
+          </div>
+          <div id="swatch-tile" class="swatch-tile hidden" aria-hidden="true">
+            <img id="modal-swatch" alt="Pattern swatch" />
+            <span>Swatch</span>
+          </div>
+        </div>
+
         <p id="modal-brief" class="modal-brief"></p>
-        <h3 class="downloads-heading">Download UV wraps</h3>
+
+        <h3 class="section-heading">Vehicle</h3>
+        <div id="vehicle-picker" class="vehicle-picker" role="listbox" aria-label="Select vehicle"></div>
+
+        <div class="modal-actions-row">
+          <button type="button" id="spin-3d-btn" class="spin-3d-btn hidden">Spin in 3D</button>
+          <p id="spin-3d-error" class="spin-3d-error hidden" role="status"></p>
+        </div>
+        <div id="viewer-3d" class="viewer-3d hidden" aria-label="3D wrap viewer">
+          <canvas id="viewer-canvas"></canvas>
+        </div>
+
+        <h3 class="section-heading downloads-heading">Download UV wraps</h3>
         <div id="downloads" class="downloads"></div>
+
+        <details class="howto">
+          <summary>How to load in Paint Shop</summary>
+          <ol>
+            <li>Open <strong>Tesla Paint Shop</strong> on your vehicle’s touchscreen.</li>
+            <li>Choose <strong>Custom</strong> / import wrap (wording varies by software version).</li>
+            <li>Download the PNG for your exact vehicle variant from the list above.</li>
+            <li>Transfer the file to the car (USB or supported share) and select it as the UV wrap atlas.</li>
+            <li>Confirm the wrap maps correctly; if panels look mirrored, re-check you used the matching vehicle file.</li>
+          </ol>
+          <p class="howto-note">These are digital UV texture packs for Paint Shop — not physical vinyl.</p>
+        </details>
+
+        <div class="nav-bar">
+          <button type="button" id="prev-drop" class="nav-btn">← Prev</button>
+          <button type="button" id="next-drop" class="nav-btn">Next →</button>
+        </div>
       </div>
     </div>
   </div>
 
-  <script src="app.js"></script>
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "./vendor/three.module.js"
+    }
+  }
+  </script>
+  <script type="module" src="app.js"></script>
 </body>
 </html>
