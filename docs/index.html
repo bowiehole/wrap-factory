@@ -41,6 +41,10 @@
           <button type="button" class="tab" data-filter="factory" role="tab" aria-selected="false">Factory</button>
           <button type="button" class="tab" data-filter="workshop" role="tab" aria-selected="false">Workshop</button>
         </nav>
+        <label class="grid-vehicle-wrap">
+          <span class="sr-only">Preview vehicle</span>
+          <select id="grid-vehicle" aria-label="Preview vehicle for card stills"></select>
+        </label>
         <label class="search-wrap">
           <span class="sr-only">Search wraps</span>
           <input type="search" id="search" placeholder="Search slug or title…" autocomplete="off" />
@@ -100,11 +104,7 @@
         <div id="vehicle-picker" class="vehicle-picker" role="listbox" aria-label="Select vehicle"></div>
 
         <div class="modal-actions-row">
-          <button type="button" id="spin-3d-btn" class="spin-3d-btn hidden">Spin in 3D</button>
-          <p id="spin-3d-error" class="spin-3d-error hidden" role="status"></p>
-        </div>
-        <div id="viewer-3d" class="viewer-3d hidden" aria-label="3D wrap viewer">
-          <canvas id="viewer-canvas"></canvas>
+          <a id="spin-3d-btn" class="spin-3d-btn hidden" href="#">Spin in 3D</a>
         </div>
 
         <h3 class="section-heading downloads-heading">Download UV wraps</h3>
@@ -130,13 +130,6 @@
     </div>
   </div>
 
-  <script type="importmap">
-  {
-    "imports": {
-      "three": "./vendor/three.module.js"
-    }
-  }
-  </script>
-  <script type="module" src="app.js"></script>
+  <script src="app.js" defer></script>
 </body>
 </html>

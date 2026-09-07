@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>3D Wrap Viewer — Tesla Wrap Factory</title>
+  <meta name="description" content="Orbit a Tesla Wrap Factory UV wrap on official vehicle meshes." />
+  <meta name="robots" content="noindex" />
+  <link rel="stylesheet" href="viewer.css" />
+  <link rel="preconnect" href="https://raw.githubusercontent.com" />
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "./vendor/three.module.js"
+    }
+  }
+  </script>
+</head>
+<body>
+  <div class="viewer-shell">
+    <header class="viewer-chrome">
+      <div class="viewer-chrome-left">
+        <a id="back-link" class="viewer-back" href="./">← Back</a>
+        <h1 id="viewer-title" class="viewer-title">3D viewer</h1>
+        <p id="viewer-meta" class="viewer-meta"></p>
+      </div>
+      <div class="viewer-chrome-right">
+        <label class="viewer-vehicle-label">
+          Vehicle
+          <select id="vehicle-select" aria-label="Select vehicle"></select>
+        </label>
+        <p id="viewer-status" class="viewer-status" role="status">Loading…</p>
+      </div>
+    </header>
+    <div class="viewer-stage" aria-label="3D wrap orbit viewer">
+      <canvas id="viewer-canvas"></canvas>
+      <p class="viewer-hint">Drag to orbit · scroll to zoom · right-drag to pan</p>
+    </div>
+  </div>
+  <script type="module" src="viewer.js"></script>
+</body>
+</html>

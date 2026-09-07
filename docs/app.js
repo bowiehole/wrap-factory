@@ -8,31 +8,30 @@
     "front-quarter": "Front ¾",
     "rear-quarter": "Rear ¾",
   };
-  const SPIN_VEHICLES = new Set(["cybertruck", "model3"]);
-  const THREE_URL = "three";
-  const ORBIT_URL = "./vendor/controls/OrbitControls.js";
-  const GLTF_URL = "./vendor/loaders/GLTFLoader.js";
+  /** Vehicle ids that have a GLB under docs/models/ (viewer.html only). */
+  const MODEL_VEHICLES = new Set([
+    "cybertruck",
+    "model3",
+    "model3-2024-base",
+    "model3-2024-performance",
+    "modely",
+    "modely-2025-base",
+    "modely-2025-premium",
+    "modely-2025-performance",
+    "modely-l",
+    "models-2021",
+    "models-2025-plaid",
+    "modelx-2021",
+  ]);
 
   const state = {
     catalog: null,
     filter: "all",
     query: "",
+    gridVehicle: "cybertruck",
     activeDrop: null,
     selectedVehicle: null,
     activeStill: null,
-    spinOpen: false,
-  };
-
-  const viewer = {
-    three: null,
-    renderer: null,
-    scene: null,
-    camera: null,
-    controls: null,
-    root: null,
-    animId: null,
-    texture: null,
-    disposed: true,
   };
 
   const els = {
@@ -40,6 +39,7 @@
     status: document.getElementById("status"),
     empty: document.getElementById("empty"),
     search: document.getElementById("search"),
+    gridVehicle: document.getElementById("grid-vehicle"),
     tabs: document.querySelectorAll(".tab"),
     modal: document.getElementById("modal"),
     modalPreview: document.getElementById("modal-preview"),
@@ -53,9 +53,6 @@
     modalSwatch: document.getElementById("modal-swatch"),
     vehiclePicker: document.getElementById("vehicle-picker"),
     spinBtn: document.getElementById("spin-3d-btn"),
-    spinError: document.getElementById("spin-3d-error"),
-    viewer3d: document.getElementById("viewer-3d"),
-    viewerCanvas: document.getElementById("viewer-canvas"),
     prevDrop: document.getElementById("prev-drop"),
     nextDrop: document.getElementById("next-drop"),
   };
@@ -77,15 +74,6 @@
     const t = String(text).trim();
     if (t.length <= max) return t;
     return t.slice(0, max - 1).trimEnd() + "…";
-  }
-
-  function webglAvailable() {
-    try {
-      const c = document.createElement("canvas");
-      return !!(c.getContext("webgl") || c.getContext("experimental-webgl"));
-    } catch (e) {
-      return false;
-    }
   }
 
   function atlasUrl(drop, vehicleKey) {
@@ -127,11 +115,24 @@
   }
 
   function cardImageUrl(drop) {
+    // Prefer prerendered still for the header grid vehicle — never swatch as main image.
+    const vehicle = state.gridVehicle || "cybertruck";
+    const stills = stillsOf(drop, vehicle);
+    if (stills) {
+      if (stills.side) return stills.side;
+      if (stills["front-quarter"]) return stills["front-quarter"];
+      if (stills.front) return stills.front;
+      if (stills["rear-quarter"]) return stills["rear-quarter"];
+    }
     const p = drop && drop.preview;
-    if (p && p.swatch) return p.swatch;
     if (p && p.stills && p.stills.side) return p.stills.side;
     if (p && p.stills && p.stills["front-quarter"]) return p.stills["front-quarter"];
-    return atlasUrl(drop);
+    return atlasUrl(drop, vehicle);
+  }
+
+  function cardSwatchUrl(drop) {
+    const p = drop && drop.preview;
+    return (p && p.swatch) || null;
   }
 
   function defaultHeroUrl(drop, vehicleKey) {
@@ -248,7 +249,7 @@
       img.decoding = "async";
       img.src = url;
       img.addEventListener("error", function () {
-        const atlas = atlasUrl(drop);
+        const atlas = atlasUrl(drop, state.gridVehicle || "cybertruck");
         if (atlas && img.getAttribute("src") !== atlas) {
           img.src = atlas;
           return;
@@ -265,6 +266,21 @@
       fallback.className = "preview-fallback";
       fallback.textContent = "No preview";
       preview.appendChild(fallback);
+    }
+
+    const swatchUrl = cardSwatchUrl(drop);
+    if (swatchUrl) {
+      const sw = document.createElement("div");
+      sw.className = "card-swatch";
+      sw.setAttribute("aria-hidden", "true");
+      const swImg = document.createElement("img");
+      swImg.alt = "";
+      swImg.loading = "lazy";
+      swImg.decoding = "async";
+      swImg.src = swatchUrl;
+      swImg.addEventListener("error", function () { sw.remove(); });
+      sw.appendChild(swImg);
+      preview.appendChild(sw);
     }
 
     const body = document.createElement("div");
@@ -289,6 +305,25 @@
     btn.appendChild(body);
     btn.addEventListener("click", function () { openModal(drop); });
     return btn;
+  }
+
+  function populateGridVehicleSelect() {
+    if (!els.gridVehicle || !state.catalog) return;
+    const order = state.catalog.vehicleOrder || [];
+    const labels = state.catalog.vehicleLabels || {};
+    const current = state.gridVehicle || "cybertruck";
+    els.gridVehicle.innerHTML = "";
+    order.forEach(function (id) {
+      const opt = document.createElement("option");
+      opt.value = id;
+      opt.textContent = labels[id] || id;
+      if (id === current) opt.selected = true;
+      els.gridVehicle.appendChild(opt);
+    });
+    if (!order.includes(current) && order.length) {
+      state.gridVehicle = order[0];
+      els.gridVehicle.value = state.gridVehicle;
+    }
   }
 
   function renderGrid() {
@@ -383,9 +418,6 @@
         if (!stillsOf(drop)) {
           setHero(v.url, (drop.title || drop.slug) + " — " + v.label + " atlas");
         }
-        if (state.spinOpen) {
-          restartViewer().catch(function (err) { showSpinError(err); });
-        }
       });
       els.vehiclePicker.appendChild(btn);
     });
@@ -411,226 +443,52 @@
     });
   }
 
-  function updateSpinButton(drop) {
-    const ok =
-      webglAvailable() &&
+  function dropPath(drop) {
+    if (!drop) return "";
+    return (drop.date || "") + "/" + (drop.slug || "");
+  }
+
+  function spinVehicleFor(drop) {
+    const selected = state.selectedVehicle;
+    if (
+      selected &&
+      MODEL_VEHICLES.has(selected) &&
       drop &&
-      SPIN_VEHICLES.has(state.selectedVehicle) &&
-      drop.vehicles[state.selectedVehicle];
-    els.spinBtn.classList.toggle("hidden", !ok);
-    if (!ok && state.spinOpen) {
-      disposeViewer();
-      els.viewer3d.classList.add("hidden");
-      state.spinOpen = false;
-      els.spinBtn.textContent = "Spin in 3D";
+      drop.vehicles &&
+      drop.vehicles[selected]
+    ) {
+      return selected;
     }
-    hideSpinError();
+    if (drop && drop.vehicles && drop.vehicles.cybertruck && MODEL_VEHICLES.has("cybertruck")) {
+      return "cybertruck";
+    }
+    return selected && MODEL_VEHICLES.has(selected) ? selected : "cybertruck";
   }
 
-  function showSpinError(err) {
-    els.spinError.textContent =
-      typeof err === "string" ? err : (err && err.message) || "3D viewer unavailable for this wrap.";
-    els.spinError.classList.remove("hidden");
+  function viewerUrl(drop, vehicle) {
+    const path = dropPath(drop);
+    const v = vehicle || spinVehicleFor(drop);
+    return (
+      "viewer.html?drop=" +
+      encodeURIComponent(path) +
+      "&vehicle=" +
+      encodeURIComponent(v)
+    );
   }
 
-  function hideSpinError() {
-    els.spinError.classList.add("hidden");
-    els.spinError.textContent = "";
-  }
-
-  async function loadThree() {
-    if (viewer.three) return viewer.three;
-    const THREE = await import(THREE_URL);
-    const orbitMod = await import(ORBIT_URL);
-    const gltfMod = await import(GLTF_URL);
-    viewer.three = {
-      THREE: THREE,
-      OrbitControls: orbitMod.OrbitControls,
-      GLTFLoader: gltfMod.GLTFLoader,
-    };
-    return viewer.three;
-  }
-
-  function disposeViewer() {
-    if (viewer.animId != null) {
-      cancelAnimationFrame(viewer.animId);
-      viewer.animId = null;
-    }
-    if (viewer.controls) {
-      viewer.controls.dispose();
-      viewer.controls = null;
-    }
-    if (viewer.root && viewer.scene) {
-      viewer.scene.remove(viewer.root);
-      viewer.root.traverse(function (obj) {
-        if (obj.geometry) obj.geometry.dispose();
-        if (obj.material) {
-          const mats = Array.isArray(obj.material) ? obj.material : [obj.material];
-          mats.forEach(function (m) {
-            if (m.map) m.map.dispose();
-            m.dispose();
-          });
-        }
-      });
-      viewer.root = null;
-    }
-    if (viewer.texture) {
-      viewer.texture.dispose();
-      viewer.texture = null;
-    }
-    if (viewer.renderer) {
-      viewer.renderer.dispose();
-      viewer.renderer = null;
-    }
-    viewer.scene = null;
-    viewer.camera = null;
-    viewer.disposed = true;
-  }
-
-  async function restartViewer() {
-    disposeViewer();
-    await startViewer();
-  }
-
-  async function startViewer() {
-    hideSpinError();
-    const drop = state.activeDrop;
+  function updateSpinButton(drop) {
     const vehicle = state.selectedVehicle;
-    if (!drop || !SPIN_VEHICLES.has(vehicle)) {
-      throw new Error("3D spin is only available for Cybertruck and Model 3.");
-    }
-    const atlas = atlasUrl(drop, vehicle);
-    if (!atlas) throw new Error("No wrap texture for this vehicle.");
-
-    const loaded = await loadThree();
-    const THREE = loaded.THREE;
-    const OrbitControls = loaded.OrbitControls;
-    const GLTFLoader = loaded.GLTFLoader;
-
-    const canvas = els.viewerCanvas;
-    const wrap = els.viewer3d;
-    wrap.classList.remove("hidden");
-
-    const width = wrap.clientWidth || 560;
-    const height = Math.max(280, Math.round(width * 0.56));
-
-    const renderer = new THREE.WebGLRenderer({
-      canvas: canvas,
-      antialias: true,
-      alpha: true,
-      powerPreference: "high-performance",
-    });
-    renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
-    renderer.setSize(width, height, false);
-    renderer.outputColorSpace = THREE.SRGBColorSpace;
-
-    const scene = new THREE.Scene();
-    scene.background = new THREE.Color(0x0e0e0e);
-
-    const camera = new THREE.PerspectiveCamera(40, width / height, 0.1, 100);
-    camera.position.set(3.2, 1.4, 4.2);
-
-    const hemi = new THREE.HemisphereLight(0xffffff, 0x222233, 1.1);
-    scene.add(hemi);
-    const dir = new THREE.DirectionalLight(0xffffff, 1.4);
-    dir.position.set(4, 8, 5);
-    scene.add(dir);
-    const fill = new THREE.DirectionalLight(0xaaccff, 0.45);
-    fill.position.set(-4, 2, -3);
-    scene.add(fill);
-
-    const controls = new OrbitControls(camera, canvas);
-    controls.enableDamping = true;
-    controls.target.set(0, 0.6, 0);
-    controls.minDistance = 2;
-    controls.maxDistance = 12;
-
-    viewer.renderer = renderer;
-    viewer.scene = scene;
-    viewer.camera = camera;
-    viewer.controls = controls;
-    viewer.disposed = false;
-
-    const loader = new GLTFLoader();
-    const modelPath = vehicle === "cybertruck" ? "models/cybertruck.glb" : "models/model3.glb";
-
-    const gltf = await new Promise(function (resolve, reject) {
-      loader.load(modelPath, resolve, undefined, reject);
-    });
-
-    const root = gltf.scene;
-    scene.add(root);
-    viewer.root = root;
-
-    const box = new THREE.Box3().setFromObject(root);
-    const center = box.getCenter(new THREE.Vector3());
-    root.position.sub(center);
-    root.position.y += (box.max.y - box.min.y) * 0.05;
-    controls.target.set(0, 0.2, 0);
-    controls.update();
-
-    const texLoader = new THREE.TextureLoader();
-    texLoader.crossOrigin = "anonymous";
-    const texture = await new Promise(function (resolve, reject) {
-      texLoader.load(atlas, resolve, undefined, reject);
-    });
-    texture.flipY = false;
-    texture.colorSpace = THREE.SRGBColorSpace;
-    texture.wrapS = THREE.ClampToEdgeWrapping;
-    texture.wrapT = THREE.ClampToEdgeWrapping;
-    texture.needsUpdate = true;
-    viewer.texture = texture;
-
-    let applied = 0;
-    root.traverse(function (obj) {
-      if (!obj.isMesh || !obj.material) return;
-      const mats = Array.isArray(obj.material) ? obj.material : [obj.material];
-      mats.forEach(function (mat, i) {
-        if (mat && mat.name === "Tesla_Wrap") {
-          const cloned = mat.clone();
-          cloned.map = texture;
-          cloned.needsUpdate = true;
-          if (Array.isArray(obj.material)) obj.material[i] = cloned;
-          else obj.material = cloned;
-          applied += 1;
-        }
-      });
-    });
-    if (!applied) console.warn("No Tesla_Wrap material found on model");
-
-    function tick() {
-      if (viewer.disposed) return;
-      viewer.animId = requestAnimationFrame(tick);
-      controls.update();
-      renderer.render(scene, camera);
-    }
-    tick();
-  }
-
-  async function toggleSpin() {
-    if (state.spinOpen) {
-      disposeViewer();
-      els.viewer3d.classList.add("hidden");
-      state.spinOpen = false;
-      els.spinBtn.textContent = "Spin in 3D";
-      hideSpinError();
-      return;
-    }
-    els.spinBtn.textContent = "Loading 3D…";
-    els.spinBtn.disabled = true;
-    try {
-      await startViewer();
-      state.spinOpen = true;
-      els.spinBtn.textContent = "Hide 3D";
-    } catch (err) {
-      console.error(err);
-      disposeViewer();
-      els.viewer3d.classList.add("hidden");
-      state.spinOpen = false;
-      els.spinBtn.textContent = "Spin in 3D";
-      showSpinError(err);
-    } finally {
-      els.spinBtn.disabled = false;
+    const ok =
+      drop &&
+      vehicle &&
+      MODEL_VEHICLES.has(vehicle) &&
+      drop.vehicles &&
+      drop.vehicles[vehicle];
+    els.spinBtn.classList.toggle("hidden", !ok);
+    if (ok) {
+      els.spinBtn.href = viewerUrl(drop, vehicle);
+    } else {
+      els.spinBtn.removeAttribute("href");
     }
   }
 
@@ -647,12 +505,6 @@
   }
 
   function openModal(drop) {
-    disposeViewer();
-    els.viewer3d.classList.add("hidden");
-    state.spinOpen = false;
-    els.spinBtn.textContent = "Spin in 3D";
-    hideSpinError();
-
     state.activeDrop = drop;
     state.selectedVehicle =
       drop.previewVehicle ||
@@ -684,12 +536,6 @@
   }
 
   function closeModal() {
-    disposeViewer();
-    els.viewer3d.classList.add("hidden");
-    state.spinOpen = false;
-    els.spinBtn.textContent = "Spin in 3D";
-    hideSpinError();
-
     state.activeDrop = null;
     state.selectedVehicle = null;
     state.activeStill = null;
@@ -712,6 +558,13 @@
       });
     });
 
+    if (els.gridVehicle) {
+      els.gridVehicle.addEventListener("change", function () {
+        state.gridVehicle = els.gridVehicle.value || "cybertruck";
+        renderGrid();
+      });
+    }
+
     let debounce;
     els.search.addEventListener("input", function () {
       clearTimeout(debounce);
@@ -727,25 +580,11 @@
 
     els.prevDrop.addEventListener("click", function () { navigateRelative(-1); });
     els.nextDrop.addEventListener("click", function () { navigateRelative(1); });
-    els.spinBtn.addEventListener("click", function () {
-      toggleSpin().catch(function (err) { showSpinError(err); });
-    });
-
     document.addEventListener("keydown", function (e) {
       if (els.modal.classList.contains("hidden")) return;
       if (e.key === "Escape") closeModal();
       else if (e.key === "ArrowLeft") { e.preventDefault(); navigateRelative(-1); }
       else if (e.key === "ArrowRight") { e.preventDefault(); navigateRelative(1); }
-    });
-
-    window.addEventListener("resize", function () {
-      if (!state.spinOpen || !viewer.renderer || !viewer.camera) return;
-      const wrap = els.viewer3d;
-      const width = wrap.clientWidth || 560;
-      const height = Math.max(280, Math.round(width * 0.56));
-      viewer.camera.aspect = width / height;
-      viewer.camera.updateProjectionMatrix();
-      viewer.renderer.setSize(width, height, false);
     });
   }
 
@@ -757,6 +596,10 @@
       const data = await res.json();
       if (!data || !Array.isArray(data.drops)) throw new Error("Invalid catalog shape");
       state.catalog = data;
+      if (!state.gridVehicle || !(data.vehicleOrder || []).includes(state.gridVehicle)) {
+        state.gridVehicle = "cybertruck";
+      }
+      populateGridVehicleSelect();
       els.status.textContent = data.drops.length + " drops loaded";
       renderGrid();
 
@@ -765,6 +608,30 @@
       const vehicleParam = params.get("vehicle");
       const spinParam = (params.get("spin") || "").toLowerCase();
       const wantSpin = spinParam === "1" || spinParam === "3d" || spinParam === "true" || spinParam === "yes";
+      if (dropParam && wantSpin) {
+        const found = findDropByPath(dropParam);
+        let vehicle = vehicleParam;
+        if (found) {
+          if (!vehicle || !found.vehicles || !found.vehicles[vehicle] || !MODEL_VEHICLES.has(vehicle)) {
+            vehicle = found.vehicles && found.vehicles.cybertruck ? "cybertruck" : "cybertruck";
+            if (!found.vehicles || !found.vehicles[vehicle]) {
+              const keys = Object.keys(found.vehicles || {}).filter(function (k) {
+                return MODEL_VEHICLES.has(k);
+              });
+              vehicle = keys[0] || "cybertruck";
+            }
+          }
+        } else {
+          vehicle = vehicleParam || "cybertruck";
+        }
+        window.location.replace(
+          "viewer.html?drop=" +
+            encodeURIComponent(dropParam) +
+            "&vehicle=" +
+            encodeURIComponent(vehicle || "cybertruck")
+        );
+        return;
+      }
       if (dropParam) {
         const found = findDropByPath(dropParam);
         if (found) {
@@ -778,16 +645,6 @@
             const hero = defaultHeroUrl(found, vehicleParam);
             state.activeStill = hero.still;
             setHero(hero.url, (found.title || found.slug) + " preview");
-          }
-          if (wantSpin) {
-            if (!SPIN_VEHICLES.has(state.selectedVehicle)) {
-              state.selectedVehicle = found.vehicles.cybertruck ? "cybertruck" : "model3";
-              renderStills(found);
-              renderVehiclePicker(found);
-              renderDownloads(found);
-              updateSpinButton(found);
-            }
-            toggleSpin().catch(function (err) { showSpinError(err); });
           }
         }
       }
