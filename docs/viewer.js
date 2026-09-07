@@ -68,21 +68,40 @@ function parseParams() {
 
 function findDrop(catalog, dropPath) {
   if (!catalog || !Array.isArray(catalog.drops) || !dropPath) return null;
-  const parts = dropPath.split("/");
+  const cleaned = String(dropPath).replace(/^\/+|\/+$/g, "");
+  const parts = cleaned.split("/");
+  // workshop/slug
+  if (parts.length === 2 && parts[0] === "workshop") {
+    const slug = parts[1];
+    for (let i = 0; i < catalog.drops.length; i++) {
+      const d = catalog.drops[i];
+      if (d.kind === "workshop" && d.slug === slug) return d;
+    }
+    return null;
+  }
+  // bare workshop slug
+  if (parts.length === 1) {
+    const slug = parts[0];
+    for (let i = 0; i < catalog.drops.length; i++) {
+      const d = catalog.drops[i];
+      if (d.kind === "workshop" && d.slug === slug) return d;
+    }
+    for (let i = 0; i < catalog.drops.length; i++) {
+      const d = catalog.drops[i];
+      if (d.id === cleaned || d.slug === slug) return d;
+    }
+    return null;
+  }
   if (parts.length < 2) return null;
   const date = parts[0];
   const slug = parts.slice(1).join("/");
   for (let i = 0; i < catalog.drops.length; i++) {
     const d = catalog.drops[i];
     if (d.date === date && d.slug === slug) return d;
-    if (d.id && (d.id === dropPath || d.id.endsWith("-" + slug))) {
-      if (d.date === date) return d;
-    }
   }
-  // Also match "date/slug" against composed path
   for (let i = 0; i < catalog.drops.length; i++) {
     const d = catalog.drops[i];
-    if (d.date && d.slug && d.date + "/" + d.slug === dropPath) return d;
+    if (d.date && d.slug && d.date + "/" + d.slug === cleaned) return d;
   }
   return null;
 }
@@ -325,7 +344,7 @@ function fillSelect(keys, selected) {
 async function boot() {
   const params = parseParams();
   if (!params.drop) {
-    setStatus("Missing required ?drop=YYYY-MM-DD/slug", true);
+    setStatus("Missing required ?drop=YYYY-MM-DD/slug or workshop/slug", true);
     els.title.textContent = "3D viewer";
     return;
   }
@@ -355,7 +374,7 @@ async function boot() {
   state.drop = drop;
 
   els.title.textContent = drop.title || drop.slug || params.drop;
-  els.meta.textContent = (drop.date || "") + " · " + (drop.slug || "");
+  els.meta.textContent = (drop.kind === "workshop" ? "workshop" : (drop.date || "")) + " · " + (drop.slug || "");
   document.title = (drop.title || drop.slug) + " — 3D Viewer · Tesla Wrap Factory";
 
   const keys = availableVehicles(catalog, drop);

@@ -184,6 +184,13 @@
     if (!dateSlug) return null;
     const parts = String(dateSlug).replace(/^\/+|\/+$/g, "").split("/");
     const drops = (state.catalog && state.catalog.drops) || [];
+    if (parts.length === 2 && parts[0] === "workshop") {
+      const slug = parts[1];
+      for (let i = 0; i < drops.length; i++) {
+        if (drops[i].kind === "workshop" && drops[i].slug === slug) return drops[i];
+      }
+      return null;
+    }
     if (parts.length === 2) {
       const date = parts[0];
       const slug = parts[1];
@@ -207,8 +214,9 @@
 
   function dropDeepLink(drop) {
     if (!drop) return "";
+    if (drop.kind === "workshop") return "workshop/" + (drop.slug || "");
     if (drop.date) return drop.date + "/" + drop.slug;
-    return drop.slug;
+    return drop.slug || "";
   }
 
   function setHistoryForDrop(drop) {
@@ -446,7 +454,9 @@
 
   function dropPath(drop) {
     if (!drop) return "";
-    return (drop.date || "") + "/" + (drop.slug || "");
+    if (drop.kind === "workshop") return "workshop/" + (drop.slug || "");
+    if (drop.date) return drop.date + "/" + (drop.slug || "");
+    return drop.id || drop.slug || "";
   }
 
   function spinVehicleFor(drop) {
