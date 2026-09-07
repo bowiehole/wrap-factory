@@ -32,6 +32,7 @@
     activeDrop: null,
     selectedVehicle: null,
     activeStill: null,
+    stillsToken: 0,
   };
 
   const els = {
@@ -354,39 +355,85 @@
     };
   }
 
+  function syncStillActive() {
+    const thumbs = els.stillsStrip.querySelectorAll(".still-thumb");
+    for (let i = 0; i < thumbs.length; i++) {
+      const btn = thumbs[i];
+      const angle = btn.getAttribute("data-angle");
+      const on = angle === state.activeStill;
+      btn.classList.toggle("active", on);
+      btn.setAttribute("aria-selected", on ? "true" : "false");
+    }
+  }
+
   function renderStills(drop) {
     const stills = stillsOf(drop, state.selectedVehicle);
     els.stillsStrip.innerHTML = "";
-    if (!stills || !Object.keys(stills).length) {
-      els.stillsStrip.classList.add("hidden");
-      return;
-    }
-    els.stillsStrip.classList.remove("hidden");
+    els.stillsStrip.classList.add("hidden");
+    if (!stills || !Object.keys(stills).length) return;
+
+    const angles = [];
     for (let i = 0; i < STILL_ANGLES.length; i++) {
       const angle = STILL_ANGLES[i];
+      if (stills[angle]) angles.push(angle);
+    }
+    if (!angles.length) return;
+
+    let pending = angles.length;
+    let loadedOk = 0;
+    const token = ++state.stillsToken;
+
+    function revealIfReady() {
+      if (token !== state.stillsToken) return;
+      if (pending > 0) return;
+      if (loadedOk > 0) els.stillsStrip.classList.remove("hidden");
+      else els.stillsStrip.classList.add("hidden");
+    }
+
+    angles.forEach(function (angle) {
       const url = stills[angle];
-      if (!url) continue;
       const btn = document.createElement("button");
       btn.type = "button";
       btn.className = "still-thumb" + (state.activeStill === angle ? " active" : "");
+      btn.setAttribute("data-angle", angle);
       btn.setAttribute("role", "option");
       btn.setAttribute("aria-selected", state.activeStill === angle ? "true" : "false");
       btn.title = STILL_LABELS[angle] || angle;
+      btn.style.visibility = "hidden";
+
       const img = document.createElement("img");
-      img.src = url;
       img.alt = STILL_LABELS[angle] || angle;
-      img.loading = "lazy";
-      btn.appendChild(img);
+      img.decoding = "async";
+
       const label = document.createElement("span");
       label.textContent = STILL_LABELS[angle] || angle;
+
+      btn.appendChild(img);
       btn.appendChild(label);
+
       btn.addEventListener("click", function () {
         state.activeStill = angle;
         setHero(url, (drop.title || drop.slug) + " — " + (STILL_LABELS[angle] || angle));
-        renderStills(drop);
+        syncStillActive();
       });
+
+      img.onload = function () {
+        if (token !== state.stillsToken) return;
+        pending -= 1;
+        loadedOk += 1;
+        btn.style.visibility = "visible";
+        revealIfReady();
+      };
+      img.onerror = function () {
+        if (token !== state.stillsToken) return;
+        pending -= 1;
+        btn.remove();
+        revealIfReady();
+      };
+
       els.stillsStrip.appendChild(btn);
-    }
+      img.src = url;
+    });
   }
 
   function renderSwatch(drop) {
