@@ -412,12 +412,13 @@
       btn.textContent = v.label;
       btn.addEventListener("click", function () {
         state.selectedVehicle = v.key;
+        const hero = defaultHeroUrl(drop, v.key);
+        state.activeStill = hero.still;
+        setHero(hero.url, (drop.title || drop.slug) + " — " + v.label);
+        renderStills(drop);
         renderVehiclePicker(drop);
         renderDownloads(drop);
         updateSpinButton(drop);
-        if (!stillsOf(drop)) {
-          setHero(v.url, (drop.title || drop.slug) + " — " + v.label + " atlas");
-        }
       });
       els.vehiclePicker.appendChild(btn);
     });
