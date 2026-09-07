@@ -762,9 +762,34 @@
 
       const params = new URLSearchParams(window.location.search);
       const dropParam = params.get("drop");
+      const vehicleParam = params.get("vehicle");
+      const spinParam = (params.get("spin") || "").toLowerCase();
+      const wantSpin = spinParam === "1" || spinParam === "3d" || spinParam === "true" || spinParam === "yes";
       if (dropParam) {
         const found = findDropByPath(dropParam);
-        if (found) openModal(found);
+        if (found) {
+          openModal(found);
+          if (vehicleParam && found.vehicles && found.vehicles[vehicleParam]) {
+            state.selectedVehicle = vehicleParam;
+            renderStills(found);
+            renderVehiclePicker(found);
+            renderDownloads(found);
+            updateSpinButton(found);
+            const hero = defaultHeroUrl(found, vehicleParam);
+            state.activeStill = hero.still;
+            setHero(hero.url, (found.title || found.slug) + " preview");
+          }
+          if (wantSpin) {
+            if (!SPIN_VEHICLES.has(state.selectedVehicle)) {
+              state.selectedVehicle = found.vehicles.cybertruck ? "cybertruck" : "model3";
+              renderStills(found);
+              renderVehiclePicker(found);
+              renderDownloads(found);
+              updateSpinButton(found);
+            }
+            toggleSpin().catch(function (err) { showSpinError(err); });
+          }
+        }
       }
     } catch (err) {
       console.error(err);
