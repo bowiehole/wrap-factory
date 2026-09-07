@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T01:54:55.263Z",
+  "generatedAt": "2026-09-07T13:14:02.648Z",
   "repo": "bowiehole/wrap-factory",
   "site": "https://teslawrapfactory.com",
   "vehicleOrder": [
@@ -33,11 +33,179 @@
   "drops": [
     {
       "kind": "factory",
+      "id": "factory-2026-09-07-volt-rail",
+      "date": "2026-09-07",
+      "slug": "volt-rail",
+      "title": "Volt Rail",
+      "brief": "Graphite-black body with electric lime and cyan continuous power-rail streams running nose\u2192tail, hot-white edge sparks cascading from the roof downhill \u2014 high contrast for the touchscreen; regenerated impression, no logos.",
+      "previewVehicle": "cybertruck",
+      "vehicles": {
+        "cybertruck": {
+          "label": "Cybertruck",
+          "file": "volt-rail.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/cybertruck/volt-rail.png",
+          "bytes": 258032
+        },
+        "model3": {
+          "label": "Model 3",
+          "file": "volt-rail.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/model3/volt-rail.png",
+          "bytes": 449871
+        },
+        "model3-2024-base": {
+          "label": "Model 3 2024 Base",
+          "file": "volt-rail.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/model3-2024-base/volt-rail.png",
+          "bytes": 457216
+        },
+        "model3-2024-performance": {
+          "label": "Model 3 2024 Performance",
+          "file": "volt-rail.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/model3-2024-performance/volt-rail.png",
+          "bytes": 455086
+        },
+        "modely": {
+          "label": "Model Y",
+          "file": "volt-rail.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/modely/volt-rail.png",
+          "bytes": 471987
+        },
+        "modely-2025-base": {
+          "label": "Model Y 2025 Base",
+          "file": "volt-rail.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/modely-2025-base/volt-rail.png",
+          "bytes": 324853
+        },
+        "modely-2025-premium": {
+          "label": "Model Y 2025 Premium",
+          "file": "volt-rail.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/modely-2025-premium/volt-rail.png",
+          "bytes": 365802
+        },
+        "modely-2025-performance": {
+          "label": "Model Y 2025 Performance",
+          "file": "volt-rail.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/modely-2025-performance/volt-rail.png",
+          "bytes": 360800
+        },
+        "modely-l": {
+          "label": "Model Y L",
+          "file": "volt-rail.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/modely-l/volt-rail.png",
+          "bytes": 418624
+        },
+        "models-2021": {
+          "label": "Model S 2021",
+          "file": "volt-rail.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/models-2021/volt-rail.png",
+          "bytes": 372665
+        },
+        "models-2025-plaid": {
+          "label": "Model S 2025 Plaid",
+          "file": "volt-rail.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/models-2025-plaid/volt-rail.png",
+          "bytes": 354251
+        },
+        "modelx-2021": {
+          "label": "Model X 2021",
+          "file": "volt-rail.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/modelx-2021/volt-rail.png",
+          "bytes": 291722
+        }
+      },
+      "preview": {
+        "swatch": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail/preview/swatch.png",
+        "stills": {
+          "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail/preview/front.png",
+          "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail/preview/side.png",
+          "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail/preview/front-quarter.png",
+          "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail/preview/rear-quarter.png"
+        },
+        "stillsByVehicle": {
+          "cybertruck": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail/preview/cybertruck/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail/preview/cybertruck/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail/preview/cybertruck/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail/preview/cybertruck/rear-quarter.png"
+          },
+          "model3": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail/preview/model3/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail/preview/model3/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail/preview/model3/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail/preview/model3/rear-quarter.png"
+          },
+          "model3-2024-base": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail/preview/model3-2024-base/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail/preview/model3-2024-base/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail/preview/model3-2024-base/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail/preview/model3-2024-base/rear-quarter.png"
+          },
+          "model3-2024-performance": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail/preview/model3-2024-performance/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail/preview/model3-2024-performance/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail/preview/model3-2024-performance/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail/preview/model3-2024-performance/rear-quarter.png"
+          },
+          "models-2021": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail/preview/models-2021/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail/preview/models-2021/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail/preview/models-2021/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail/preview/models-2021/rear-quarter.png"
+          },
+          "models-2025-plaid": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail/preview/models-2025-plaid/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail/preview/models-2025-plaid/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail/preview/models-2025-plaid/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail/preview/models-2025-plaid/rear-quarter.png"
+          },
+          "modelx-2021": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail/preview/modelx-2021/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail/preview/modelx-2021/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail/preview/modelx-2021/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail/preview/modelx-2021/rear-quarter.png"
+          },
+          "modely": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail/preview/modely/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail/preview/modely/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail/preview/modely/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail/preview/modely/rear-quarter.png"
+          },
+          "modely-2025-base": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail/preview/modely-2025-base/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail/preview/modely-2025-base/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail/preview/modely-2025-base/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail/preview/modely-2025-base/rear-quarter.png"
+          },
+          "modely-2025-performance": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail/preview/modely-2025-performance/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail/preview/modely-2025-performance/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail/preview/modely-2025-performance/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail/preview/modely-2025-performance/rear-quarter.png"
+          },
+          "modely-2025-premium": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail/preview/modely-2025-premium/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail/preview/modely-2025-premium/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail/preview/modely-2025-premium/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail/preview/modely-2025-premium/rear-quarter.png"
+          },
+          "modely-l": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail/preview/modely-l/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail/preview/modely-l/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail/preview/modely-l/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail/preview/modely-l/rear-quarter.png"
+          }
+        },
+        "og": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail/preview/og.png",
+        "heroVehicle": "cybertruck"
+      }
+    },
+    {
+      "kind": "factory",
       "id": "factory-2026-09-06-chi-lake",
       "date": "2026-09-06",
       "slug": "chi-lake",
       "title": "chi-lake",
-      "brief": "Chicago lakefront night: Michigan teal and midnight navy cascading from the roof, with amber L-train window sparks and soft skyline reflections drifting downhill — continuous UV remaster so sides flow fender→doors→quarter (Cybertruck unchanged). Regenerated impression, no logos.",
+      "brief": "Chicago lakefront night: Michigan teal and midnight navy cascading from the roof, with amber L-train window sparks and soft skyline reflections drifting downhill \u2014 continuous UV remaster so sides flow fender\u2192doors\u2192quarter (Cybertruck unchanged). Regenerated impression, no logos.",
       "previewVehicle": "cybertruck",
       "vehicles": {
         "cybertruck": {
@@ -205,7 +373,7 @@
       "date": "2026-09-05",
       "slug": "reef-flash",
       "title": "reef-flash",
-      "brief": "Abyssal navy with electric turquoise and hot-magenta reef-scale flashes cascading from the roof downhill toward hood, rockers, and tail — animal-as-texture, high contrast for the touchscreen.",
+      "brief": "Abyssal navy with electric turquoise and hot-magenta reef-scale flashes cascading from the roof downhill toward hood, rockers, and tail \u2014 animal-as-texture, high contrast for the touchscreen.",
       "previewVehicle": "cybertruck",
       "vehicles": {
         "cybertruck": {
@@ -373,7 +541,7 @@
       "date": "2026-09-04",
       "slug": "la-dusk",
       "title": "la-dusk",
-      "brief": "Los Angeles dusk impression: coral-magenta sun disk on the roof bleeding into indigo night toward the rockers, with soft palm-frond silhouettes and thin freeway light ribbons drifting downhill — regenerated, no logos.",
+      "brief": "Los Angeles dusk impression: coral-magenta sun disk on the roof bleeding into indigo night toward the rockers, with soft palm-frond silhouettes and thin freeway light ribbons drifting downhill \u2014 regenerated, no logos.",
       "previewVehicle": "cybertruck",
       "vehicles": {
         "cybertruck": {
