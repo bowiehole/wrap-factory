@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T13:51:03.002Z",
+  "generatedAt": "2026-09-10T13:29:38.157Z",
   "repo": "bowiehole/wrap-factory",
   "site": "https://teslawrapfactory.com",
   "vehicleOrder": [
@@ -31,6 +31,174 @@
     "modelx-2021": "Model X 2021"
   },
   "drops": [
+    {
+      "kind": "factory",
+      "id": "factory-2026-09-10-terrazzo-pop",
+      "date": "2026-09-10",
+      "slug": "terrazzo-pop",
+      "title": "Terrazzo Pop",
+      "brief": "Warm parchment body densely speckled with multi-color terrazzo chips (coral, teal, mustard, indigo, charcoal) \u2014 irregular chips of varying size that feel continuous across door seams via shared (u,v) noise; high-contrast graphic stone, regenerated impression, no logos.",
+      "previewVehicle": "cybertruck",
+      "vehicles": {
+        "cybertruck": {
+          "label": "Cybertruck",
+          "file": "terrazzo-pop.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-10/cybertruck/terrazzo-pop.png",
+          "bytes": 763966
+        },
+        "model3": {
+          "label": "Model 3",
+          "file": "terrazzo-pop.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-10/model3/terrazzo-pop.png",
+          "bytes": 980803
+        },
+        "model3-2024-base": {
+          "label": "Model 3 2024 Base",
+          "file": "terrazzo-pop.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-10/model3-2024-base/terrazzo-pop.png",
+          "bytes": 1017084
+        },
+        "model3-2024-performance": {
+          "label": "Model 3 2024 Performance",
+          "file": "terrazzo-pop.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-10/model3-2024-performance/terrazzo-pop.png",
+          "bytes": 1009868
+        },
+        "modely": {
+          "label": "Model Y",
+          "file": "terrazzo-pop.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-10/modely/terrazzo-pop.png",
+          "bytes": 799795
+        },
+        "modely-2025-base": {
+          "label": "Model Y 2025 Base",
+          "file": "terrazzo-pop.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-10/modely-2025-base/terrazzo-pop.png",
+          "bytes": 742908
+        },
+        "modely-2025-premium": {
+          "label": "Model Y 2025 Premium",
+          "file": "terrazzo-pop.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-10/modely-2025-premium/terrazzo-pop.png",
+          "bytes": 865744
+        },
+        "modely-2025-performance": {
+          "label": "Model Y 2025 Performance",
+          "file": "terrazzo-pop.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-10/modely-2025-performance/terrazzo-pop.png",
+          "bytes": 881061
+        },
+        "modely-l": {
+          "label": "Model Y L",
+          "file": "terrazzo-pop.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-10/modely-l/terrazzo-pop.png",
+          "bytes": 982147
+        },
+        "models-2021": {
+          "label": "Model S 2021",
+          "file": "terrazzo-pop.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-10/models-2021/terrazzo-pop.png",
+          "bytes": 820272
+        },
+        "models-2025-plaid": {
+          "label": "Model S 2025 Plaid",
+          "file": "terrazzo-pop.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-10/models-2025-plaid/terrazzo-pop.png",
+          "bytes": 782795
+        },
+        "modelx-2021": {
+          "label": "Model X 2021",
+          "file": "terrazzo-pop.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-10/modelx-2021/terrazzo-pop.png",
+          "bytes": 641682
+        }
+      },
+      "preview": {
+        "swatch": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-10/terrazzo-pop/preview/swatch.png",
+        "stills": {
+          "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-10/terrazzo-pop/preview/front.png",
+          "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-10/terrazzo-pop/preview/side.png",
+          "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-10/terrazzo-pop/preview/front-quarter.png",
+          "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-10/terrazzo-pop/preview/rear-quarter.png"
+        },
+        "stillsByVehicle": {
+          "cybertruck": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-10/terrazzo-pop/preview/cybertruck/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-10/terrazzo-pop/preview/cybertruck/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-10/terrazzo-pop/preview/cybertruck/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-10/terrazzo-pop/preview/cybertruck/rear-quarter.png"
+          },
+          "model3": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-10/terrazzo-pop/preview/model3/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-10/terrazzo-pop/preview/model3/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-10/terrazzo-pop/preview/model3/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-10/terrazzo-pop/preview/model3/rear-quarter.png"
+          },
+          "model3-2024-base": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-10/terrazzo-pop/preview/model3-2024-base/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-10/terrazzo-pop/preview/model3-2024-base/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-10/terrazzo-pop/preview/model3-2024-base/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-10/terrazzo-pop/preview/model3-2024-base/rear-quarter.png"
+          },
+          "model3-2024-performance": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-10/terrazzo-pop/preview/model3-2024-performance/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-10/terrazzo-pop/preview/model3-2024-performance/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-10/terrazzo-pop/preview/model3-2024-performance/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-10/terrazzo-pop/preview/model3-2024-performance/rear-quarter.png"
+          },
+          "models-2021": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-10/terrazzo-pop/preview/models-2021/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-10/terrazzo-pop/preview/models-2021/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-10/terrazzo-pop/preview/models-2021/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-10/terrazzo-pop/preview/models-2021/rear-quarter.png"
+          },
+          "models-2025-plaid": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-10/terrazzo-pop/preview/models-2025-plaid/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-10/terrazzo-pop/preview/models-2025-plaid/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-10/terrazzo-pop/preview/models-2025-plaid/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-10/terrazzo-pop/preview/models-2025-plaid/rear-quarter.png"
+          },
+          "modelx-2021": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-10/terrazzo-pop/preview/modelx-2021/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-10/terrazzo-pop/preview/modelx-2021/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-10/terrazzo-pop/preview/modelx-2021/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-10/terrazzo-pop/preview/modelx-2021/rear-quarter.png"
+          },
+          "modely": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-10/terrazzo-pop/preview/modely/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-10/terrazzo-pop/preview/modely/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-10/terrazzo-pop/preview/modely/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-10/terrazzo-pop/preview/modely/rear-quarter.png"
+          },
+          "modely-2025-base": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-10/terrazzo-pop/preview/modely-2025-base/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-10/terrazzo-pop/preview/modely-2025-base/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-10/terrazzo-pop/preview/modely-2025-base/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-10/terrazzo-pop/preview/modely-2025-base/rear-quarter.png"
+          },
+          "modely-2025-performance": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-10/terrazzo-pop/preview/modely-2025-performance/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-10/terrazzo-pop/preview/modely-2025-performance/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-10/terrazzo-pop/preview/modely-2025-performance/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-10/terrazzo-pop/preview/modely-2025-performance/rear-quarter.png"
+          },
+          "modely-2025-premium": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-10/terrazzo-pop/preview/modely-2025-premium/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-10/terrazzo-pop/preview/modely-2025-premium/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-10/terrazzo-pop/preview/modely-2025-premium/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-10/terrazzo-pop/preview/modely-2025-premium/rear-quarter.png"
+          },
+          "modely-l": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-10/terrazzo-pop/preview/modely-l/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-10/terrazzo-pop/preview/modely-l/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-10/terrazzo-pop/preview/modely-l/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-10/terrazzo-pop/preview/modely-l/rear-quarter.png"
+          }
+        },
+        "og": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-10/terrazzo-pop/preview/og.png",
+        "heroVehicle": "cybertruck"
+      }
+    },
     {
       "kind": "factory",
       "id": "factory-2026-09-09-slash-field",
