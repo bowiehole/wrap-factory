@@ -649,7 +649,7 @@
   async function init() {
     bindEvents();
     try {
-      const res = await fetch("catalog.json", { cache: "no-cache" });
+      const res = await fetch("catalog.json?t=" + Date.now(), { cache: "no-store" });
       if (!res.ok) throw new Error("HTTP " + res.status);
       const data = await res.json();
       if (!data || !Array.isArray(data.drops)) throw new Error("Invalid catalog shape");
