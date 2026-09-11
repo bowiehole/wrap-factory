@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T15:50:42Z",
+  "generatedAt": "2026-09-11T15:52:05.655Z",
   "repo": "bowiehole/wrap-factory",
   "site": "https://teslawrapfactory.com",
   "vehicleOrder": [
@@ -37,7 +37,7 @@
       "date": "2026-09-11",
       "slug": "argyle-cut",
       "title": "Argyle Cut",
-      "brief": "Ivory body with a high-contrast argyle diamond lattice in crimson and navy that tiles continuously in vehicle space (u=nose\u2192tail, v=roof\u2192rocker) \u2014 intersecting 45\u00b0 diamonds wrapping around every panel, regenerated impression, no logos.",
+      "brief": "Ivory body with a high-contrast argyle diamond lattice in crimson and navy that tiles continuously in vehicle space (u=nose→tail, v=roof→rocker) — intersecting 45° diamonds wrapping around every panel, regenerated impression, no logos.",
       "previewVehicle": "cybertruck",
       "vehicles": {
         "cybertruck": {
@@ -205,7 +205,7 @@
       "date": "2026-09-10",
       "slug": "terrazzo-pop",
       "title": "Terrazzo Pop",
-      "brief": "Warm parchment body densely speckled with multi-color terrazzo chips (coral, teal, mustard, indigo, charcoal) \u2014 irregular chips of varying size that feel continuous across door seams via shared (u,v) noise; high-contrast graphic stone, regenerated impression, no logos.",
+      "brief": "Warm parchment body densely speckled with multi-color terrazzo chips (coral, teal, mustard, indigo, charcoal) — irregular chips of varying size that feel continuous across door seams via shared (u,v) noise; high-contrast graphic stone, regenerated impression, no logos.",
       "previewVehicle": "cybertruck",
       "vehicles": {
         "cybertruck": {
@@ -373,7 +373,7 @@
       "date": "2026-09-09",
       "slug": "slash-field",
       "title": "Slash Field",
-      "brief": "Bone-cream body scored by bold vermillion and charcoal diagonal slash bands (~35\u00b0 in vehicle space) that wrap continuously around every panel \u2014 high-contrast graphic cut fields, regenerated impression, no logos.",
+      "brief": "Bone-cream body scored by bold vermillion and charcoal diagonal slash bands (~35° in vehicle space) that wrap continuously around every panel — high-contrast graphic cut fields, regenerated impression, no logos.",
       "previewVehicle": "cybertruck",
       "vehicles": {
         "cybertruck": {
@@ -541,7 +541,7 @@
       "date": "2026-09-08",
       "slug": "bayou-dusk",
       "title": "Bayou Dusk",
-      "brief": "Deep bayou teal-black body with coral-orange Gulf sunset ribbons flowing continuous nose\u2192tail across door seams, and cool silver downtown light-grid streams cascading from roof toward rockers \u2014 Space City night energy, high contrast for touchscreen; regenerated impression, no logos.",
+      "brief": "Deep bayou teal-black body with coral-orange Gulf sunset ribbons flowing continuous nose→tail across door seams, and cool silver downtown light-grid streams cascading from roof toward rockers — Space City night energy, high contrast for touchscreen; regenerated impression, no logos.",
       "previewVehicle": "cybertruck",
       "vehicles": {
         "cybertruck": {
@@ -709,7 +709,7 @@
       "date": "2026-09-07",
       "slug": "volt-rail",
       "title": "Volt Rail",
-      "brief": "Graphite-black body with electric lime and cyan continuous power-rail streams running nose\u2192tail, hot-white edge sparks cascading from the roof downhill \u2014 high contrast for the touchscreen; regenerated impression, no logos.",
+      "brief": "Graphite-black body with electric lime and cyan continuous power-rail streams running nose→tail, hot-white edge sparks cascading from the roof downhill — high contrast for the touchscreen; regenerated impression, no logos.",
       "previewVehicle": "cybertruck",
       "vehicles": {
         "cybertruck": {
@@ -877,7 +877,7 @@
       "date": "2026-09-06",
       "slug": "chi-lake",
       "title": "chi-lake",
-      "brief": "Chicago lakefront night: Michigan teal and midnight navy cascading from the roof, with amber L-train window sparks and soft skyline reflections drifting downhill \u2014 continuous UV remaster so sides flow fender\u2192doors\u2192quarter (Cybertruck unchanged). Regenerated impression, no logos.",
+      "brief": "Chicago lakefront night: Michigan teal and midnight navy cascading from the roof, with amber L-train window sparks and soft skyline reflections drifting downhill — continuous UV remaster so sides flow fender→doors→quarter (Cybertruck unchanged). Regenerated impression, no logos.",
       "previewVehicle": "cybertruck",
       "vehicles": {
         "cybertruck": {
@@ -1045,7 +1045,7 @@
       "date": "2026-09-05",
       "slug": "reef-flash",
       "title": "reef-flash",
-      "brief": "Abyssal navy with electric turquoise and hot-magenta reef-scale flashes cascading from the roof downhill toward hood, rockers, and tail \u2014 animal-as-texture, high contrast for the touchscreen.",
+      "brief": "Abyssal navy with electric turquoise and hot-magenta reef-scale flashes cascading from the roof downhill toward hood, rockers, and tail — animal-as-texture, high contrast for the touchscreen.",
       "previewVehicle": "cybertruck",
       "vehicles": {
         "cybertruck": {
@@ -1213,7 +1213,7 @@
       "date": "2026-09-04",
       "slug": "la-dusk",
       "title": "la-dusk",
-      "brief": "Los Angeles dusk impression: coral-magenta sun disk on the roof bleeding into indigo night toward the rockers, with soft palm-frond silhouettes and thin freeway light ribbons drifting downhill \u2014 regenerated, no logos.",
+      "brief": "Los Angeles dusk impression: coral-magenta sun disk on the roof bleeding into indigo night toward the rockers, with soft palm-frond silhouettes and thin freeway light ribbons drifting downhill — regenerated, no logos.",
       "previewVehicle": "cybertruck",
       "vehicles": {
         "cybertruck": {
