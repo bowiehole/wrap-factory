@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T14:36:45.740Z",
+  "generatedAt": "2026-09-12T14:50:46.035Z",
   "repo": "bowiehole/wrap-factory",
   "site": "https://teslawrapfactory.com",
   "vehicleOrder": [
@@ -716,73 +716,73 @@
           "label": "Cybertruck",
           "file": "bayou-dusk.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-08/cybertruck/bayou-dusk.png",
-          "bytes": 445295
+          "bytes": 329205
         },
         "model3": {
           "label": "Model 3",
           "file": "bayou-dusk.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-08/model3/bayou-dusk.png",
-          "bytes": 729447
+          "bytes": 415767
         },
         "model3-2024-base": {
           "label": "Model 3 2024 Base",
           "file": "bayou-dusk.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-08/model3-2024-base/bayou-dusk.png",
-          "bytes": 726243
+          "bytes": 436459
         },
         "model3-2024-performance": {
           "label": "Model 3 2024 Performance",
           "file": "bayou-dusk.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-08/model3-2024-performance/bayou-dusk.png",
-          "bytes": 718208
+          "bytes": 437601
         },
         "modely": {
           "label": "Model Y",
           "file": "bayou-dusk.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-08/modely/bayou-dusk.png",
-          "bytes": 793511
+          "bytes": 475121
         },
         "modely-2025-base": {
           "label": "Model Y 2025 Base",
           "file": "bayou-dusk.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-08/modely-2025-base/bayou-dusk.png",
-          "bytes": 510150
+          "bytes": 362491
         },
         "modely-2025-premium": {
           "label": "Model Y 2025 Premium",
           "file": "bayou-dusk.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-08/modely-2025-premium/bayou-dusk.png",
-          "bytes": 579958
+          "bytes": 398194
         },
         "modely-2025-performance": {
           "label": "Model Y 2025 Performance",
           "file": "bayou-dusk.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-08/modely-2025-performance/bayou-dusk.png",
-          "bytes": 573587
+          "bytes": 410684
         },
         "modely-l": {
           "label": "Model Y L",
           "file": "bayou-dusk.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-08/modely-l/bayou-dusk.png",
-          "bytes": 676676
+          "bytes": 439172
         },
         "models-2021": {
           "label": "Model S 2021",
           "file": "bayou-dusk.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-08/models-2021/bayou-dusk.png",
-          "bytes": 605373
+          "bytes": 359405
         },
         "models-2025-plaid": {
           "label": "Model S 2025 Plaid",
           "file": "bayou-dusk.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-08/models-2025-plaid/bayou-dusk.png",
-          "bytes": 572820
+          "bytes": 361459
         },
         "modelx-2021": {
           "label": "Model X 2021",
           "file": "bayou-dusk.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-08/modelx-2021/bayou-dusk.png",
-          "bytes": 456299
+          "bytes": 320904
         }
       },
       "preview": {
