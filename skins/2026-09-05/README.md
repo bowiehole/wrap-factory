@@ -22,10 +22,6 @@ Animal-as-texture / wild card (not a city day — Chicago stays next city slot).
 | `modely-l` | 1024×1024 | 527.1 KB |
 | `modely` | 1024×1024 | 576.8 KB |
 
-## reef-flash-v2 (WORLD-BAKE wrap-around remaster)
+## Remaster (in place)
 
-**Slug:** `reef-flash-v2`
-**Brief:** same abyssal navy turquoise/magenta reef flashes; world-bake wrap-around remaster
-
-Same motif as v1; remastered by baking from GLB world space `(along, height)` so flashes wrap continuously across hood, sides, and rear. v1 `reef-flash.png` files left intact.
-
+World-bake wrap-around remaster applied to `reef-flash.png` (same motif; version in git commit message only — no separate `-v2` catalog card).
