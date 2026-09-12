@@ -30,9 +30,6 @@ Continuous UV via `buildUVMap` (atlas.js). Crack field from multi-scale FBM ridg
 
 `skins/2026-09-11/kintsugi/preview/` — swatch + CT hero stills + `preview/{vehicle}/` ×12.
 
-## argyle-cut-v2 (UV remaster)
+## Remaster (in place)
 
-**Slug:** `argyle-cut-v2`
-**Brief:** same ivory crimson/navy diamond lattice; remastered UV
-
-Same motif as v1; remastered with shared-span UV (3/Y/S/X) + existing CT shared-rail-height. v1 files left intact.
+shared-span UV remaster applied to `argyle-cut.png` (same motif; version in git commit message only — no separate `-v2` catalog card).
