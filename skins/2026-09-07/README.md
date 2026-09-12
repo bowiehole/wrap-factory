@@ -22,9 +22,6 @@ Not a city day (chi-lake/la-dusk recent; Houston stays next city slot). Continuo
 | `modely-2025-premium` | 1024×1024 | 357.2 KB |
 | `modely-l` | 1024×1024 | 408.8 KB |
 
-## volt-rail-v2 (UV remaster)
+## Remaster (in place)
 
-**Slug:** `volt-rail-v2`
-**Brief:** same graphite lime/cyan power-rails; remastered UV
-
-Same motif as v1; remastered with shared-span UV (3/Y/S/X) + existing CT shared-rail-height. v1 files left intact.
+shared-span UV remaster applied to `volt-rail.png` (same motif; version in git commit message only — no separate `-v2` catalog card).
