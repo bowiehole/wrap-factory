@@ -24,4 +24,4 @@ Not a city day (chi-lake/la-dusk recent; Houston stays next city slot). Continuo
 
 ## Remaster (in place)
 
-shared-span UV remaster applied to `volt-rail.png` (same motif; version in git commit message only — no separate `-v2` catalog card).
+world-bake wrap-around remaster applied to `volt-rail.png` (same motif; version in git commit message only — no separate `-vN` catalog card).
