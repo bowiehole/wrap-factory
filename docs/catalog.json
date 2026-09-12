@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T14:31:05.360Z",
+  "generatedAt": "2026-09-12T14:36:45.740Z",
   "repo": "bowiehole/wrap-factory",
   "site": "https://teslawrapfactory.com",
   "vehicleOrder": [
@@ -884,73 +884,73 @@
           "label": "Cybertruck",
           "file": "volt-rail.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/cybertruck/volt-rail.png",
-          "bytes": 277188
+          "bytes": 160121
         },
         "model3": {
           "label": "Model 3",
           "file": "volt-rail.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/model3/volt-rail.png",
-          "bytes": 445187
+          "bytes": 227635
         },
         "model3-2024-base": {
           "label": "Model 3 2024 Base",
           "file": "volt-rail.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/model3-2024-base/volt-rail.png",
-          "bytes": 456052
+          "bytes": 227956
         },
         "model3-2024-performance": {
           "label": "Model 3 2024 Performance",
           "file": "volt-rail.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/model3-2024-performance/volt-rail.png",
-          "bytes": 454201
+          "bytes": 229095
         },
         "modely": {
           "label": "Model Y",
           "file": "volt-rail.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/modely/volt-rail.png",
-          "bytes": 472565
+          "bytes": 256805
         },
         "modely-2025-base": {
           "label": "Model Y 2025 Base",
           "file": "volt-rail.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/modely-2025-base/volt-rail.png",
-          "bytes": 330497
+          "bytes": 189201
         },
         "modely-2025-premium": {
           "label": "Model Y 2025 Premium",
           "file": "volt-rail.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/modely-2025-premium/volt-rail.png",
-          "bytes": 370926
+          "bytes": 207155
         },
         "modely-2025-performance": {
           "label": "Model Y 2025 Performance",
           "file": "volt-rail.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/modely-2025-performance/volt-rail.png",
-          "bytes": 365221
+          "bytes": 228980
         },
         "modely-l": {
           "label": "Model Y L",
           "file": "volt-rail.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/modely-l/volt-rail.png",
-          "bytes": 422566
+          "bytes": 226589
         },
         "models-2021": {
           "label": "Model S 2021",
           "file": "volt-rail.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/models-2021/volt-rail.png",
-          "bytes": 378262
+          "bytes": 201819
         },
         "models-2025-plaid": {
           "label": "Model S 2025 Plaid",
           "file": "volt-rail.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/models-2025-plaid/volt-rail.png",
-          "bytes": 359895
+          "bytes": 203992
         },
         "modelx-2021": {
           "label": "Model X 2021",
           "file": "volt-rail.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/modelx-2021/volt-rail.png",
-          "bytes": 296024
+          "bytes": 179872
         }
       },
       "preview": {
