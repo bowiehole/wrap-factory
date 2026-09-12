@@ -179,6 +179,8 @@ function scanFactory() {
       for (const file of fs.readdirSync(vehDir)) {
         if (!file.endsWith(".png")) continue;
         const slug = file.slice(0, -4);
+        // Remaster sidecars like reef-flash-v2 must not become catalog cards
+        if (/-v[0-9]+$/.test(slug)) continue;
         if (!byDate.has(date)) byDate.set(date, new Map());
         const slugMap = byDate.get(date);
         if (!slugMap.has(slug)) slugMap.set(slug, {});
@@ -239,6 +241,7 @@ function scanWorkshop() {
     .sort();
 
   for (const slug of slugs) {
+    if (/-v[0-9]+$/.test(slug)) continue;
     const slugDir = path.join(WORKSHOP, slug);
     const vehicles = collectVehiclesFromDir(slugDir, slug, (vehicle, file) =>
       rawUrl("workshop", slug, vehicle, file)
