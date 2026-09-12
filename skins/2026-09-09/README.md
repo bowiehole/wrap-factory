@@ -21,3 +21,10 @@ Not a US holiday eve. Not city series (Houston/bayou-dusk was yesterday). Delibe
 | `models-2021` | 1024×1024 | 475.4 KB |
 | `models-2025-plaid` | 1024×1024 | 461.0 KB |
 | `modelx-2021` | 1024×1024 | 388.3 KB |
+
+## slash-field-v2 (UV remaster)
+
+**Slug:** `slash-field-v2`
+**Brief:** same bone-cream vermillion/charcoal slash field; remastered UV (shared-span, no arch squeeze)
+
+Same motif as v1; remastered with shared-span UV (3/Y/S/X) + existing CT shared-rail-height. v1 files left intact.
