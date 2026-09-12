@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T13:27:55.955Z",
+  "generatedAt": "2026-09-12T13:55:20.539Z",
   "repo": "bowiehole/wrap-factory",
   "site": "https://teslawrapfactory.com",
   "vehicleOrder": [
@@ -201,6 +201,174 @@
     },
     {
       "kind": "factory",
+      "id": "factory-2026-09-12-topo-ink-v2",
+      "date": "2026-09-12",
+      "slug": "topo-ink-v2",
+      "title": "topo-ink-v2",
+      "brief": "",
+      "previewVehicle": "cybertruck",
+      "vehicles": {
+        "cybertruck": {
+          "label": "Cybertruck",
+          "file": "topo-ink-v2.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-12/cybertruck/topo-ink-v2.png",
+          "bytes": 333616
+        },
+        "model3": {
+          "label": "Model 3",
+          "file": "topo-ink-v2.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-12/model3/topo-ink-v2.png",
+          "bytes": 441749
+        },
+        "model3-2024-base": {
+          "label": "Model 3 2024 Base",
+          "file": "topo-ink-v2.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-12/model3-2024-base/topo-ink-v2.png",
+          "bytes": 448541
+        },
+        "model3-2024-performance": {
+          "label": "Model 3 2024 Performance",
+          "file": "topo-ink-v2.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-12/model3-2024-performance/topo-ink-v2.png",
+          "bytes": 446462
+        },
+        "modely": {
+          "label": "Model Y",
+          "file": "topo-ink-v2.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-12/modely/topo-ink-v2.png",
+          "bytes": 501647
+        },
+        "modely-2025-base": {
+          "label": "Model Y 2025 Base",
+          "file": "topo-ink-v2.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-12/modely-2025-base/topo-ink-v2.png",
+          "bytes": 370124
+        },
+        "modely-2025-premium": {
+          "label": "Model Y 2025 Premium",
+          "file": "topo-ink-v2.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-12/modely-2025-premium/topo-ink-v2.png",
+          "bytes": 409136
+        },
+        "modely-2025-performance": {
+          "label": "Model Y 2025 Performance",
+          "file": "topo-ink-v2.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-12/modely-2025-performance/topo-ink-v2.png",
+          "bytes": 414892
+        },
+        "modely-l": {
+          "label": "Model Y L",
+          "file": "topo-ink-v2.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-12/modely-l/topo-ink-v2.png",
+          "bytes": 460446
+        },
+        "models-2021": {
+          "label": "Model S 2021",
+          "file": "topo-ink-v2.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-12/models-2021/topo-ink-v2.png",
+          "bytes": 395991
+        },
+        "models-2025-plaid": {
+          "label": "Model S 2025 Plaid",
+          "file": "topo-ink-v2.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-12/models-2025-plaid/topo-ink-v2.png",
+          "bytes": 380034
+        },
+        "modelx-2021": {
+          "label": "Model X 2021",
+          "file": "topo-ink-v2.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-12/modelx-2021/topo-ink-v2.png",
+          "bytes": 322100
+        }
+      },
+      "preview": {
+        "swatch": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-12/topo-ink-v2/preview/swatch.png",
+        "stills": {
+          "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-12/topo-ink-v2/preview/front.png",
+          "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-12/topo-ink-v2/preview/side.png",
+          "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-12/topo-ink-v2/preview/front-quarter.png",
+          "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-12/topo-ink-v2/preview/rear-quarter.png"
+        },
+        "stillsByVehicle": {
+          "cybertruck": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-12/topo-ink-v2/preview/cybertruck/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-12/topo-ink-v2/preview/cybertruck/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-12/topo-ink-v2/preview/cybertruck/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-12/topo-ink-v2/preview/cybertruck/rear-quarter.png"
+          },
+          "model3": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-12/topo-ink-v2/preview/model3/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-12/topo-ink-v2/preview/model3/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-12/topo-ink-v2/preview/model3/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-12/topo-ink-v2/preview/model3/rear-quarter.png"
+          },
+          "model3-2024-base": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-12/topo-ink-v2/preview/model3-2024-base/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-12/topo-ink-v2/preview/model3-2024-base/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-12/topo-ink-v2/preview/model3-2024-base/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-12/topo-ink-v2/preview/model3-2024-base/rear-quarter.png"
+          },
+          "model3-2024-performance": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-12/topo-ink-v2/preview/model3-2024-performance/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-12/topo-ink-v2/preview/model3-2024-performance/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-12/topo-ink-v2/preview/model3-2024-performance/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-12/topo-ink-v2/preview/model3-2024-performance/rear-quarter.png"
+          },
+          "models-2021": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-12/topo-ink-v2/preview/models-2021/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-12/topo-ink-v2/preview/models-2021/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-12/topo-ink-v2/preview/models-2021/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-12/topo-ink-v2/preview/models-2021/rear-quarter.png"
+          },
+          "models-2025-plaid": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-12/topo-ink-v2/preview/models-2025-plaid/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-12/topo-ink-v2/preview/models-2025-plaid/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-12/topo-ink-v2/preview/models-2025-plaid/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-12/topo-ink-v2/preview/models-2025-plaid/rear-quarter.png"
+          },
+          "modelx-2021": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-12/topo-ink-v2/preview/modelx-2021/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-12/topo-ink-v2/preview/modelx-2021/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-12/topo-ink-v2/preview/modelx-2021/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-12/topo-ink-v2/preview/modelx-2021/rear-quarter.png"
+          },
+          "modely": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-12/topo-ink-v2/preview/modely/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-12/topo-ink-v2/preview/modely/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-12/topo-ink-v2/preview/modely/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-12/topo-ink-v2/preview/modely/rear-quarter.png"
+          },
+          "modely-2025-base": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-12/topo-ink-v2/preview/modely-2025-base/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-12/topo-ink-v2/preview/modely-2025-base/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-12/topo-ink-v2/preview/modely-2025-base/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-12/topo-ink-v2/preview/modely-2025-base/rear-quarter.png"
+          },
+          "modely-2025-performance": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-12/topo-ink-v2/preview/modely-2025-performance/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-12/topo-ink-v2/preview/modely-2025-performance/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-12/topo-ink-v2/preview/modely-2025-performance/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-12/topo-ink-v2/preview/modely-2025-performance/rear-quarter.png"
+          },
+          "modely-2025-premium": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-12/topo-ink-v2/preview/modely-2025-premium/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-12/topo-ink-v2/preview/modely-2025-premium/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-12/topo-ink-v2/preview/modely-2025-premium/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-12/topo-ink-v2/preview/modely-2025-premium/rear-quarter.png"
+          },
+          "modely-l": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-12/topo-ink-v2/preview/modely-l/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-12/topo-ink-v2/preview/modely-l/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-12/topo-ink-v2/preview/modely-l/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-12/topo-ink-v2/preview/modely-l/rear-quarter.png"
+          }
+        },
+        "og": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-12/topo-ink-v2/preview/og.png",
+        "heroVehicle": "cybertruck"
+      }
+    },
+    {
+      "kind": "factory",
       "id": "factory-2026-09-11-argyle-cut",
       "date": "2026-09-11",
       "slug": "argyle-cut",
@@ -364,6 +532,174 @@
           }
         },
         "og": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-11/argyle-cut/preview/og.png",
+        "heroVehicle": "cybertruck"
+      }
+    },
+    {
+      "kind": "factory",
+      "id": "factory-2026-09-11-argyle-cut-v2",
+      "date": "2026-09-11",
+      "slug": "argyle-cut-v2",
+      "title": "argyle-cut-v2",
+      "brief": "",
+      "previewVehicle": "cybertruck",
+      "vehicles": {
+        "cybertruck": {
+          "label": "Cybertruck",
+          "file": "argyle-cut-v2.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-11/cybertruck/argyle-cut-v2.png",
+          "bytes": 483118
+        },
+        "model3": {
+          "label": "Model 3",
+          "file": "argyle-cut-v2.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-11/model3/argyle-cut-v2.png",
+          "bytes": 649319
+        },
+        "model3-2024-base": {
+          "label": "Model 3 2024 Base",
+          "file": "argyle-cut-v2.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-11/model3-2024-base/argyle-cut-v2.png",
+          "bytes": 675185
+        },
+        "model3-2024-performance": {
+          "label": "Model 3 2024 Performance",
+          "file": "argyle-cut-v2.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-11/model3-2024-performance/argyle-cut-v2.png",
+          "bytes": 676165
+        },
+        "modely": {
+          "label": "Model Y",
+          "file": "argyle-cut-v2.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-11/modely/argyle-cut-v2.png",
+          "bytes": 713292
+        },
+        "modely-2025-base": {
+          "label": "Model Y 2025 Base",
+          "file": "argyle-cut-v2.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-11/modely-2025-base/argyle-cut-v2.png",
+          "bytes": 521129
+        },
+        "modely-2025-premium": {
+          "label": "Model Y 2025 Premium",
+          "file": "argyle-cut-v2.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-11/modely-2025-premium/argyle-cut-v2.png",
+          "bytes": 591935
+        },
+        "modely-2025-performance": {
+          "label": "Model Y 2025 Performance",
+          "file": "argyle-cut-v2.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-11/modely-2025-performance/argyle-cut-v2.png",
+          "bytes": 587955
+        },
+        "modely-l": {
+          "label": "Model Y L",
+          "file": "argyle-cut-v2.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-11/modely-l/argyle-cut-v2.png",
+          "bytes": 669957
+        },
+        "models-2021": {
+          "label": "Model S 2021",
+          "file": "argyle-cut-v2.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-11/models-2021/argyle-cut-v2.png",
+          "bytes": 548971
+        },
+        "models-2025-plaid": {
+          "label": "Model S 2025 Plaid",
+          "file": "argyle-cut-v2.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-11/models-2025-plaid/argyle-cut-v2.png",
+          "bytes": 529768
+        },
+        "modelx-2021": {
+          "label": "Model X 2021",
+          "file": "argyle-cut-v2.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-11/modelx-2021/argyle-cut-v2.png",
+          "bytes": 453204
+        }
+      },
+      "preview": {
+        "swatch": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-11/argyle-cut-v2/preview/swatch.png",
+        "stills": {
+          "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-11/argyle-cut-v2/preview/front.png",
+          "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-11/argyle-cut-v2/preview/side.png",
+          "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-11/argyle-cut-v2/preview/front-quarter.png",
+          "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-11/argyle-cut-v2/preview/rear-quarter.png"
+        },
+        "stillsByVehicle": {
+          "cybertruck": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-11/argyle-cut-v2/preview/cybertruck/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-11/argyle-cut-v2/preview/cybertruck/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-11/argyle-cut-v2/preview/cybertruck/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-11/argyle-cut-v2/preview/cybertruck/rear-quarter.png"
+          },
+          "model3": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-11/argyle-cut-v2/preview/model3/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-11/argyle-cut-v2/preview/model3/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-11/argyle-cut-v2/preview/model3/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-11/argyle-cut-v2/preview/model3/rear-quarter.png"
+          },
+          "model3-2024-base": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-11/argyle-cut-v2/preview/model3-2024-base/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-11/argyle-cut-v2/preview/model3-2024-base/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-11/argyle-cut-v2/preview/model3-2024-base/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-11/argyle-cut-v2/preview/model3-2024-base/rear-quarter.png"
+          },
+          "model3-2024-performance": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-11/argyle-cut-v2/preview/model3-2024-performance/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-11/argyle-cut-v2/preview/model3-2024-performance/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-11/argyle-cut-v2/preview/model3-2024-performance/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-11/argyle-cut-v2/preview/model3-2024-performance/rear-quarter.png"
+          },
+          "models-2021": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-11/argyle-cut-v2/preview/models-2021/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-11/argyle-cut-v2/preview/models-2021/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-11/argyle-cut-v2/preview/models-2021/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-11/argyle-cut-v2/preview/models-2021/rear-quarter.png"
+          },
+          "models-2025-plaid": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-11/argyle-cut-v2/preview/models-2025-plaid/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-11/argyle-cut-v2/preview/models-2025-plaid/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-11/argyle-cut-v2/preview/models-2025-plaid/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-11/argyle-cut-v2/preview/models-2025-plaid/rear-quarter.png"
+          },
+          "modelx-2021": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-11/argyle-cut-v2/preview/modelx-2021/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-11/argyle-cut-v2/preview/modelx-2021/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-11/argyle-cut-v2/preview/modelx-2021/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-11/argyle-cut-v2/preview/modelx-2021/rear-quarter.png"
+          },
+          "modely": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-11/argyle-cut-v2/preview/modely/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-11/argyle-cut-v2/preview/modely/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-11/argyle-cut-v2/preview/modely/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-11/argyle-cut-v2/preview/modely/rear-quarter.png"
+          },
+          "modely-2025-base": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-11/argyle-cut-v2/preview/modely-2025-base/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-11/argyle-cut-v2/preview/modely-2025-base/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-11/argyle-cut-v2/preview/modely-2025-base/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-11/argyle-cut-v2/preview/modely-2025-base/rear-quarter.png"
+          },
+          "modely-2025-performance": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-11/argyle-cut-v2/preview/modely-2025-performance/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-11/argyle-cut-v2/preview/modely-2025-performance/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-11/argyle-cut-v2/preview/modely-2025-performance/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-11/argyle-cut-v2/preview/modely-2025-performance/rear-quarter.png"
+          },
+          "modely-2025-premium": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-11/argyle-cut-v2/preview/modely-2025-premium/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-11/argyle-cut-v2/preview/modely-2025-premium/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-11/argyle-cut-v2/preview/modely-2025-premium/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-11/argyle-cut-v2/preview/modely-2025-premium/rear-quarter.png"
+          },
+          "modely-l": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-11/argyle-cut-v2/preview/modely-l/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-11/argyle-cut-v2/preview/modely-l/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-11/argyle-cut-v2/preview/modely-l/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-11/argyle-cut-v2/preview/modely-l/rear-quarter.png"
+          }
+        },
+        "og": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-11/argyle-cut-v2/preview/og.png",
         "heroVehicle": "cybertruck"
       }
     },
@@ -705,6 +1041,174 @@
     },
     {
       "kind": "factory",
+      "id": "factory-2026-09-09-slash-field-v2",
+      "date": "2026-09-09",
+      "slug": "slash-field-v2",
+      "title": "slash-field-v2",
+      "brief": "",
+      "previewVehicle": "cybertruck",
+      "vehicles": {
+        "cybertruck": {
+          "label": "Cybertruck",
+          "file": "slash-field-v2.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-09/cybertruck/slash-field-v2.png",
+          "bytes": 322118
+        },
+        "model3": {
+          "label": "Model 3",
+          "file": "slash-field-v2.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-09/model3/slash-field-v2.png",
+          "bytes": 497878
+        },
+        "model3-2024-base": {
+          "label": "Model 3 2024 Base",
+          "file": "slash-field-v2.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-09/model3-2024-base/slash-field-v2.png",
+          "bytes": 496765
+        },
+        "model3-2024-performance": {
+          "label": "Model 3 2024 Performance",
+          "file": "slash-field-v2.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-09/model3-2024-performance/slash-field-v2.png",
+          "bytes": 492729
+        },
+        "modely": {
+          "label": "Model Y",
+          "file": "slash-field-v2.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-09/modely/slash-field-v2.png",
+          "bytes": 528856
+        },
+        "modely-2025-base": {
+          "label": "Model Y 2025 Base",
+          "file": "slash-field-v2.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-09/modely-2025-base/slash-field-v2.png",
+          "bytes": 405409
+        },
+        "modely-2025-premium": {
+          "label": "Model Y 2025 Premium",
+          "file": "slash-field-v2.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-09/modely-2025-premium/slash-field-v2.png",
+          "bytes": 432737
+        },
+        "modely-2025-performance": {
+          "label": "Model Y 2025 Performance",
+          "file": "slash-field-v2.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-09/modely-2025-performance/slash-field-v2.png",
+          "bytes": 433449
+        },
+        "modely-l": {
+          "label": "Model Y L",
+          "file": "slash-field-v2.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-09/modely-l/slash-field-v2.png",
+          "bytes": 501953
+        },
+        "models-2021": {
+          "label": "Model S 2021",
+          "file": "slash-field-v2.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-09/models-2021/slash-field-v2.png",
+          "bytes": 427099
+        },
+        "models-2025-plaid": {
+          "label": "Model S 2025 Plaid",
+          "file": "slash-field-v2.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-09/models-2025-plaid/slash-field-v2.png",
+          "bytes": 412541
+        },
+        "modelx-2021": {
+          "label": "Model X 2021",
+          "file": "slash-field-v2.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-09/modelx-2021/slash-field-v2.png",
+          "bytes": 359456
+        }
+      },
+      "preview": {
+        "swatch": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-09/slash-field-v2/preview/swatch.png",
+        "stills": {
+          "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-09/slash-field-v2/preview/front.png",
+          "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-09/slash-field-v2/preview/side.png",
+          "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-09/slash-field-v2/preview/front-quarter.png",
+          "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-09/slash-field-v2/preview/rear-quarter.png"
+        },
+        "stillsByVehicle": {
+          "cybertruck": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-09/slash-field-v2/preview/cybertruck/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-09/slash-field-v2/preview/cybertruck/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-09/slash-field-v2/preview/cybertruck/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-09/slash-field-v2/preview/cybertruck/rear-quarter.png"
+          },
+          "model3": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-09/slash-field-v2/preview/model3/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-09/slash-field-v2/preview/model3/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-09/slash-field-v2/preview/model3/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-09/slash-field-v2/preview/model3/rear-quarter.png"
+          },
+          "model3-2024-base": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-09/slash-field-v2/preview/model3-2024-base/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-09/slash-field-v2/preview/model3-2024-base/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-09/slash-field-v2/preview/model3-2024-base/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-09/slash-field-v2/preview/model3-2024-base/rear-quarter.png"
+          },
+          "model3-2024-performance": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-09/slash-field-v2/preview/model3-2024-performance/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-09/slash-field-v2/preview/model3-2024-performance/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-09/slash-field-v2/preview/model3-2024-performance/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-09/slash-field-v2/preview/model3-2024-performance/rear-quarter.png"
+          },
+          "models-2021": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-09/slash-field-v2/preview/models-2021/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-09/slash-field-v2/preview/models-2021/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-09/slash-field-v2/preview/models-2021/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-09/slash-field-v2/preview/models-2021/rear-quarter.png"
+          },
+          "models-2025-plaid": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-09/slash-field-v2/preview/models-2025-plaid/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-09/slash-field-v2/preview/models-2025-plaid/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-09/slash-field-v2/preview/models-2025-plaid/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-09/slash-field-v2/preview/models-2025-plaid/rear-quarter.png"
+          },
+          "modelx-2021": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-09/slash-field-v2/preview/modelx-2021/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-09/slash-field-v2/preview/modelx-2021/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-09/slash-field-v2/preview/modelx-2021/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-09/slash-field-v2/preview/modelx-2021/rear-quarter.png"
+          },
+          "modely": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-09/slash-field-v2/preview/modely/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-09/slash-field-v2/preview/modely/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-09/slash-field-v2/preview/modely/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-09/slash-field-v2/preview/modely/rear-quarter.png"
+          },
+          "modely-2025-base": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-09/slash-field-v2/preview/modely-2025-base/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-09/slash-field-v2/preview/modely-2025-base/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-09/slash-field-v2/preview/modely-2025-base/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-09/slash-field-v2/preview/modely-2025-base/rear-quarter.png"
+          },
+          "modely-2025-performance": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-09/slash-field-v2/preview/modely-2025-performance/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-09/slash-field-v2/preview/modely-2025-performance/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-09/slash-field-v2/preview/modely-2025-performance/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-09/slash-field-v2/preview/modely-2025-performance/rear-quarter.png"
+          },
+          "modely-2025-premium": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-09/slash-field-v2/preview/modely-2025-premium/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-09/slash-field-v2/preview/modely-2025-premium/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-09/slash-field-v2/preview/modely-2025-premium/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-09/slash-field-v2/preview/modely-2025-premium/rear-quarter.png"
+          },
+          "modely-l": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-09/slash-field-v2/preview/modely-l/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-09/slash-field-v2/preview/modely-l/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-09/slash-field-v2/preview/modely-l/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-09/slash-field-v2/preview/modely-l/rear-quarter.png"
+          }
+        },
+        "og": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-09/slash-field-v2/preview/og.png",
+        "heroVehicle": "cybertruck"
+      }
+    },
+    {
+      "kind": "factory",
       "id": "factory-2026-09-08-bayou-dusk",
       "date": "2026-09-08",
       "slug": "bayou-dusk",
@@ -1036,6 +1540,174 @@
           }
         },
         "og": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail/preview/og.png",
+        "heroVehicle": "cybertruck"
+      }
+    },
+    {
+      "kind": "factory",
+      "id": "factory-2026-09-07-volt-rail-v2",
+      "date": "2026-09-07",
+      "slug": "volt-rail-v2",
+      "title": "volt-rail-v2",
+      "brief": "",
+      "previewVehicle": "cybertruck",
+      "vehicles": {
+        "cybertruck": {
+          "label": "Cybertruck",
+          "file": "volt-rail-v2.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/cybertruck/volt-rail-v2.png",
+          "bytes": 277188
+        },
+        "model3": {
+          "label": "Model 3",
+          "file": "volt-rail-v2.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/model3/volt-rail-v2.png",
+          "bytes": 445187
+        },
+        "model3-2024-base": {
+          "label": "Model 3 2024 Base",
+          "file": "volt-rail-v2.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/model3-2024-base/volt-rail-v2.png",
+          "bytes": 456052
+        },
+        "model3-2024-performance": {
+          "label": "Model 3 2024 Performance",
+          "file": "volt-rail-v2.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/model3-2024-performance/volt-rail-v2.png",
+          "bytes": 454201
+        },
+        "modely": {
+          "label": "Model Y",
+          "file": "volt-rail-v2.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/modely/volt-rail-v2.png",
+          "bytes": 472565
+        },
+        "modely-2025-base": {
+          "label": "Model Y 2025 Base",
+          "file": "volt-rail-v2.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/modely-2025-base/volt-rail-v2.png",
+          "bytes": 330497
+        },
+        "modely-2025-premium": {
+          "label": "Model Y 2025 Premium",
+          "file": "volt-rail-v2.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/modely-2025-premium/volt-rail-v2.png",
+          "bytes": 370926
+        },
+        "modely-2025-performance": {
+          "label": "Model Y 2025 Performance",
+          "file": "volt-rail-v2.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/modely-2025-performance/volt-rail-v2.png",
+          "bytes": 365221
+        },
+        "modely-l": {
+          "label": "Model Y L",
+          "file": "volt-rail-v2.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/modely-l/volt-rail-v2.png",
+          "bytes": 422566
+        },
+        "models-2021": {
+          "label": "Model S 2021",
+          "file": "volt-rail-v2.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/models-2021/volt-rail-v2.png",
+          "bytes": 378262
+        },
+        "models-2025-plaid": {
+          "label": "Model S 2025 Plaid",
+          "file": "volt-rail-v2.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/models-2025-plaid/volt-rail-v2.png",
+          "bytes": 359895
+        },
+        "modelx-2021": {
+          "label": "Model X 2021",
+          "file": "volt-rail-v2.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/modelx-2021/volt-rail-v2.png",
+          "bytes": 296024
+        }
+      },
+      "preview": {
+        "swatch": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail-v2/preview/swatch.png",
+        "stills": {
+          "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail-v2/preview/front.png",
+          "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail-v2/preview/side.png",
+          "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail-v2/preview/front-quarter.png",
+          "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail-v2/preview/rear-quarter.png"
+        },
+        "stillsByVehicle": {
+          "cybertruck": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail-v2/preview/cybertruck/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail-v2/preview/cybertruck/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail-v2/preview/cybertruck/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail-v2/preview/cybertruck/rear-quarter.png"
+          },
+          "model3": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail-v2/preview/model3/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail-v2/preview/model3/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail-v2/preview/model3/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail-v2/preview/model3/rear-quarter.png"
+          },
+          "model3-2024-base": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail-v2/preview/model3-2024-base/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail-v2/preview/model3-2024-base/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail-v2/preview/model3-2024-base/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail-v2/preview/model3-2024-base/rear-quarter.png"
+          },
+          "model3-2024-performance": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail-v2/preview/model3-2024-performance/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail-v2/preview/model3-2024-performance/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail-v2/preview/model3-2024-performance/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail-v2/preview/model3-2024-performance/rear-quarter.png"
+          },
+          "models-2021": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail-v2/preview/models-2021/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail-v2/preview/models-2021/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail-v2/preview/models-2021/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail-v2/preview/models-2021/rear-quarter.png"
+          },
+          "models-2025-plaid": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail-v2/preview/models-2025-plaid/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail-v2/preview/models-2025-plaid/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail-v2/preview/models-2025-plaid/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail-v2/preview/models-2025-plaid/rear-quarter.png"
+          },
+          "modelx-2021": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail-v2/preview/modelx-2021/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail-v2/preview/modelx-2021/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail-v2/preview/modelx-2021/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail-v2/preview/modelx-2021/rear-quarter.png"
+          },
+          "modely": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail-v2/preview/modely/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail-v2/preview/modely/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail-v2/preview/modely/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail-v2/preview/modely/rear-quarter.png"
+          },
+          "modely-2025-base": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail-v2/preview/modely-2025-base/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail-v2/preview/modely-2025-base/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail-v2/preview/modely-2025-base/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail-v2/preview/modely-2025-base/rear-quarter.png"
+          },
+          "modely-2025-performance": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail-v2/preview/modely-2025-performance/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail-v2/preview/modely-2025-performance/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail-v2/preview/modely-2025-performance/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail-v2/preview/modely-2025-performance/rear-quarter.png"
+          },
+          "modely-2025-premium": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail-v2/preview/modely-2025-premium/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail-v2/preview/modely-2025-premium/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail-v2/preview/modely-2025-premium/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail-v2/preview/modely-2025-premium/rear-quarter.png"
+          },
+          "modely-l": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail-v2/preview/modely-l/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail-v2/preview/modely-l/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail-v2/preview/modely-l/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail-v2/preview/modely-l/rear-quarter.png"
+          }
+        },
+        "og": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-07/volt-rail-v2/preview/og.png",
         "heroVehicle": "cybertruck"
       }
     },
