@@ -26,3 +26,10 @@ Not a US holiday eve (tomorrow Sep 13 is not a US federal holiday). Not city ser
 
 - Wraps: `skins/2026-09-12/{vehicle}/topo-ink.png`
 - Preview: `skins/2026-09-12/topo-ink/preview/` (swatch + CT hero stills + `preview/{vehicle}/` for all 12)
+
+## topo-ink-v2 (UV remaster)
+
+**Slug:** `topo-ink-v2`
+**Brief:** same paper-cream topographic contours; remastered UV
+
+Same motif as v1; remastered with shared-span UV (3/Y/S/X) + existing CT shared-rail-height. v1 files left intact.
