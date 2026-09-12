@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T13:16:03.033Z",
+  "generatedAt": "2026-09-12T13:27:55.955Z",
   "repo": "bowiehole/wrap-factory",
   "site": "https://teslawrapfactory.com",
   "vehicleOrder": [
@@ -44,7 +44,7 @@
           "label": "Cybertruck",
           "file": "topo-ink.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-12/cybertruck/topo-ink.png",
-          "bytes": 354777
+          "bytes": 333616
         },
         "model3": {
           "label": "Model 3",
