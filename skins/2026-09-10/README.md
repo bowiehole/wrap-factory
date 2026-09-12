@@ -30,10 +30,6 @@ Continuous UV via `buildUVMap` (atlas.js). Chip field from hash/fbm in vehicle-s
 
 `skins/2026-09-10/terrazzo-pop/preview/` — swatch + CT hero stills + `preview/{vehicle}/` ×12.
 
-## terrazzo-pop-v2 (WORLD-BAKE wrap-around remaster)
+## Remaster (in place)
 
-**Slug:** `terrazzo-pop-v2`
-**Brief:** same warm parchment multi-color terrazzo chips; world-bake wrap-around remaster
-
-Same motif as v1; remastered by baking from GLB world space `(along, height)` so chips wrap continuously across hood, sides, and rear. v1 `terrazzo-pop.png` files left intact.
-
+World-bake wrap-around remaster applied to `terrazzo-pop.png` (same motif; version in git commit message only — no separate `-v2` catalog card).
