@@ -22,9 +22,6 @@ Not a US holiday eve. Not city series (Houston/bayou-dusk was yesterday). Delibe
 | `models-2025-plaid` | 1024×1024 | 461.0 KB |
 | `modelx-2021` | 1024×1024 | 388.3 KB |
 
-## slash-field-v2 (WORLD-BAKE wrap-around remaster)
+## Remaster (in place)
 
-**Slug:** `slash-field-v2`
-**Brief:** same bone-cream vermillion/charcoal slash field; world-bake wrap-around remaster
-
-Same motif as v1; remastered by baking the field from GLB world space `(along, height)` so hood/fascia/tailgate carry the slash bands with the sides (not shared-span UV). Overwrites prior shared-span v2. v1 `slash-field.png` files left intact.
+World-bake wrap-around remaster applied to `slash-field.png` (same motif; version in git commit message only — no separate `-v2` catalog card). Hood/fascia/tailgate carry the slash bands with the sides via GLB world `(along, height)`.
