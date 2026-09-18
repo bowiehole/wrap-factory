@@ -52,6 +52,77 @@ const VEHICLE_LABELS = {
 const PREVIEW_STILLS = ["front", "side", "front-quarter", "rear-quarter"];
 const DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
 
+
+const WORKSHOP_EXCLUDE = new Set([
+  // Local-only / parked CT workshop — never shipped to GitHub; do not auto-catalog
+  "grit-line",
+]);
+
+function titleCaseSlug(slug) {
+  return String(slug)
+    .split("-")
+    .filter(Boolean)
+    .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
+    .join(" ");
+}
+
+function parseBriefFromReadme(text) {
+  if (!text) return null;
+  const m = text.match(/^\*\*Brief:\*\*\s*(.+)$/m);
+  if (!m) return null;
+  const brief = m[1].trim();
+  return brief || null;
+}
+
+function parseTitleFromReadme(text, slug) {
+  if (!text) return null;
+  // "# radar-arc — 2026-09-18" or "# Radar Arc" or "# Skins — 2026-09-18"
+  const h = text.match(/^#\s+(.+)$/m);
+  if (!h) return null;
+  let title = h[1].trim();
+  // Drop date suffix " — 2026-09-18"
+  title = title.replace(/\s+[—–-]\s*\d{4}-\d{2}-\d{2}\s*$/, "").trim();
+  if (!title || /^skins$/i.test(title)) return null;
+  // If heading is just the slug, title-case it
+  if (title.toLowerCase() === String(slug).toLowerCase()) return titleCaseSlug(slug);
+  return title;
+}
+
+function readFactoryReadmeMeta(date, slug) {
+  const candidates = [
+    path.join(SKINS, date, slug, "README.md"),
+    path.join(SKINS, date, "README.md"),
+  ];
+  for (const p of candidates) {
+    if (!fs.existsSync(p)) continue;
+    const text = fs.readFileSync(p, "utf8");
+    const brief = parseBriefFromReadme(text);
+    let title = parseTitleFromReadme(text, slug);
+    // Date-level README often has "# Skins — DATE" — prefer brief only from it
+    if (p.endsWith(path.join(date, "README.md")) || p.endsWith(`${date}/README.md`)) {
+      if (title && /^skins$/i.test(title)) title = null;
+      // Prefer slug-dir README for title; date README still OK for brief
+    }
+    if (brief || title) return { brief, title, path: p };
+  }
+  return { brief: null, title: null, path: null };
+}
+
+/** Fill empty brief / slug-as-title from README after mergeMeta. */
+function applyReadmeMeta(drop) {
+  if (drop.kind !== "factory" || !drop.date || !drop.slug) return drop;
+  const needsBrief = !drop.brief;
+  const needsTitle = !drop.title || drop.title === drop.slug;
+  if (!needsBrief && !needsTitle) return drop;
+  const meta = readFactoryReadmeMeta(drop.date, drop.slug);
+  if (needsBrief && meta.brief) drop.brief = meta.brief;
+  if (needsTitle) {
+    drop.title = meta.title || titleCaseSlug(drop.slug);
+  }
+  return drop;
+}
+
+
 function rawUrl(...parts) {
   return RAW_BASE + parts.map((p) => String(p).replace(/^\/+|\/+$/g, "")).join("/");
 }
@@ -242,6 +313,7 @@ function scanWorkshop() {
 
   for (const slug of slugs) {
     if (/-v[0-9]+$/.test(slug)) continue;
+    if (WORKSHOP_EXCLUDE.has(slug)) continue;
     const slugDir = path.join(WORKSHOP, slug);
     const vehicles = collectVehiclesFromDir(slugDir, slug, (vehicle, file) =>
       rawUrl("workshop", slug, vehicle, file)
@@ -272,7 +344,9 @@ function scanWorkshop() {
 
 function main() {
   const existing = indexExisting(readExisting());
-  const factory = scanFactory().map((d) => mergeMeta(d, existing));
+  const factory = scanFactory()
+    .map((d) => mergeMeta(d, existing))
+    .map((d) => applyReadmeMeta(d));
   const workshop = scanWorkshop().map((d) => mergeMeta(d, existing));
 
   const publishedWorkshopIds = new Set(

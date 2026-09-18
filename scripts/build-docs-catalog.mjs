@@ -52,6 +52,77 @@ const VEHICLE_LABELS = {
 const PREVIEW_STILLS = ["front", "side", "front-quarter", "rear-quarter"];
 const DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
 
+
+const WORKSHOP_EXCLUDE = new Set([
+  // Local-only / parked CT workshop — never shipped to GitHub; do not auto-catalog
+  "grit-line",
+]);
+
+function titleCaseSlug(slug) {
+  return String(slug)
+    .split("-")
+    .filter(Boolean)
+    .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
+    .join(" ");
+}
+
+function parseBriefFromReadme(text) {
+  if (!text) return null;
+  const m = text.match(/^\*\*Brief:\*\*\s*(.+)$/m);
+  if (!m) return null;
+  const brief = m[1].trim();
+  return brief || null;
+}
+
+function parseTitleFromReadme(text, slug) {
+  if (!text) return null;
+  // "# radar-arc — 2026-09-18" or "# Radar Arc" or "# Skins — 2026-09-18"
+  const h = text.match(/^#\s+(.+)$/m);
+  if (!h) return null;
+  let title = h[1].trim();
+  // Drop date suffix " — 2026-09-18"
+  title = title.replace(/\s+[—–-]\s*\d{4}-\d{2}-\d{2}\s*$/, "").trim();
+  if (!title || /^skins$/i.test(title)) return null;
+  // If heading is just the slug, title-case it
+  if (title.toLowerCase() === String(slug).toLowerCase()) return titleCaseSlug(slug);
+  return title;
+}
+
+function readFactoryReadmeMeta(date, slug) {
+  const candidates = [
+    path.join(SKINS, date, slug, "README.md"),
+    path.join(SKINS, date, "README.md"),
+  ];
+  for (const p of candidates) {
+    if (!fs.existsSync(p)) continue;
+    const text = fs.readFileSync(p, "utf8");
+    const brief = parseBriefFromReadme(text);
+    let title = parseTitleFromReadme(text, slug);
+    // Date-level README often has "# Skins — DATE" — prefer brief only from it
+    if (p.endsWith(path.join(date, "README.md")) || p.endsWith(`${date}/README.md`)) {
+      if (title && /^skins$/i.test(title)) title = null;
+      // Prefer slug-dir README for title; date README still OK for brief
+    }
+    if (brief || title) return { brief, title, path: p };
+  }
+  return { brief: null, title: null, path: null };
+}
+
+/** Fill empty brief / slug-as-title from README after mergeMeta. */
+function applyReadmeMeta(drop) {
+  if (drop.kind !== "factory" || !drop.date || !drop.slug) return drop;
+  const needsBrief = !drop.brief;
+  const needsTitle = !drop.title || drop.title === drop.slug;
+  if (!needsBrief && !needsTitle) return drop;
+  const meta = readFactoryReadmeMeta(drop.date, drop.slug);
+  if (needsBrief && meta.brief) drop.brief = meta.brief;
+  if (needsTitle) {
+    drop.title = meta.title || titleCaseSlug(drop.slug);
+  }
+  return drop;
+}
+
+
 function rawUrl(...parts) {
   return RAW_BASE + parts.map((p) => String(p).replace(/^\/+|\/+$/g, "")).join("/");
 }
@@ -122,17 +193,16 @@ function readStillsFromDir(dir, urlParts) {
   return stills;
 }
 
-function readPreview(date, slug) {
-  const previewDir = path.join(SKINS, date, slug, "preview");
+function readPreviewDir(previewDir, urlParts) {
   if (!fs.existsSync(previewDir) || !fs.statSync(previewDir).isDirectory()) {
     return null;
   }
   const preview = {};
   const swatchPath = path.join(previewDir, "swatch.png");
   if (fs.existsSync(swatchPath)) {
-    preview.swatch = rawUrl("skins", date, slug, "preview", "swatch.png");
+    preview.swatch = rawUrl(...urlParts, "swatch.png");
   }
-  const stills = readStillsFromDir(previewDir, ["skins", date, slug, "preview"]);
+  const stills = readStillsFromDir(previewDir, urlParts);
   if (Object.keys(stills).length) preview.stills = stills;
 
   const stillsByVehicle = {};
@@ -145,19 +215,36 @@ function readPreview(date, slug) {
     if (vehicle === "verify") continue; // QA-only contact sheets
     if (!isVehicleDir(vehicle)) continue;
     const vDir = path.join(previewDir, vehicle);
-    const vStills = readStillsFromDir(vDir, ["skins", date, slug, "preview", vehicle]);
+    const vStills = readStillsFromDir(vDir, [...urlParts, vehicle]);
     if (Object.keys(vStills).length) stillsByVehicle[vehicle] = vStills;
   }
   if (Object.keys(stillsByVehicle).length) preview.stillsByVehicle = stillsByVehicle;
 
   const ogPath = path.join(previewDir, "og.png");
   if (fs.existsSync(ogPath)) {
-    preview.og = rawUrl("skins", date, slug, "preview", "og.png");
+    preview.og = rawUrl(...urlParts, "og.png");
   }
   if (preview.swatch || preview.stills) {
     preview.heroVehicle = "cybertruck";
   }
   return Object.keys(preview).length ? preview : null;
+}
+
+function readPreview(date, slug) {
+  return readPreviewDir(path.join(SKINS, date, slug, "preview"), [
+    "skins",
+    date,
+    slug,
+    "preview",
+  ]);
+}
+
+function readWorkshopPreview(slug) {
+  return readPreviewDir(path.join(WORKSHOP, slug, "preview"), [
+    "workshop",
+    slug,
+    "preview",
+  ]);
 }
 
 function scanFactory() {
@@ -179,6 +266,8 @@ function scanFactory() {
       for (const file of fs.readdirSync(vehDir)) {
         if (!file.endsWith(".png")) continue;
         const slug = file.slice(0, -4);
+        // Remasters overwrite originals; version lives in git commit message only — no -vN catalog cards
+        if (/-v[0-9]+$/.test(slug)) continue;
         if (!byDate.has(date)) byDate.set(date, new Map());
         const slugMap = byDate.get(date);
         if (!slugMap.has(slug)) slugMap.set(slug, {});
@@ -239,6 +328,8 @@ function scanWorkshop() {
     .sort();
 
   for (const slug of slugs) {
+    if (/-v[0-9]+$/.test(slug)) continue;
+    if (WORKSHOP_EXCLUDE.has(slug)) continue;
     const slugDir = path.join(WORKSHOP, slug);
     const vehicles = collectVehiclesFromDir(slugDir, slug, (vehicle, file) =>
       rawUrl("workshop", slug, vehicle, file)
@@ -253,7 +344,7 @@ function scanWorkshop() {
       if (!ordered[k]) ordered[k] = vehicles[k];
     }
 
-    drops.push({
+    const drop = {
       kind: "workshop",
       id: `workshop-${slug}`,
       date: null,
@@ -262,14 +353,22 @@ function scanWorkshop() {
       brief: "",
       previewVehicle: "cybertruck",
       vehicles: ordered,
-    });
+    };
+    const preview = readWorkshopPreview(slug);
+    if (preview) {
+      if (preview.heroVehicle) drop.previewVehicle = preview.heroVehicle;
+      drop.preview = preview;
+    }
+    drops.push(drop);
   }
   return drops;
 }
 
 function main() {
   const existing = indexExisting(readExisting());
-  const factory = scanFactory().map((d) => mergeMeta(d, existing));
+  const factory = scanFactory()
+    .map((d) => mergeMeta(d, existing))
+    .map((d) => applyReadmeMeta(d));
   const workshop = scanWorkshop().map((d) => mergeMeta(d, existing));
 
   const publishedWorkshopIds = new Set(
