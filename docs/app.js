@@ -220,10 +220,28 @@
     return drop.slug || "";
   }
 
+  function preferredSelectedVehicle(drop) {
+    if (state.gridVehicle && drop && drop.vehicles && drop.vehicles[state.gridVehicle]) {
+      return state.gridVehicle;
+    }
+    return (
+      (drop && drop.previewVehicle) ||
+      (drop && drop.preview && drop.preview.heroVehicle) ||
+      Object.keys((drop && drop.vehicles) || {})[0] ||
+      null
+    );
+  }
+
   function setHistoryForDrop(drop) {
     const url = new URL(window.location.href);
-    if (drop) url.searchParams.set("drop", dropDeepLink(drop));
-    else url.searchParams.delete("drop");
+    if (drop) {
+      url.searchParams.set("drop", dropDeepLink(drop));
+      if (state.selectedVehicle) url.searchParams.set("vehicle", state.selectedVehicle);
+      else url.searchParams.delete("vehicle");
+    } else {
+      url.searchParams.delete("drop");
+      url.searchParams.delete("vehicle");
+    }
     history.replaceState(null, "", url.pathname + url.search + url.hash);
   }
 
@@ -452,9 +470,7 @@
     const entries = vehicleEntries(drop);
     els.vehiclePicker.innerHTML = "";
     if (!state.selectedVehicle || !drop.vehicles[state.selectedVehicle]) {
-      state.selectedVehicle =
-        drop.previewVehicle ||
-        (drop.preview && drop.preview.heroVehicle) ||
+      state.selectedVehicle = preferredSelectedVehicle(drop) ||
         (entries[0] && entries[0].key) ||
         null;
     }
@@ -474,6 +490,7 @@
         renderVehiclePicker(drop);
         renderDownloads(drop);
         updateSpinButton(drop);
+        setHistoryForDrop(drop);
       });
       els.vehiclePicker.appendChild(btn);
     });
@@ -564,11 +581,7 @@
 
   function openModal(drop) {
     state.activeDrop = drop;
-    state.selectedVehicle =
-      drop.previewVehicle ||
-      (drop.preview && drop.preview.heroVehicle) ||
-      Object.keys(drop.vehicles || {})[0] ||
-      null;
+    state.selectedVehicle = preferredSelectedVehicle(drop);
 
     const hero = defaultHeroUrl(drop, state.selectedVehicle);
     state.activeStill = hero.still;
@@ -619,6 +632,7 @@
     if (els.gridVehicle) {
       els.gridVehicle.addEventListener("change", function () {
         state.gridVehicle = els.gridVehicle.value || "cybertruck";
+        try { localStorage.setItem("twf-grid-vehicle", state.gridVehicle); } catch (e) { /* ignore */ }
         renderGrid();
       });
     }
@@ -654,6 +668,12 @@
       const data = await res.json();
       if (!data || !Array.isArray(data.drops)) throw new Error("Invalid catalog shape");
       state.catalog = data;
+      try {
+        const saved = localStorage.getItem("twf-grid-vehicle");
+        if (saved && (data.vehicleOrder || []).includes(saved)) {
+          state.gridVehicle = saved;
+        }
+      } catch (e) { /* ignore */ }
       if (!state.gridVehicle || !(data.vehicleOrder || []).includes(state.gridVehicle)) {
         state.gridVehicle = "cybertruck";
       }
