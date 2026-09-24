@@ -68,7 +68,8 @@ function titleCaseSlug(slug) {
 
 function parseBriefFromReadme(text) {
   if (!text) return null;
-  const m = text.match(/^\*\*Brief:\*\*\s*(.+)$/m);
+  // Accept "**Brief:** …" or bullet "- **Brief:** …"
+  const m = text.match(/^\s*-?\s*\*\*Brief:\*\*\s*(.+)$/m);
   if (!m) return null;
   const brief = m[1].trim();
   return brief || null;
@@ -82,6 +83,7 @@ function parseTitleFromReadme(text, slug) {
   let title = h[1].trim();
   // Drop date suffix " — 2026-09-18"
   title = title.replace(/\s+[—–-]\s*\d{4}-\d{2}-\d{2}\s*$/, "").trim();
+  title = title.replace(/\s*\(\d{4}-\d{2}-\d{2}\)\s*$/, "").trim();
   if (!title || /^skins$/i.test(title)) return null;
   // If heading is just the slug, title-case it
   if (title.toLowerCase() === String(slug).toLowerCase()) return titleCaseSlug(slug);
@@ -112,7 +114,8 @@ function readFactoryReadmeMeta(date, slug) {
 function applyReadmeMeta(drop) {
   if (drop.kind !== "factory" || !drop.date || !drop.slug) return drop;
   const needsBrief = !drop.brief;
-  const needsTitle = !drop.title || drop.title === drop.slug;
+  const datedTitle = drop.title && /\(\d{4}-\d{2}-\d{2}\)\s*$/.test(drop.title);
+  const needsTitle = !drop.title || drop.title === drop.slug || datedTitle;
   if (!needsBrief && !needsTitle) return drop;
   const meta = readFactoryReadmeMeta(drop.date, drop.slug);
   if (needsBrief && meta.brief) drop.brief = meta.brief;

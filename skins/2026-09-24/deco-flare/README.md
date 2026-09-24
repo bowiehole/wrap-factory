@@ -1,4 +1,4 @@
-# Deco Flare (2026-09-24)
+# Deco Flare
 
 Factory drop **deco-flare**.
 
