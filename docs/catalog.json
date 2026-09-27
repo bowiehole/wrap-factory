@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T13:37:33.163Z",
+  "generatedAt": "2026-09-27T15:01:59.755Z",
   "repo": "bowiehole/wrap-factory",
   "site": "https://teslawrapfactory.com",
   "vehicleOrder": [
@@ -44,73 +44,73 @@
           "label": "Cybertruck",
           "file": "heat-tile.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-27/cybertruck/heat-tile.png",
-          "bytes": 131646
+          "bytes": 138745
         },
         "model3": {
           "label": "Model 3",
           "file": "heat-tile.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-27/model3/heat-tile.png",
-          "bytes": 287424
+          "bytes": 280696
         },
         "model3-2024-base": {
           "label": "Model 3 2024 Base",
           "file": "heat-tile.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-27/model3-2024-base/heat-tile.png",
-          "bytes": 284055
+          "bytes": 278697
         },
         "model3-2024-performance": {
           "label": "Model 3 2024 Performance",
           "file": "heat-tile.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-27/model3-2024-performance/heat-tile.png",
-          "bytes": 278341
+          "bytes": 274092
         },
         "modely": {
           "label": "Model Y",
           "file": "heat-tile.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-27/modely/heat-tile.png",
-          "bytes": 238505
+          "bytes": 239358
         },
         "modely-2025-base": {
           "label": "Model Y 2025 Base",
           "file": "heat-tile.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-27/modely-2025-base/heat-tile.png",
-          "bytes": 220418
+          "bytes": 218513
         },
         "modely-2025-premium": {
           "label": "Model Y 2025 Premium",
           "file": "heat-tile.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-27/modely-2025-premium/heat-tile.png",
-          "bytes": 255211
+          "bytes": 253059
         },
         "modely-2025-performance": {
           "label": "Model Y 2025 Performance",
           "file": "heat-tile.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-27/modely-2025-performance/heat-tile.png",
-          "bytes": 221369
+          "bytes": 221705
         },
         "modely-l": {
           "label": "Model Y L",
           "file": "heat-tile.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-27/modely-l/heat-tile.png",
-          "bytes": 282842
+          "bytes": 280082
         },
         "models-2021": {
           "label": "Model S 2021",
           "file": "heat-tile.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-27/models-2021/heat-tile.png",
-          "bytes": 242403
+          "bytes": 238592
         },
         "models-2025-plaid": {
           "label": "Model S 2025 Plaid",
           "file": "heat-tile.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-27/models-2025-plaid/heat-tile.png",
-          "bytes": 227242
+          "bytes": 223700
         },
         "modelx-2021": {
           "label": "Model X 2021",
           "file": "heat-tile.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-27/modelx-2021/heat-tile.png",
-          "bytes": 160687
+          "bytes": 161158
         }
       },
       "preview": {
