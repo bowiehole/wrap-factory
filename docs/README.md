@@ -1,6 +1,6 @@
 # Paint Shop Wraps — GitHub Pages site
 
-This folder is the **GitHub Pages** root for [teslawrapfactory.com](https://teslawrapfactory.com).
+This folder is the **GitHub Pages** root for [paintshopwraps.com](https://paintshopwraps.com).
 
 Unofficial fan project. Not affiliated with or endorsed by Tesla, Inc.
 
@@ -11,7 +11,9 @@ Static browse UI for digital UV wraps (Tesla Paint Shop only — not physical vi
 - `build-catalog.mjs` — regenerate `catalog.json` from `../skins` + `../workshop`
 - `models/` — Cybertruck + Model 3 GLBs for the orbit viewer
 - `vendor/` — Three.js r160 (local) for Spin in 3D
-- `CNAME` — custom domain `teslawrapfactory.com`
+- `CNAME` — custom domain `paintshopwraps.com`
+- `robots.txt` — allow all crawlers; points at the sitemap
+- `sitemap.xml` — homepage URL for crawlers
 - `.nojekyll` — serve as plain static assets
 
 ## Local preview

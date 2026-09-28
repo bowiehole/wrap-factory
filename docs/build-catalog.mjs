@@ -17,7 +17,7 @@ const OUT = path.join(DOCS, "catalog.json");
 
 const RAW_BASE = "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/";
 const REPO = "bowiehole/wrap-factory";
-const SITE = "https://teslawrapfactory.com";
+const SITE = "https://paintshopwraps.com";
 
 const VEHICLE_ORDER = [
   "cybertruck",
