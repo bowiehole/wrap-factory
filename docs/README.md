@@ -1,6 +1,8 @@
-# Tesla Wrap Factory — GitHub Pages site
+# Paint Shop Wraps — GitHub Pages site
 
 This folder is the **GitHub Pages** root for [teslawrapfactory.com](https://teslawrapfactory.com).
+
+Unofficial fan project. Not affiliated with or endorsed by Tesla, Inc.
 
 Static browse UI for digital UV wraps (Tesla Paint Shop only — not physical vinyl):
 

@@ -3,7 +3,7 @@
 **Slug:** `plasma-vein`
 **Brief:** Deep void-black panels laced with electric-cyan and magenta plasma veins originating at the roof center and flowing downhill.
 
-Sister-line drop from another automation (not the 8am Wrap Factory floor). Parked here 2026-09-05 so it does not collide with `skins/YYYY-MM-DD`.
+Sister-line drop from another automation (not the 8am Paint Shop Wraps floor). Parked here 2026-09-05 so it does not collide with `skins/YYYY-MM-DD`.
 
 ## Vehicles
 

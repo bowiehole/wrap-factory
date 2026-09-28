@@ -3,7 +3,7 @@
 **Slug:** `ember-cascade`
 **Brief:** Ember cascade: warm fire-scale cascade (sister-line accidental drop).
 
-Sister-line drop from another automation (not the 8am Wrap Factory floor). Parked here 2026-09-05 so it does not collide with `skins/YYYY-MM-DD`.
+Sister-line drop from another automation (not the 8am Paint Shop Wraps floor). Parked here 2026-09-05 so it does not collide with `skins/YYYY-MM-DD`.
 
 ## Vehicles
 

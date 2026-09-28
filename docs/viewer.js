@@ -375,7 +375,7 @@ async function boot() {
 
   els.title.textContent = drop.title || drop.slug || params.drop;
   els.meta.textContent = (drop.kind === "workshop" ? "workshop" : (drop.date || "")) + " · " + (drop.slug || "");
-  document.title = (drop.title || drop.slug) + " — 3D Viewer · Tesla Wrap Factory";
+  document.title = (drop.title || drop.slug) + " — 3D Viewer · Paint Shop Wraps";
 
   const keys = availableVehicles(catalog, drop);
   if (!keys.length) {

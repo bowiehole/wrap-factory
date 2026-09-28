@@ -1,6 +1,8 @@
-# Tesla Wrap Factory
+# Paint Shop Wraps
 
 Invented skins for Tesla Paint Shop custom wraps. Each date applies one concept to every official vehicle template from [teslamotors/custom-wraps](https://github.com/teslamotors/custom-wraps).
+
+Unofficial fan project. Not affiliated with or endorsed by Tesla, Inc.
 
 Paint only the white UV islands. Files are PNG, match official template pixels, and stay under 1 MB.
 

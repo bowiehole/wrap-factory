@@ -2,7 +2,7 @@
 
 Directed skins and sister-line parks. Not 8am factory inventions.
 
-`skins/YYYY-MM-DD` stays the daily Wrap Factory line. Workshop jobs live here, one folder per job.
+`skins/YYYY-MM-DD` stays the daily Paint Shop Wraps line. Workshop jobs live here, one folder per job.
 
 ## Jobs
 

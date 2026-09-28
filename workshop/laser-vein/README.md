@@ -3,7 +3,7 @@
 **Slug:** `laser-vein`
 **Brief:** High-contrast laser-vein network in electric cyan and hot magenta originating at the roof center and flowing outward under gravity.
 
-Sister-line drop from another automation (not the 8am Wrap Factory floor). Parked here 2026-09-05 so it does not collide with `skins/YYYY-MM-DD`.
+Sister-line drop from another automation (not the 8am Paint Shop Wraps floor). Parked here 2026-09-05 so it does not collide with `skins/YYYY-MM-DD`.
 
 ## Vehicles
 
