@@ -1,0 +1,74 @@
+name: Wrap request
+description: Suggest an original idea for a new Paint Shop Wraps skin.
+title: "[Request] "
+labels: ["wrap-request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Original ideas only.** Paint Shop Wraps can't use copyrighted or trademarked material. That means no brand logos (including Tesla's), sports teams, movie/TV/game/anime characters, band art, or other people's artwork or photos.
+        Describe a theme, mood, colors, or a scene from nature instead, and we'll create an original interpretation. Requests that depend on someone else's IP will be closed.
+  - type: textarea
+    id: idea
+    attributes:
+      label: Wrap idea or theme
+      description: Describe the concept you'd like to see.
+      placeholder: "e.g. A desert sunset fading into night sky, with a subtle dune pattern along the lower doors."
+    validations:
+      required: true
+  - type: textarea
+    id: colors
+    attributes:
+      label: Colors and style
+      description: Palette, finish, and style (for example matte, gradient, geometric, painterly, minimal).
+      placeholder: "e.g. Burnt orange to deep indigo gradient, soft painterly texture, no hard lines."
+    validations:
+      required: true
+  - type: textarea
+    id: inspiration
+    attributes:
+      label: Inspiration (optional)
+      description: |
+        Original ideas only. You can add reference links to **your own** work or to public-domain/nature imagery. Please don't link to other people's artwork, photos, logos, or characters.
+      placeholder: "e.g. My own photo of Lake Michigan at dawn: https://..."
+    validations:
+      required: false
+  - type: dropdown
+    id: vehicles
+    attributes:
+      label: Vehicles wanted
+      description: Select all that apply.
+      multiple: true
+      options:
+        - All
+        - Cybertruck
+        - Model 3
+        - Model 3 2024 Base
+        - Model 3 2024 Performance
+        - Model Y
+        - Model Y 2025 Base
+        - Model Y 2025 Premium
+        - Model Y 2025 Performance
+        - Model Y L
+        - Model S 2021
+        - Model S 2025 Plaid
+        - Model X 2021
+    validations:
+      required: false
+  - type: input
+    id: occasion
+    attributes:
+      label: Occasion or date (optional)
+      description: Is this for a holiday, season, or event?
+      placeholder: "e.g. Winter solstice, December 21"
+    validations:
+      required: false
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Before you submit
+      options:
+        - label: "My request has no copyrighted or trademarked material: no brand logos (including Tesla's), sports teams, movie/TV/game/anime characters, band art, or other people's artwork or photos."
+          required: true
+        - label: I understand requests are reviewed and not guaranteed, and that accepted designs are original interpretations released in this repo.
+          required: true

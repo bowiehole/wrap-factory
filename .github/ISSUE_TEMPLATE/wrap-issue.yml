@@ -1,0 +1,122 @@
+name: Wrap issue
+description: Report a problem with a Paint Shop Wraps skin (stretching, seams, misalignment, color, and so on).
+title: "[Wrap issue] "
+labels: ["wrap-issue"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve [Paint Shop Wraps](https://paintshopwraps.com)! Please fill in one report per wrap and vehicle.
+        Reports are reviewed and fixed as time allows.
+
+        **Please don't post personal info** such as license plates, VINs, faces, or home addresses in screenshots or photos. Crop or blur them first.
+  - type: input
+    id: wrap
+    attributes:
+      label: Wrap name or slug
+      description: The name or slug shown on paintshopwraps.com.
+      placeholder: "e.g. chi-lake"
+    validations:
+      required: true
+  - type: input
+    id: drop
+    attributes:
+      label: Drop date and link
+      description: |
+        The drop date (or "workshop"). If possible, paste the paintshopwraps.com deep link: open the wrap on the site and copy the address bar.
+      placeholder: "e.g. 2026-09-06 - https://paintshopwraps.com/?drop=2026-09-06%2Fchi-lake&vehicle=modely"
+    validations:
+      required: true
+  - type: dropdown
+    id: vehicle
+    attributes:
+      label: Vehicle
+      description: Which vehicle template has the problem?
+      options:
+        - Cybertruck
+        - Model 3
+        - Model 3 2024 Base
+        - Model 3 2024 Performance
+        - Model Y
+        - Model Y 2025 Base
+        - Model Y 2025 Premium
+        - Model Y 2025 Performance
+        - Model Y L
+        - Model S 2021
+        - Model S 2025 Plaid
+        - Model X 2021
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Where on the car?
+      description: Select all areas that apply.
+      multiple: true
+      options:
+        - Hood / frunk
+        - Front bumper / fascia
+        - Sides / doors
+        - Rockers / trim
+        - Wheel arches
+        - Roof / pillars
+        - Rear / trunk / tailgate
+        - CT bed
+        - Other
+    validations:
+      required: true
+  - type: dropdown
+    id: problem
+    attributes:
+      label: What's wrong?
+      options:
+        - Stretched / distorted
+        - Seam or break in pattern
+        - Misaligned
+        - Wrong / blotchy color
+        - Blurry
+        - Missing area
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the problem and the expected look
+      description: What do you see, and what should it look like instead?
+      placeholder: "e.g. The stripe breaks at the front door seam on the driver side. It should continue smoothly across both doors."
+    validations:
+      required: true
+  - type: dropdown
+    id: seen
+    attributes:
+      label: Where did you see it?
+      options:
+        - Site preview (paintshopwraps.com)
+        - In the car (loaded via USB)
+        - Both
+    validations:
+      required: true
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Screenshot or photo
+      description: Drag and drop, paste, or attach an image showing the problem. Crop or blur plates, VINs, and faces first.
+      placeholder: Paste or drop an image here.
+    validations:
+      required: true
+  - type: input
+    id: software
+    attributes:
+      label: Software version (optional)
+      description: Vehicle software version if you saw it in the car (Controls > Software).
+      placeholder: "e.g. 2026.32.5"
+    validations:
+      required: false
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy
+      options:
+        - label: I confirm I'm not sharing personal info such as license plates, VINs, faces, or addresses.
+          required: true

@@ -9,6 +9,15 @@ Unofficial fan project. Not affiliated with or endorsed by Tesla, Inc.
 Paint only the white UV islands. Files are PNG, match official template pixels, and stay under 1 MB.
 
 
+## Feedback & requests
+
+Spotted a stretched, misaligned, or broken wrap? [Open a wrap issue](https://github.com/bowiehole/wrap-factory/issues/new?template=wrap-issue.yml). Issue reports are reviewed and fixed as time allows.
+
+Have an idea for a new skin? [Open a wrap request](https://github.com/bowiehole/wrap-factory/issues/new?template=wrap-request.yml). Requests must be original ideas with no copyrighted or trademarked material: no brand logos (including Tesla's), sports teams, characters, band art, or other people's artwork or photos. Requests are reviewed and not guaranteed; accepted designs are original interpretations released in this repo.
+
+Paint Shop Wraps is an unofficial fan project, not affiliated with or endorsed by Tesla, Inc.
+
+
 ## Workshop
 
 Directed skins and sister-line parks. Not 8am inventions. See [`workshop/`](workshop/).
