@@ -24,6 +24,22 @@
     "modelx-2021",
   ]);
 
+  /** Exact labels from the GitHub wrap-issue form vehicle dropdown. */
+  const ISSUE_FORM_VEHICLE_OPTIONS = {
+    "cybertruck": "Cybertruck",
+    "model3": "Model 3",
+    "model3-2024-base": "Model 3 2024 Base",
+    "model3-2024-performance": "Model 3 2024 Performance",
+    "modely": "Model Y",
+    "modely-2025-base": "Model Y 2025 Base",
+    "modely-2025-premium": "Model Y 2025 Premium",
+    "modely-2025-performance": "Model Y 2025 Performance",
+    "modely-l": "Model Y L",
+    "models-2021": "Model S 2021",
+    "models-2025-plaid": "Model S 2025 Plaid",
+    "modelx-2021": "Model X 2021"
+  };
+
   const state = {
     catalog: null,
     filter: "all",
@@ -54,6 +70,7 @@
     modalSwatch: document.getElementById("modal-swatch"),
     vehiclePicker: document.getElementById("vehicle-picker"),
     spinBtn: document.getElementById("spin-3d-btn"),
+    reportLink: document.getElementById("report-issue-link"),
     prevDrop: document.getElementById("prev-drop"),
     nextDrop: document.getElementById("next-drop"),
   };
@@ -490,6 +507,7 @@
         renderVehiclePicker(drop);
         renderDownloads(drop);
         updateSpinButton(drop);
+        updateReportLink(drop);
         setHistoryForDrop(drop);
       });
       els.vehiclePicker.appendChild(btn);
@@ -567,6 +585,32 @@
     }
   }
 
+  function reportIssueUrl(drop, vehicleKey) {
+    const label = ISSUE_FORM_VEHICLE_OPTIONS[vehicleKey] || vehicleKey;
+    const datePart = drop.kind === "workshop" ? "workshop" : drop.date;
+    const u = new URL("https://paintshopwraps.com/");
+    u.searchParams.set("drop", dropDeepLink(drop));
+    u.searchParams.set("vehicle", vehicleKey);
+    const url = new URL("https://github.com/bowiehole/wrap-factory/issues/new");
+    url.searchParams.set("template", "wrap-issue.yml");
+    url.searchParams.set("title", "[Wrap issue] " + drop.slug + " on " + label);
+    url.searchParams.set("wrap", drop.slug);
+    url.searchParams.set("drop", datePart + " - " + u.toString());
+    url.searchParams.set("vehicle", label);
+    return url.toString();
+  }
+
+  function updateReportLink(drop) {
+    const vehicle = state.selectedVehicle;
+    const ok = !!(drop && vehicle);
+    els.reportLink.classList.toggle("hidden", !ok);
+    if (ok) {
+      els.reportLink.href = reportIssueUrl(drop, vehicle);
+    } else {
+      els.reportLink.removeAttribute("href");
+    }
+  }
+
   function navigateRelative(delta) {
     const list = filteredDrops();
     if (!list.length || !state.activeDrop) return;
@@ -600,6 +644,7 @@
     renderVehiclePicker(drop);
     renderDownloads(drop);
     updateSpinButton(drop);
+    updateReportLink(drop);
 
     els.modal.classList.remove("hidden");
     document.body.classList.add("modal-open");
@@ -720,6 +765,7 @@
             renderVehiclePicker(found);
             renderDownloads(found);
             updateSpinButton(found);
+            updateReportLink(found);
             const hero = defaultHeroUrl(found, vehicleParam);
             state.activeStill = hero.still;
             setHero(hero.url, (found.title || found.slug) + " preview");

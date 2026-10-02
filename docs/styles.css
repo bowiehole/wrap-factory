@@ -758,6 +758,18 @@ body.modal-open {
   cursor: wait;
 }
 
+.report-issue-link {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  text-decoration: none;
+}
+
+.report-issue-link:hover,
+.report-issue-link:focus-visible {
+  color: var(--accent);
+  text-decoration: underline;
+}
+
 .spin-3d-error {
   margin: 0;
   font-size: 0.8rem;
