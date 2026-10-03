@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T20:13:29.525Z",
+  "generatedAt": "2026-10-03T00:05:22.578Z",
   "repo": "bowiehole/wrap-factory",
   "site": "https://paintshopwraps.com",
   "vehicleOrder": [
@@ -44,73 +44,73 @@
           "label": "Cybertruck",
           "file": "canopy-dapple.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-02/cybertruck/canopy-dapple.png",
-          "bytes": 214234
+          "bytes": 436414
         },
         "model3": {
           "label": "Model 3",
           "file": "canopy-dapple.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-02/model3/canopy-dapple.png",
-          "bytes": 321424
+          "bytes": 432046
         },
         "model3-2024-base": {
           "label": "Model 3 2024 Base",
           "file": "canopy-dapple.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-02/model3-2024-base/canopy-dapple.png",
-          "bytes": 337776
+          "bytes": 459848
         },
         "model3-2024-performance": {
           "label": "Model 3 2024 Performance",
           "file": "canopy-dapple.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-02/model3-2024-performance/canopy-dapple.png",
-          "bytes": 331163
+          "bytes": 455356
         },
         "modely": {
           "label": "Model Y",
           "file": "canopy-dapple.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-02/modely/canopy-dapple.png",
-          "bytes": 332313
+          "bytes": 464947
         },
         "modely-2025-base": {
           "label": "Model Y 2025 Base",
           "file": "canopy-dapple.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-02/modely-2025-base/canopy-dapple.png",
-          "bytes": 255221
+          "bytes": 351140
         },
         "modely-2025-premium": {
           "label": "Model Y 2025 Premium",
           "file": "canopy-dapple.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-02/modely-2025-premium/canopy-dapple.png",
-          "bytes": 286543
+          "bytes": 390726
         },
         "modely-2025-performance": {
           "label": "Model Y 2025 Performance",
           "file": "canopy-dapple.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-02/modely-2025-performance/canopy-dapple.png",
-          "bytes": 283099
+          "bytes": 383912
         },
         "modely-l": {
           "label": "Model Y L",
           "file": "canopy-dapple.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-02/modely-l/canopy-dapple.png",
-          "bytes": 317448
+          "bytes": 445732
         },
         "models-2021": {
           "label": "Model S 2021",
           "file": "canopy-dapple.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-02/models-2021/canopy-dapple.png",
-          "bytes": 282959
+          "bytes": 383900
         },
         "models-2025-plaid": {
           "label": "Model S 2025 Plaid",
           "file": "canopy-dapple.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-02/models-2025-plaid/canopy-dapple.png",
-          "bytes": 271969
+          "bytes": 367897
         },
         "modelx-2021": {
           "label": "Model X 2021",
           "file": "canopy-dapple.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-02/modelx-2021/canopy-dapple.png",
-          "bytes": 210516
+          "bytes": 307735
         }
       },
       "preview": {
