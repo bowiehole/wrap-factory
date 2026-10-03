@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T00:05:22.578Z",
+  "generatedAt": "2026-10-03T00:44:20.324Z",
   "repo": "bowiehole/wrap-factory",
   "site": "https://paintshopwraps.com",
   "vehicleOrder": [
@@ -212,73 +212,73 @@
           "label": "Cybertruck",
           "file": "film-sprocket.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-01/cybertruck/film-sprocket.png",
-          "bytes": 176330
+          "bytes": 275828
         },
         "model3": {
           "label": "Model 3",
           "file": "film-sprocket.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-01/model3/film-sprocket.png",
-          "bytes": 293919
+          "bytes": 255845
         },
         "model3-2024-base": {
           "label": "Model 3 2024 Base",
           "file": "film-sprocket.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-01/model3-2024-base/film-sprocket.png",
-          "bytes": 304192
+          "bytes": 264704
         },
         "model3-2024-performance": {
           "label": "Model 3 2024 Performance",
           "file": "film-sprocket.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-01/model3-2024-performance/film-sprocket.png",
-          "bytes": 296554
+          "bytes": 262835
         },
         "modely": {
           "label": "Model Y",
           "file": "film-sprocket.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-01/modely/film-sprocket.png",
-          "bytes": 282314
+          "bytes": 285230
         },
         "modely-2025-base": {
           "label": "Model Y 2025 Base",
           "file": "film-sprocket.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-01/modely-2025-base/film-sprocket.png",
-          "bytes": 221571
+          "bytes": 219254
         },
         "modely-2025-premium": {
           "label": "Model Y 2025 Premium",
           "file": "film-sprocket.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-01/modely-2025-premium/film-sprocket.png",
-          "bytes": 249193
+          "bytes": 240538
         },
         "modely-2025-performance": {
           "label": "Model Y 2025 Performance",
           "file": "film-sprocket.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-01/modely-2025-performance/film-sprocket.png",
-          "bytes": 225287
+          "bytes": 247881
         },
         "modely-l": {
           "label": "Model Y L",
           "file": "film-sprocket.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-01/modely-l/film-sprocket.png",
-          "bytes": 287456
+          "bytes": 261545
         },
         "models-2021": {
           "label": "Model S 2021",
           "file": "film-sprocket.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-01/models-2021/film-sprocket.png",
-          "bytes": 255818
+          "bytes": 211177
         },
         "models-2025-plaid": {
           "label": "Model S 2025 Plaid",
           "file": "film-sprocket.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-01/models-2025-plaid/film-sprocket.png",
-          "bytes": 240174
+          "bytes": 212914
         },
         "modelx-2021": {
           "label": "Model X 2021",
           "file": "film-sprocket.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-01/modelx-2021/film-sprocket.png",
-          "bytes": 180756
+          "bytes": 192654
         }
       },
       "preview": {
