@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-04T15:07:32.096Z",
+  "generatedAt": "2026-10-05T14:03:37.373Z",
   "repo": "bowiehole/wrap-factory",
   "site": "https://paintshopwraps.com",
   "vehicleOrder": [
@@ -33,6 +33,174 @@
   "drops": [
     {
       "kind": "factory",
+      "id": "factory-2026-10-05-fractal-burn",
+      "date": "2026-10-05",
+      "slug": "fractal-burn",
+      "title": "Fractal Burn",
+      "brief": "Lichtenberg pyrography — pale blonde maple body with soft horizontal grain, scorched by branching fractal char-black burn trees with thin glowing ember-orange edges, rooted low on the rockers and fascias and climbing toward the roof; world-metre 3D bake so the burns cross every crease; regenerated woodshop impression, no logos.",
+      "previewVehicle": "cybertruck",
+      "vehicles": {
+        "cybertruck": {
+          "label": "Cybertruck",
+          "file": "fractal-burn.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-05/cybertruck/fractal-burn.png",
+          "bytes": 306997
+        },
+        "model3": {
+          "label": "Model 3",
+          "file": "fractal-burn.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-05/model3/fractal-burn.png",
+          "bytes": 372083
+        },
+        "model3-2024-base": {
+          "label": "Model 3 2024 Base",
+          "file": "fractal-burn.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-05/model3-2024-base/fractal-burn.png",
+          "bytes": 390035
+        },
+        "model3-2024-performance": {
+          "label": "Model 3 2024 Performance",
+          "file": "fractal-burn.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-05/model3-2024-performance/fractal-burn.png",
+          "bytes": 396444
+        },
+        "modely": {
+          "label": "Model Y",
+          "file": "fractal-burn.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-05/modely/fractal-burn.png",
+          "bytes": 430870
+        },
+        "modely-2025-base": {
+          "label": "Model Y 2025 Base",
+          "file": "fractal-burn.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-05/modely-2025-base/fractal-burn.png",
+          "bytes": 319115
+        },
+        "modely-2025-premium": {
+          "label": "Model Y 2025 Premium",
+          "file": "fractal-burn.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-05/modely-2025-premium/fractal-burn.png",
+          "bytes": 365925
+        },
+        "modely-2025-performance": {
+          "label": "Model Y 2025 Performance",
+          "file": "fractal-burn.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-05/modely-2025-performance/fractal-burn.png",
+          "bytes": 355967
+        },
+        "modely-l": {
+          "label": "Model Y L",
+          "file": "fractal-burn.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-05/modely-l/fractal-burn.png",
+          "bytes": 390983
+        },
+        "models-2021": {
+          "label": "Model S 2021",
+          "file": "fractal-burn.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-05/models-2021/fractal-burn.png",
+          "bytes": 309675
+        },
+        "models-2025-plaid": {
+          "label": "Model S 2025 Plaid",
+          "file": "fractal-burn.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-05/models-2025-plaid/fractal-burn.png",
+          "bytes": 296090
+        },
+        "modelx-2021": {
+          "label": "Model X 2021",
+          "file": "fractal-burn.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-05/modelx-2021/fractal-burn.png",
+          "bytes": 250362
+        }
+      },
+      "preview": {
+        "swatch": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-05/fractal-burn/preview/swatch.png",
+        "stills": {
+          "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-05/fractal-burn/preview/front.png",
+          "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-05/fractal-burn/preview/side.png",
+          "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-05/fractal-burn/preview/front-quarter.png",
+          "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-05/fractal-burn/preview/rear-quarter.png"
+        },
+        "stillsByVehicle": {
+          "cybertruck": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-05/fractal-burn/preview/cybertruck/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-05/fractal-burn/preview/cybertruck/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-05/fractal-burn/preview/cybertruck/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-05/fractal-burn/preview/cybertruck/rear-quarter.png"
+          },
+          "model3": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-05/fractal-burn/preview/model3/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-05/fractal-burn/preview/model3/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-05/fractal-burn/preview/model3/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-05/fractal-burn/preview/model3/rear-quarter.png"
+          },
+          "model3-2024-base": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-05/fractal-burn/preview/model3-2024-base/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-05/fractal-burn/preview/model3-2024-base/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-05/fractal-burn/preview/model3-2024-base/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-05/fractal-burn/preview/model3-2024-base/rear-quarter.png"
+          },
+          "model3-2024-performance": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-05/fractal-burn/preview/model3-2024-performance/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-05/fractal-burn/preview/model3-2024-performance/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-05/fractal-burn/preview/model3-2024-performance/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-05/fractal-burn/preview/model3-2024-performance/rear-quarter.png"
+          },
+          "models-2021": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-05/fractal-burn/preview/models-2021/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-05/fractal-burn/preview/models-2021/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-05/fractal-burn/preview/models-2021/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-05/fractal-burn/preview/models-2021/rear-quarter.png"
+          },
+          "models-2025-plaid": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-05/fractal-burn/preview/models-2025-plaid/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-05/fractal-burn/preview/models-2025-plaid/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-05/fractal-burn/preview/models-2025-plaid/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-05/fractal-burn/preview/models-2025-plaid/rear-quarter.png"
+          },
+          "modelx-2021": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-05/fractal-burn/preview/modelx-2021/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-05/fractal-burn/preview/modelx-2021/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-05/fractal-burn/preview/modelx-2021/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-05/fractal-burn/preview/modelx-2021/rear-quarter.png"
+          },
+          "modely": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-05/fractal-burn/preview/modely/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-05/fractal-burn/preview/modely/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-05/fractal-burn/preview/modely/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-05/fractal-burn/preview/modely/rear-quarter.png"
+          },
+          "modely-2025-base": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-05/fractal-burn/preview/modely-2025-base/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-05/fractal-burn/preview/modely-2025-base/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-05/fractal-burn/preview/modely-2025-base/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-05/fractal-burn/preview/modely-2025-base/rear-quarter.png"
+          },
+          "modely-2025-performance": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-05/fractal-burn/preview/modely-2025-performance/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-05/fractal-burn/preview/modely-2025-performance/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-05/fractal-burn/preview/modely-2025-performance/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-05/fractal-burn/preview/modely-2025-performance/rear-quarter.png"
+          },
+          "modely-2025-premium": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-05/fractal-burn/preview/modely-2025-premium/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-05/fractal-burn/preview/modely-2025-premium/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-05/fractal-burn/preview/modely-2025-premium/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-05/fractal-burn/preview/modely-2025-premium/rear-quarter.png"
+          },
+          "modely-l": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-05/fractal-burn/preview/modely-l/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-05/fractal-burn/preview/modely-l/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-05/fractal-burn/preview/modely-l/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-05/fractal-burn/preview/modely-l/rear-quarter.png"
+          }
+        },
+        "og": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-05/fractal-burn/preview/og.png",
+        "heroVehicle": "cybertruck"
+      }
+    },
+    {
+      "kind": "factory",
       "id": "factory-2026-10-04-piano-key",
       "date": "2026-10-04",
       "slug": "piano-key",
@@ -44,73 +212,73 @@
           "label": "Cybertruck",
           "file": "piano-key.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-04/cybertruck/piano-key.png",
-          "bytes": 160980
+          "bytes": 215384
         },
         "model3": {
           "label": "Model 3",
           "file": "piano-key.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-04/model3/piano-key.png",
-          "bytes": 203942
+          "bytes": 260648
         },
         "model3-2024-base": {
           "label": "Model 3 2024 Base",
           "file": "piano-key.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-04/model3-2024-base/piano-key.png",
-          "bytes": 206819
+          "bytes": 272420
         },
         "model3-2024-performance": {
           "label": "Model 3 2024 Performance",
           "file": "piano-key.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-04/model3-2024-performance/piano-key.png",
-          "bytes": 203135
+          "bytes": 269260
         },
         "modely": {
           "label": "Model Y",
           "file": "piano-key.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-04/modely/piano-key.png",
-          "bytes": 197851
+          "bytes": 267553
         },
         "modely-2025-base": {
           "label": "Model Y 2025 Base",
           "file": "piano-key.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-04/modely-2025-base/piano-key.png",
-          "bytes": 157228
+          "bytes": 214119
         },
         "modely-2025-premium": {
           "label": "Model Y 2025 Premium",
           "file": "piano-key.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-04/modely-2025-premium/piano-key.png",
-          "bytes": 175936
+          "bytes": 233676
         },
         "modely-2025-performance": {
           "label": "Model Y 2025 Performance",
           "file": "piano-key.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-04/modely-2025-performance/piano-key.png",
-          "bytes": 167601
+          "bytes": 226035
         },
         "modely-l": {
           "label": "Model Y L",
           "file": "piano-key.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-04/modely-l/piano-key.png",
-          "bytes": 199638
+          "bytes": 261268
         },
         "models-2021": {
           "label": "Model S 2021",
           "file": "piano-key.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-04/models-2021/piano-key.png",
-          "bytes": 180867
+          "bytes": 229324
         },
         "models-2025-plaid": {
           "label": "Model S 2025 Plaid",
           "file": "piano-key.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-04/models-2025-plaid/piano-key.png",
-          "bytes": 171062
+          "bytes": 223119
         },
         "modelx-2021": {
           "label": "Model X 2021",
           "file": "piano-key.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-04/modelx-2021/piano-key.png",
-          "bytes": 145828
+          "bytes": 183611
         }
       },
       "preview": {
