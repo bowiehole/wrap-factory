@@ -29,12 +29,14 @@
           Vehicle
           <select id="vehicle-select" aria-label="Select vehicle"></select>
         </label>
+        <button id="split-capture-btn" class="viewer-capture-btn" type="button" disabled>Capture Split Image</button>
         <p id="viewer-status" class="viewer-status" role="status">Loading…</p>
       </div>
     </header>
     <div class="viewer-stage" aria-label="3D wrap orbit viewer">
       <canvas id="viewer-canvas"></canvas>
       <p class="viewer-hint">Drag to orbit · scroll to zoom · right-drag to pan</p>
+      <div id="split-capture-panel" class="split-capture-panel" hidden></div>
     </div>
     <footer class="viewer-footer"><p>Unofficial fan project. Not affiliated with or endorsed by Tesla, Inc.</p></footer>
   </div>

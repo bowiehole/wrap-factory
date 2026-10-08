@@ -27,6 +27,7 @@ const els = {
   back: document.getElementById("back-link"),
   canvas: document.getElementById("viewer-canvas"),
   stage: document.querySelector(".viewer-stage"),
+  captureBtn: document.getElementById("split-capture-btn"),
 };
 
 const state = {
@@ -49,9 +50,46 @@ const sceneState = {
   ready: false,
 };
 
+// Read-only handle for tests. Capture code must not mutate this state.
+window.__psViewer = { sceneState: sceneState, state: state };
+
 function setStatus(msg, isError) {
   els.status.textContent = msg || "";
   els.status.classList.toggle("error", !!isError);
+}
+
+let captureBusy = false;
+
+function setCaptureEnabled(enabled) {
+  if (!els.captureBtn || captureBusy) return;
+  els.captureBtn.disabled = !enabled;
+}
+
+async function onCaptureClick() {
+  if (captureBusy || !sceneState.root || !sceneState.ready) return;
+  captureBusy = true;
+  if (els.captureBtn) els.captureBtn.disabled = true;
+  try {
+    const mod = await import("./split-capture.js");
+    setStatus("Preparing split image…");
+    await mod.captureSplit({
+      scene: sceneState.scene,
+      camera: sceneState.camera,
+      controls: sceneState.controls,
+      root: sceneState.root,
+      liveRenderer: sceneState.renderer,
+      dropSlug: (state.drop && (state.drop.slug || state.drop.id)) || "wrap",
+      vehicleId: state.vehicle,
+      onStatus: function (msg) { setStatus(msg); },
+    });
+    setStatus("Split image ready");
+  } catch (err) {
+    console.error(err);
+    setStatus((err && err.message) || "Capture failed", true);
+  } finally {
+    captureBusy = false;
+    if (els.captureBtn) els.captureBtn.disabled = !sceneState.root;
+  }
 }
 
 function modelPath(vehicleId) {
@@ -273,6 +311,7 @@ async function loadVehicle(vehicleId) {
   if (!entry || !entry.url) throw new Error("No wrap texture for " + vehicleId + ".");
 
   setStatus("Loading " + vehicleId + "…");
+  setCaptureEnabled(false);
   ensureScene();
   disposeRoot();
 
@@ -327,6 +366,7 @@ async function loadVehicle(vehicleId) {
   if (!applied) console.warn("No Tesla_Wrap material found on", vehicleId);
 
   const label = vehicleLabel(state.catalog, drop, vehicleId);
+  setCaptureEnabled(true);
   setStatus(label + " · wrap applied");
 }
 
@@ -408,5 +448,7 @@ async function boot() {
     setStatus((err && err.message) || "Failed to load 3D model", true);
   }
 }
+
+if (els.captureBtn) els.captureBtn.addEventListener("click", onCaptureClick);
 
 boot();
