@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T14:45:32.860Z",
+  "generatedAt": "2026-10-13T13:56:24.880Z",
   "repo": "bowiehole/wrap-factory",
   "site": "https://paintshopwraps.com",
   "vehicleOrder": [
@@ -31,6 +31,174 @@
     "modelx-2021": "Model X 2021"
   },
   "drops": [
+    {
+      "kind": "factory",
+      "id": "factory-2026-10-13-herringbone",
+      "date": "2026-10-13",
+      "slug": "herringbone",
+      "title": "Herringbone",
+      "brief": "Dense charcoal-and-oak parquet herringbone — tight zig-zag V chevrons of warm oak and ash planks on a near-black charcoal body, thin dark grout lines, world-meter plane bake so the chevrons stay isotropic on the hood and run unbroken over the hood-to-fascia crease, door seams, roof and tail; dense coverage, regenerated impression, no logos.",
+      "previewVehicle": "cybertruck",
+      "vehicles": {
+        "cybertruck": {
+          "label": "Cybertruck",
+          "file": "herringbone.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-13/cybertruck/herringbone.png",
+          "bytes": 453955
+        },
+        "model3": {
+          "label": "Model 3",
+          "file": "herringbone.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-13/model3/herringbone.png",
+          "bytes": 589543
+        },
+        "model3-2024-base": {
+          "label": "Model 3 2024 Base",
+          "file": "herringbone.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-13/model3-2024-base/herringbone.png",
+          "bytes": 612503
+        },
+        "model3-2024-performance": {
+          "label": "Model 3 2024 Performance",
+          "file": "herringbone.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-13/model3-2024-performance/herringbone.png",
+          "bytes": 606140
+        },
+        "modely": {
+          "label": "Model Y",
+          "file": "herringbone.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-13/modely/herringbone.png",
+          "bytes": 612636
+        },
+        "modely-2025-base": {
+          "label": "Model Y 2025 Base",
+          "file": "herringbone.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-13/modely-2025-base/herringbone.png",
+          "bytes": 475135
+        },
+        "modely-2025-premium": {
+          "label": "Model Y 2025 Premium",
+          "file": "herringbone.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-13/modely-2025-premium/herringbone.png",
+          "bytes": 534047
+        },
+        "modely-2025-performance": {
+          "label": "Model Y 2025 Performance",
+          "file": "herringbone.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-13/modely-2025-performance/herringbone.png",
+          "bytes": 526451
+        },
+        "modely-l": {
+          "label": "Model Y L",
+          "file": "herringbone.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-13/modely-l/herringbone.png",
+          "bytes": 598645
+        },
+        "models-2021": {
+          "label": "Model S 2021",
+          "file": "herringbone.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-13/models-2021/herringbone.png",
+          "bytes": 525265
+        },
+        "models-2025-plaid": {
+          "label": "Model S 2025 Plaid",
+          "file": "herringbone.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-13/models-2025-plaid/herringbone.png",
+          "bytes": 507886
+        },
+        "modelx-2021": {
+          "label": "Model X 2021",
+          "file": "herringbone.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-13/modelx-2021/herringbone.png",
+          "bytes": 418961
+        }
+      },
+      "preview": {
+        "swatch": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-13/herringbone/preview/swatch.png",
+        "stills": {
+          "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-13/herringbone/preview/front.png",
+          "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-13/herringbone/preview/side.png",
+          "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-13/herringbone/preview/front-quarter.png",
+          "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-13/herringbone/preview/rear-quarter.png"
+        },
+        "stillsByVehicle": {
+          "cybertruck": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-13/herringbone/preview/cybertruck/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-13/herringbone/preview/cybertruck/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-13/herringbone/preview/cybertruck/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-13/herringbone/preview/cybertruck/rear-quarter.png"
+          },
+          "model3": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-13/herringbone/preview/model3/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-13/herringbone/preview/model3/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-13/herringbone/preview/model3/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-13/herringbone/preview/model3/rear-quarter.png"
+          },
+          "model3-2024-base": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-13/herringbone/preview/model3-2024-base/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-13/herringbone/preview/model3-2024-base/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-13/herringbone/preview/model3-2024-base/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-13/herringbone/preview/model3-2024-base/rear-quarter.png"
+          },
+          "model3-2024-performance": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-13/herringbone/preview/model3-2024-performance/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-13/herringbone/preview/model3-2024-performance/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-13/herringbone/preview/model3-2024-performance/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-13/herringbone/preview/model3-2024-performance/rear-quarter.png"
+          },
+          "models-2021": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-13/herringbone/preview/models-2021/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-13/herringbone/preview/models-2021/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-13/herringbone/preview/models-2021/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-13/herringbone/preview/models-2021/rear-quarter.png"
+          },
+          "models-2025-plaid": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-13/herringbone/preview/models-2025-plaid/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-13/herringbone/preview/models-2025-plaid/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-13/herringbone/preview/models-2025-plaid/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-13/herringbone/preview/models-2025-plaid/rear-quarter.png"
+          },
+          "modelx-2021": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-13/herringbone/preview/modelx-2021/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-13/herringbone/preview/modelx-2021/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-13/herringbone/preview/modelx-2021/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-13/herringbone/preview/modelx-2021/rear-quarter.png"
+          },
+          "modely": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-13/herringbone/preview/modely/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-13/herringbone/preview/modely/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-13/herringbone/preview/modely/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-13/herringbone/preview/modely/rear-quarter.png"
+          },
+          "modely-2025-base": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-13/herringbone/preview/modely-2025-base/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-13/herringbone/preview/modely-2025-base/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-13/herringbone/preview/modely-2025-base/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-13/herringbone/preview/modely-2025-base/rear-quarter.png"
+          },
+          "modely-2025-performance": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-13/herringbone/preview/modely-2025-performance/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-13/herringbone/preview/modely-2025-performance/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-13/herringbone/preview/modely-2025-performance/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-13/herringbone/preview/modely-2025-performance/rear-quarter.png"
+          },
+          "modely-2025-premium": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-13/herringbone/preview/modely-2025-premium/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-13/herringbone/preview/modely-2025-premium/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-13/herringbone/preview/modely-2025-premium/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-13/herringbone/preview/modely-2025-premium/rear-quarter.png"
+          },
+          "modely-l": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-13/herringbone/preview/modely-l/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-13/herringbone/preview/modely-l/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-13/herringbone/preview/modely-l/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-13/herringbone/preview/modely-l/rear-quarter.png"
+          }
+        },
+        "og": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-13/herringbone/preview/og.png",
+        "heroVehicle": "cybertruck"
+      }
+    },
     {
       "kind": "factory",
       "id": "factory-2026-10-12-sea-glass",
