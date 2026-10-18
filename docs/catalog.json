@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T18:17:58.991Z",
+  "generatedAt": "2026-10-18T21:44:08.358Z",
   "repo": "bowiehole/wrap-factory",
   "site": "https://paintshopwraps.com",
   "vehicleOrder": [
@@ -44,73 +44,73 @@
           "label": "Cybertruck",
           "file": "dazzle-camo.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-19/cybertruck/dazzle-camo.png",
-          "bytes": 209198
+          "bytes": 181090
         },
         "model3": {
           "label": "Model 3",
           "file": "dazzle-camo.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-19/model3/dazzle-camo.png",
-          "bytes": 294660
+          "bytes": 252029
         },
         "model3-2024-base": {
           "label": "Model 3 2024 Base",
           "file": "dazzle-camo.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-19/model3-2024-base/dazzle-camo.png",
-          "bytes": 300243
+          "bytes": 238301
         },
         "model3-2024-performance": {
           "label": "Model 3 2024 Performance",
           "file": "dazzle-camo.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-19/model3-2024-performance/dazzle-camo.png",
-          "bytes": 282511
+          "bytes": 245173
         },
         "modely": {
           "label": "Model Y",
           "file": "dazzle-camo.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-19/modely/dazzle-camo.png",
-          "bytes": 294616
+          "bytes": 239015
         },
         "modely-2025-base": {
           "label": "Model Y 2025 Base",
           "file": "dazzle-camo.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-19/modely-2025-base/dazzle-camo.png",
-          "bytes": 259178
+          "bytes": 214688
         },
         "modely-2025-premium": {
           "label": "Model Y 2025 Premium",
           "file": "dazzle-camo.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-19/modely-2025-premium/dazzle-camo.png",
-          "bytes": 260600
+          "bytes": 222674
         },
         "modely-2025-performance": {
           "label": "Model Y 2025 Performance",
           "file": "dazzle-camo.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-19/modely-2025-performance/dazzle-camo.png",
-          "bytes": 265176
+          "bytes": 235637
         },
         "modely-l": {
           "label": "Model Y L",
           "file": "dazzle-camo.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-19/modely-l/dazzle-camo.png",
-          "bytes": 279908
+          "bytes": 239512
         },
         "models-2021": {
           "label": "Model S 2021",
           "file": "dazzle-camo.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-19/models-2021/dazzle-camo.png",
-          "bytes": 259510
+          "bytes": 216315
         },
         "models-2025-plaid": {
           "label": "Model S 2025 Plaid",
           "file": "dazzle-camo.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-19/models-2025-plaid/dazzle-camo.png",
-          "bytes": 262046
+          "bytes": 210577
         },
         "modelx-2021": {
           "label": "Model X 2021",
           "file": "dazzle-camo.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-19/modelx-2021/dazzle-camo.png",
-          "bytes": 223456
+          "bytes": 200595
         }
       },
       "preview": {
