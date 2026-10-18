@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T12:19:18.002Z",
+  "generatedAt": "2026-10-18T13:08:58.517Z",
   "repo": "bowiehole/wrap-factory",
   "site": "https://paintshopwraps.com",
   "vehicleOrder": [
@@ -212,73 +212,73 @@
           "label": "Cybertruck",
           "file": "checkered-flag.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-18/cybertruck/checkered-flag.png",
-          "bytes": 143381
+          "bytes": 150767
         },
         "model3": {
           "label": "Model 3",
           "file": "checkered-flag.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-18/model3/checkered-flag.png",
-          "bytes": 236150
+          "bytes": 261124
         },
         "model3-2024-base": {
           "label": "Model 3 2024 Base",
           "file": "checkered-flag.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-18/model3-2024-base/checkered-flag.png",
-          "bytes": 229219
+          "bytes": 243456
         },
         "model3-2024-performance": {
           "label": "Model 3 2024 Performance",
           "file": "checkered-flag.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-18/model3-2024-performance/checkered-flag.png",
-          "bytes": 230366
+          "bytes": 244403
         },
         "modely": {
           "label": "Model Y",
           "file": "checkered-flag.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-18/modely/checkered-flag.png",
-          "bytes": 225386
+          "bytes": 243687
         },
         "modely-2025-base": {
           "label": "Model Y 2025 Base",
           "file": "checkered-flag.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-18/modely-2025-base/checkered-flag.png",
-          "bytes": 203308
+          "bytes": 219355
         },
         "modely-2025-premium": {
           "label": "Model Y 2025 Premium",
           "file": "checkered-flag.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-18/modely-2025-premium/checkered-flag.png",
-          "bytes": 196829
+          "bytes": 220144
         },
         "modely-2025-performance": {
           "label": "Model Y 2025 Performance",
           "file": "checkered-flag.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-18/modely-2025-performance/checkered-flag.png",
-          "bytes": 207741
+          "bytes": 239497
         },
         "modely-l": {
           "label": "Model Y L",
           "file": "checkered-flag.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-18/modely-l/checkered-flag.png",
-          "bytes": 220951
+          "bytes": 245875
         },
         "models-2021": {
           "label": "Model S 2021",
           "file": "checkered-flag.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-18/models-2021/checkered-flag.png",
-          "bytes": 210662
+          "bytes": 223167
         },
         "models-2025-plaid": {
           "label": "Model S 2025 Plaid",
           "file": "checkered-flag.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-18/models-2025-plaid/checkered-flag.png",
-          "bytes": 209052
+          "bytes": 227290
         },
         "modelx-2021": {
           "label": "Model X 2021",
           "file": "checkered-flag.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-18/modelx-2021/checkered-flag.png",
-          "bytes": 183223
+          "bytes": 192459
         }
       },
       "preview": {
