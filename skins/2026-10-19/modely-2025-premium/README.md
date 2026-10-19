@@ -1,7 +1,7 @@
-# dazzle-camo — 2026-10-19
+# nero-marble — 2026-10-19
 
-**Title:** Dazzle Camo
+**Title:** Nero Marble
 
 **Vehicle:** Model Y 2025 Premium
 
-**Brief:** WWI dazzle camouflage — bold black, white, cobalt and steel-gray stripe zones at clashing angles, cut hard edge to edge around the whole body.
+**Brief:** Polished Nero marble — a jet-black stone body laced edge to edge with a dense web of crisp white veins and a few thin gold veins, carved from one solid 3D block so every vein runs unbroken over the hood, corners, seams and tailgate.
