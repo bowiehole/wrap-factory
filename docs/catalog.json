@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T16:34:58.063Z",
+  "generatedAt": "2026-10-20T18:24:34.363Z",
   "repo": "bowiehole/wrap-factory",
   "site": "https://paintshopwraps.com",
   "vehicleOrder": [
@@ -37,68 +37,68 @@
       "date": "2026-10-20",
       "slug": "bat-swarm",
       "title": "Bat Swarm",
-      "brief": "Halloween drop #1 — a dense swarm of crisp black bat silhouettes streaming nose to tail over vivid pumpkin orange, with a few pale glowing crescent moons, placed in real-world meters so every bat keeps its shape around the hood, corners and tailgate.",
+      "brief": "Halloween drop #1 — a dense swarm of crisp black bat silhouettes streaming nose to tail over vivid pumpkin orange, with a single pale glowing crescent moon, placed in real-world meters so every bat keeps its shape around the hood, corners and tailgate.",
       "previewVehicle": "cybertruck",
       "vehicles": {
         "cybertruck": {
           "label": "Cybertruck",
           "file": "bat-swarm.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-20/cybertruck/bat-swarm.png",
-          "bytes": 109955
+          "bytes": 93844
         },
         "model3": {
           "label": "Model 3",
           "file": "bat-swarm.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-20/model3/bat-swarm.png",
-          "bytes": 165829
+          "bytes": 170159
         },
         "model3-2024-base": {
           "label": "Model 3 2024 Base",
           "file": "bat-swarm.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-20/model3-2024-base/bat-swarm.png",
-          "bytes": 178233
+          "bytes": 176657
         },
         "model3-2024-performance": {
           "label": "Model 3 2024 Performance",
           "file": "bat-swarm.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-20/model3-2024-performance/bat-swarm.png",
-          "bytes": 188258
+          "bytes": 180007
         },
         "modely": {
           "label": "Model Y",
           "file": "bat-swarm.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-20/modely/bat-swarm.png",
-          "bytes": 159337
+          "bytes": 164718
         },
         "modely-2025-base": {
           "label": "Model Y 2025 Base",
           "file": "bat-swarm.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-20/modely-2025-base/bat-swarm.png",
-          "bytes": 172402
+          "bytes": 170805
         },
         "modely-2025-premium": {
           "label": "Model Y 2025 Premium",
           "file": "bat-swarm.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-20/modely-2025-premium/bat-swarm.png",
-          "bytes": 171693
+          "bytes": 165508
         },
         "modely-2025-performance": {
           "label": "Model Y 2025 Performance",
           "file": "bat-swarm.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-20/modely-2025-performance/bat-swarm.png",
-          "bytes": 181981
+          "bytes": 179290
         },
         "modely-l": {
           "label": "Model Y L",
           "file": "bat-swarm.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-20/modely-l/bat-swarm.png",
-          "bytes": 173245
+          "bytes": 169492
         },
         "models-2021": {
           "label": "Model S 2021",
           "file": "bat-swarm.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-20/models-2021/bat-swarm.png",
-          "bytes": 155891
+          "bytes": 149155
         },
         "models-2025-plaid": {
           "label": "Model S 2025 Plaid",
