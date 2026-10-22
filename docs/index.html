@@ -22,7 +22,7 @@
   <meta name="twitter:description" content="Digital UV wraps for Tesla Paint Shop — factory skins and workshop drops. Unofficial fan project. Not affiliated with or endorsed by Tesla, Inc." />
   <meta name="twitter:image" content="https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-06/cybertruck/chi-lake.png" />
 
-  <link rel="stylesheet" href="styles.css?v=20261002160000" />
+  <link rel="stylesheet" href="styles.css?v=20261022150000" />
   <link rel="preconnect" href="https://raw.githubusercontent.com" />
 </head>
 <body>
@@ -100,6 +100,10 @@
           </div>
         </div>
 
+        <div class="modal-stats-wrap">
+          <div id="modal-stats"></div>
+        </div>
+
         <p id="modal-brief" class="modal-brief"></p>
 
         <h3 class="section-heading">Vehicle</h3>
@@ -133,6 +137,8 @@
     </div>
   </div>
 
-  <script src="app.js?v=20261002160000" defer></script>
+  <script>window.PSW_STATS_API="https://psw-stats.alex-bednarczyk.workers.dev";</script>
+  <script src="stats.js?v=20261022150000" defer></script>
+  <script src="app.js?v=20261022150000" defer></script>
 </body>
 </html>

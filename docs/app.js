@@ -49,6 +49,7 @@
     selectedVehicle: null,
     activeStill: null,
     stillsToken: 0,
+    statsReady: false,
   };
 
   const els = {
@@ -271,6 +272,173 @@
     else els.status.textContent = count + " " + kindLabel;
   }
 
+  var SVG_NS = "http://www.w3.org/2000/svg";
+
+  function svgEl(name, attrs) {
+    var el = document.createElementNS(SVG_NS, name);
+    var keys = Object.keys(attrs);
+    for (var i = 0; i < keys.length; i++) el.setAttribute(keys[i], attrs[keys[i]]);
+    return el;
+  }
+
+  function statIcon(kind) {
+    var svg = svgEl("svg", {
+      viewBox: "0 0 24 24",
+      class: "stat-icon" + (kind === "heart" || kind === "heart-filled" ? " " + kind : ""),
+      "aria-hidden": "true",
+      focusable: "false",
+    });
+    if (kind === "eye") {
+      svg.appendChild(svgEl("path", {
+        d: "M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12z",
+        fill: "none",
+        stroke: "currentColor",
+        "stroke-width": "2",
+        "stroke-linejoin": "round",
+      }));
+      svg.appendChild(svgEl("circle", {
+        cx: "12",
+        cy: "12",
+        r: "2.7",
+        fill: "none",
+        stroke: "currentColor",
+        "stroke-width": "2",
+      }));
+      return svg;
+    }
+    if (kind === "download") {
+      ["M12 4v10", "M8 10.5 12 14.5 16 10.5", "M5 20h14"].forEach(function (d) {
+        svg.appendChild(svgEl("path", {
+          d: d,
+          fill: "none",
+          stroke: "currentColor",
+          "stroke-width": "2",
+          "stroke-linecap": "round",
+          "stroke-linejoin": "round",
+        }));
+      });
+      return svg;
+    }
+    var filled = kind === "heart-filled";
+    svg.appendChild(svgEl("path", {
+      d: "M12 20.4 10.7 19.2C5.5 14.9 2.6 12.2 2.6 8.9 2.6 6.3 4.6 4.3 7.2 4.3c1.5 0 3 .7 3.9 1.9.9-1.2 2.4-1.9 3.9-1.9 2.6 0 4.6 2 4.6 4.6 0 3.3-2.9 6-8.1 10.3L12 20.4z",
+      fill: filled ? "currentColor" : "none",
+      stroke: filled ? "none" : "currentColor",
+      "stroke-width": filled ? "0" : "1.8",
+      "stroke-linejoin": "round",
+    }));
+    return svg;
+  }
+
+  function formatStat(n) {
+    if (window.pswStats && typeof window.pswStats.formatCount === "function") {
+      return window.pswStats.formatCount(n);
+    }
+    return String(n);
+  }
+
+  /* Null until load() succeeds and this id is in the payload. */
+  function readDropStats(id) {
+    if (!state.statsReady || !window.pswStats || typeof window.pswStats.get !== "function") return null;
+    var row = window.pswStats.get(id);
+    if (!row) return null;
+    return {
+      views: row.views,
+      downloads: row.downloads,
+      likes: row.likes,
+      liked: typeof window.pswStats.isLiked === "function" && window.pswStats.isLiked(id),
+    };
+  }
+
+  function refreshLikeRows(id, title) {
+    var stats = readDropStats(id);
+    if (!stats) return;
+    var text = formatStat(stats.likes);
+    var label = (stats.liked ? "Unlike " : "Like ") + (title || "wrap");
+    var rows = document.querySelectorAll(".stat-row");
+    for (var i = 0; i < rows.length; i++) {
+      if (rows[i].getAttribute("data-drop-id") !== String(id)) continue;
+      var heart = rows[i].querySelector(".heart-btn");
+      var num = rows[i].querySelector(".stat-likes");
+      if (heart) {
+        heart.setAttribute("aria-pressed", stats.liked ? "true" : "false");
+        heart.setAttribute("aria-label", label);
+      }
+      if (num) num.textContent = text;
+    }
+  }
+
+  function buildStatRow(drop, large) {
+    var id = drop && drop.id ? String(drop.id) : "";
+    var title = (drop && (drop.title || drop.slug)) || "wrap";
+    var stats = readDropStats(id);
+    if (!stats) return null;
+    var row = document.createElement("div");
+    row.className = "stat-row" + (large ? " stat-row-lg" : "");
+    row.setAttribute("data-drop-id", id);
+
+    function metric(iconKind, value, srLabel, numClass) {
+      var item = document.createElement("span");
+      item.className = "stat";
+      item.appendChild(statIcon(iconKind));
+      var sr = document.createElement("span");
+      sr.className = "sr-only";
+      sr.textContent = srLabel;
+      var num = document.createElement("span");
+      num.className = "stat-num" + (numClass ? " " + numClass : "");
+      num.textContent = formatStat(value);
+      item.appendChild(sr);
+      item.appendChild(num);
+      return item;
+    }
+
+    var like = document.createElement("span");
+    like.className = "stat stat-like";
+    /* Card root is a <button>, so the heart cannot be a nested button. */
+    var heart = document.createElement("span");
+    heart.className = "heart-btn";
+    heart.setAttribute("role", "button");
+    heart.setAttribute("tabindex", "0");
+    heart.setAttribute("aria-pressed", stats.liked ? "true" : "false");
+    heart.setAttribute("aria-label", (stats.liked ? "Unlike " : "Like ") + title);
+    heart.appendChild(statIcon("heart"));
+    heart.appendChild(statIcon("heart-filled"));
+    var likeNum = document.createElement("span");
+    likeNum.className = "stat-num stat-likes";
+    likeNum.textContent = formatStat(stats.likes);
+    like.appendChild(heart);
+    like.appendChild(likeNum);
+
+    function onHeartClick(e) {
+      e.preventDefault();
+      e.stopPropagation();
+      if (!window.pswStats || typeof window.pswStats.toggleLike !== "function") return;
+      var pending = window.pswStats.toggleLike(id);
+      refreshLikeRows(id, title);
+      if (pending && typeof pending.then === "function") {
+        pending.then(function () { refreshLikeRows(id, title); }, function () { refreshLikeRows(id, title); });
+      }
+    }
+    heart.addEventListener("click", onHeartClick);
+    heart.addEventListener("keydown", function (e) {
+      if (e.key !== "Enter" && e.key !== " ") return;
+      onHeartClick(e);
+    });
+
+    row.appendChild(metric("eye", stats.views, "Views"));
+    row.appendChild(metric("download", stats.downloads, "Downloads"));
+    row.appendChild(like);
+    return row;
+  }
+
+  function renderModalStats(drop) {
+    var host = document.getElementById("modal-stats");
+    if (!host || !drop) return;
+    host.textContent = "";
+    var row = buildStatRow(drop, true);
+    if (row) host.appendChild(row);
+  }
+
   function createCard(drop) {
     const btn = document.createElement("button");
     btn.type = "button";
@@ -345,6 +513,8 @@
     body.appendChild(title);
     body.appendChild(meta);
     body.appendChild(brief);
+    var statRow = buildStatRow(drop, false);
+    if (statRow) body.appendChild(statRow);
     btn.appendChild(preview);
     btn.appendChild(body);
     btn.addEventListener("click", function () { openModal(drop); });
@@ -530,6 +700,11 @@
       size.textContent = formatBytes(v.bytes);
       link.appendChild(label);
       link.appendChild(size);
+      link.addEventListener("click", function () {
+        if (window.pswStats && typeof window.pswStats.download === "function") {
+          window.pswStats.download(drop.id, v.key);
+        }
+      });
       els.downloads.appendChild(link);
     });
   }
@@ -639,6 +814,10 @@
     els.modalMeta.textContent = meta;
     els.modalBrief.textContent = drop.brief || "";
 
+    renderModalStats(drop);
+    if (window.pswStats && typeof window.pswStats.view === "function" && drop && drop.id != null) {
+      window.pswStats.view(drop.id);
+    }
     renderStills(drop);
     renderSwatch(drop);
     renderVehiclePicker(drop);
@@ -725,6 +904,18 @@
       populateGridVehicleSelect();
       els.status.textContent = data.drops.length + " drops loaded";
       renderGrid();
+      if (window.pswStats && typeof window.pswStats.load === "function") {
+        var statIds = [];
+        for (var li = 0; li < data.drops.length; li++) {
+          if (data.drops[li] && data.drops[li].id != null) statIds.push(data.drops[li].id);
+        }
+        window.pswStats.load(statIds).then(function (result) {
+          if (!result || !result.ok) return;
+          state.statsReady = true;
+          renderGrid();
+          if (state.activeDrop) renderModalStats(state.activeDrop);
+        });
+      }
 
       const params = new URLSearchParams(window.location.search);
       const dropParam = params.get("drop");

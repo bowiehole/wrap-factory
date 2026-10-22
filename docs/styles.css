@@ -20,6 +20,7 @@
   --shadow: 0 8px 32px rgba(0, 0, 0, 0.55);
   --font: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   --mono: "SF Mono", ui-monospace, Menlo, Consolas, monospace;
+  --like: #ff4d4d;
 }
 
 *,
@@ -873,6 +874,96 @@ body.modal-open {
 .footer-note strong {
   color: var(--text-muted);
   font-weight: 650;
+}
+
+.stat-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 0.4rem;
+  color: var(--text-dim);
+  font-size: 0.75rem;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.01em;
+}
+
+.stat {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.28rem;
+  min-height: 1.1rem;
+}
+
+.stat-icon {
+  width: 14px;
+  height: 14px;
+  display: block;
+  flex-shrink: 0;
+}
+
+.stat-num {
+  font-variant-numeric: tabular-nums;
+}
+
+.heart-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+  border-radius: 999px;
+  line-height: 0;
+}
+
+.heart-btn:hover,
+.heart-btn:focus-visible {
+  color: var(--text);
+}
+
+.heart-btn:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--accent-dim);
+}
+
+.heart-btn .heart-filled {
+  display: none;
+}
+
+.heart-btn[aria-pressed="true"] {
+  color: var(--like);
+}
+
+.heart-btn[aria-pressed="true"] .heart {
+  display: none;
+}
+
+.heart-btn[aria-pressed="true"] .heart-filled {
+  display: block;
+}
+
+.stat-row-lg {
+  gap: 1.05rem;
+  margin-top: 0;
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
+
+.stat-row-lg .stat-icon {
+  width: 18px;
+  height: 18px;
+}
+
+.modal-stats-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.45rem 0.75rem;
+  margin: 0.15rem 0 0.95rem;
 }
 
 @media (max-width: 640px) {
