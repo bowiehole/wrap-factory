@@ -22,7 +22,7 @@
   <meta name="twitter:description" content="Digital UV wraps for Tesla Paint Shop — factory skins and workshop drops. Unofficial fan project. Not affiliated with or endorsed by Tesla, Inc." />
   <meta name="twitter:image" content="https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-09-06/cybertruck/chi-lake.png" />
 
-  <link rel="stylesheet" href="styles.css?v=20261022150000" />
+  <link rel="stylesheet" href="styles.css?v=20261022221500" />
   <link rel="preconnect" href="https://raw.githubusercontent.com" />
 </head>
 <body>
@@ -44,6 +44,12 @@
         <label class="grid-vehicle-wrap">
           <span class="sr-only">Preview vehicle</span>
           <select id="grid-vehicle" aria-label="Preview vehicle for card stills"></select>
+        </label>
+        <label class="sort-wrap">
+          <span class="sr-only">Sort wraps</span>
+          <select id="sort" aria-label="Sort wraps">
+            <option value="newest" selected>Newest</option>
+          </select>
         </label>
         <label class="search-wrap">
           <span class="sr-only">Search wraps</span>
@@ -83,6 +89,12 @@
 
       <div class="modal-hero">
         <img id="modal-preview" alt="" />
+        <button type="button" id="hero-prev" class="hero-nav hero-nav-prev" aria-label="Previous skin" hidden disabled>
+          <span aria-hidden="true">‹</span>
+        </button>
+        <button type="button" id="hero-next" class="hero-nav hero-nav-next" aria-label="Next skin" hidden disabled>
+          <span aria-hidden="true">›</span>
+        </button>
         <span id="modal-badge" class="badge"></span>
       </div>
 
@@ -139,6 +151,6 @@
 
   <script>window.PSW_STATS_API="https://psw-stats.alex-bednarczyk.workers.dev";</script>
   <script src="stats.js?v=20261022150000" defer></script>
-  <script src="app.js?v=20261022150000" defer></script>
+  <script src="app.js?v=20261022221500" defer></script>
 </body>
 </html>

@@ -50,6 +50,8 @@
     activeStill: null,
     stillsToken: 0,
     statsReady: false,
+    sort: "newest",
+    requestedSort: "newest",
   };
 
   const els = {
@@ -57,6 +59,7 @@
     status: document.getElementById("status"),
     empty: document.getElementById("empty"),
     search: document.getElementById("search"),
+    sort: document.getElementById("sort"),
     gridVehicle: document.getElementById("grid-vehicle"),
     tabs: document.querySelectorAll(".tab"),
     modal: document.getElementById("modal"),
@@ -74,6 +77,9 @@
     reportLink: document.getElementById("report-issue-link"),
     prevDrop: document.getElementById("prev-drop"),
     nextDrop: document.getElementById("next-drop"),
+    heroPrev: document.getElementById("hero-prev"),
+    heroNext: document.getElementById("hero-next"),
+    modalHero: document.querySelector(".modal-hero"),
   };
 
   function formatBytes(n) {
@@ -188,15 +194,75 @@
     });
   }
 
+  /* URL values: likes | downloads | views. Omit the param for newest. */
+  function parseSortParam(raw) {
+    var v = String(raw == null ? "" : raw).replace(/^\s+|\s+$/g, "").toLowerCase();
+    if (v === "likes" || v === "downloads" || v === "views") return v;
+    return "newest";
+  }
+
+  function countForSort(drop, key) {
+    var stats = readDropStats(drop && drop.id);
+    if (!stats) return 0;
+    var n = Number(stats[key]);
+    if (!isFinite(n) || n < 0) return 0;
+    return n;
+  }
+
+  /* Count sorts only after a successful load. Ties keep Newest (catalog) order. */
+  function sortDropList(list) {
+    var key = state.sort;
+    if (!list || !key || key === "newest" || !state.statsReady) return list;
+    var decorated = [];
+    for (var i = 0; i < list.length; i++) decorated.push({ d: list[i], i: i });
+    decorated.sort(function (a, b) {
+      var ca = countForSort(a.d, key);
+      var cb = countForSort(b.d, key);
+      if (ca !== cb) return cb - ca;
+      return a.i - b.i;
+    });
+    var out = [];
+    for (var j = 0; j < decorated.length; j++) out.push(decorated[j].d);
+    return out;
+  }
+
   function filteredDrops() {
     const drops = (state.catalog && state.catalog.drops) || [];
     const q = state.query.trim().toLowerCase();
-    return drops.filter(function (d) {
+    var list = drops.filter(function (d) {
       if (state.filter !== "all" && d.kind !== state.filter) return false;
       if (!q) return true;
       const hay = ((d.slug || "") + " " + (d.title || "") + " " + (d.brief || "")).toLowerCase();
       return hay.indexOf(q) !== -1;
     });
+    return sortDropList(list);
+  }
+
+  function writeSortParam() {
+    try {
+      var url = new URL(window.location.href);
+      if (!state.sort || state.sort === "newest") url.searchParams.delete("sort");
+      else url.searchParams.set("sort", state.sort);
+      history.replaceState(null, "", url.pathname + url.search + url.hash);
+    } catch (e) { /* ignore */ }
+  }
+
+  function revealSortOptions() {
+    var sel = els.sort;
+    if (!sel || sel.getAttribute("data-counts") === "1") return;
+    var choices = [
+      ["likes", "Most liked"],
+      ["downloads", "Most downloaded"],
+      ["views", "Most viewed"]
+    ];
+    for (var i = 0; i < choices.length; i++) {
+      var opt = document.createElement("option");
+      opt.value = choices[i][0];
+      opt.textContent = choices[i][1];
+      sel.appendChild(opt);
+    }
+    sel.setAttribute("data-counts", "1");
+    if (state.sort && state.sort !== "newest") sel.value = state.sort;
   }
 
   function findDropByPath(dateSlug) {
@@ -547,6 +613,7 @@
     drops.forEach(function (d) { els.grid.appendChild(createCard(d)); });
     els.empty.classList.toggle("hidden", drops.length > 0);
     renderStatus(drops.length, total);
+    if (state.activeDrop) syncHeroNav();
   }
 
   function setHero(url, alt) {
@@ -786,21 +853,97 @@
     }
   }
 
+  function findActiveIndex(list) {
+    if (!state.activeDrop || !list) return -1;
+    for (var i = 0; i < list.length; i++) {
+      if (list[i].id === state.activeDrop.id) return i;
+    }
+    return -1;
+  }
+
+  function setEdgeBtn(btn, ok) {
+    if (!btn) return;
+    btn.disabled = !ok;
+    btn.hidden = !ok;
+    btn.setAttribute("aria-hidden", ok ? "false" : "true");
+  }
+
+  /* Overlay arrows stop at the ends. Bottom buttons still wrap via navigateRelative. */
+  function syncHeroNav() {
+    var list = filteredDrops();
+    var idx = findActiveIndex(list);
+    setEdgeBtn(els.heroPrev, idx > 0);
+    setEdgeBtn(els.heroNext, idx >= 0 && idx < list.length - 1);
+  }
+
   function navigateRelative(delta) {
     const list = filteredDrops();
     if (!list.length || !state.activeDrop) return;
-    let idx = -1;
-    for (let i = 0; i < list.length; i++) {
-      if (list[i].id === state.activeDrop.id) { idx = i; break; }
-    }
+    var idx = findActiveIndex(list);
     if (idx < 0) { openModal(list[0]); return; }
     const next = list[(idx + delta + list.length) % list.length];
     openModal(next);
   }
 
+  function isTypingTarget(el) {
+    if (!el || !el.tagName) return false;
+    var tag = el.tagName;
+    return tag === "INPUT" || tag === "TEXTAREA" || tag === "SELECT";
+  }
+
+  function bindPreviewSwipe(area) {
+    if (!area) return;
+    var startX = 0;
+    var startY = 0;
+    var tracking = false;
+    area.addEventListener("touchstart", function (e) {
+      if (els.modal.classList.contains("hidden")) return;
+      if (!e.touches || e.touches.length !== 1) {
+        tracking = false;
+        return;
+      }
+      startX = e.touches[0].clientX;
+      startY = e.touches[0].clientY;
+      tracking = true;
+    }, { passive: true });
+    area.addEventListener("touchend", function (e) {
+      if (!tracking) return;
+      tracking = false;
+      if (els.modal.classList.contains("hidden")) return;
+      if (!e.changedTouches || !e.changedTouches.length) return;
+      var t = e.changedTouches[0];
+      var dx = t.clientX - startX;
+      var dy = t.clientY - startY;
+      if (Math.abs(dx) <= 50) return;
+      if (Math.abs(dx) <= 1.5 * Math.abs(dy)) return;
+      var delta = dx < 0 ? 1 : -1;
+      var list = filteredDrops();
+      var idx = findActiveIndex(list);
+      if (idx < 0) return;
+      var nextIdx = idx + delta;
+      if (nextIdx < 0 || nextIdx >= list.length) return;
+      navigateRelative(delta);
+    }, { passive: true });
+    area.addEventListener("touchcancel", function () {
+      tracking = false;
+    }, { passive: true });
+  }
+
   function openModal(drop) {
+    var modalOpen = !els.modal.classList.contains("hidden");
+    var previousVehicle = state.selectedVehicle;
     state.activeDrop = drop;
-    state.selectedVehicle = preferredSelectedVehicle(drop);
+    if (
+      modalOpen &&
+      previousVehicle &&
+      drop &&
+      drop.vehicles &&
+      drop.vehicles[previousVehicle]
+    ) {
+      state.selectedVehicle = previousVehicle;
+    } else {
+      state.selectedVehicle = preferredSelectedVehicle(drop);
+    }
 
     const hero = defaultHeroUrl(drop, state.selectedVehicle);
     state.activeStill = hero.still;
@@ -828,6 +971,7 @@
     els.modal.classList.remove("hidden");
     document.body.classList.add("modal-open");
     setHistoryForDrop(drop);
+    syncHeroNav();
   }
 
   function closeModal() {
@@ -861,6 +1005,21 @@
       });
     }
 
+    if (els.sort) {
+      els.sort.addEventListener("change", function () {
+        var next = parseSortParam(els.sort.value);
+        if (next !== "newest" && !state.statsReady) {
+          state.sort = "newest";
+          els.sort.value = "newest";
+          return;
+        }
+        state.sort = next;
+        state.requestedSort = next;
+        writeSortParam();
+        renderGrid();
+      });
+    }
+
     let debounce;
     els.search.addEventListener("input", function () {
       clearTimeout(debounce);
@@ -876,9 +1035,17 @@
 
     els.prevDrop.addEventListener("click", function () { navigateRelative(-1); });
     els.nextDrop.addEventListener("click", function () { navigateRelative(1); });
+    if (els.heroPrev) {
+      els.heroPrev.addEventListener("click", function () { navigateRelative(-1); });
+    }
+    if (els.heroNext) {
+      els.heroNext.addEventListener("click", function () { navigateRelative(1); });
+    }
+    bindPreviewSwipe(els.modalHero);
     document.addEventListener("keydown", function (e) {
       if (els.modal.classList.contains("hidden")) return;
       if (e.key === "Escape") closeModal();
+      else if (isTypingTarget(e.target)) return;
       else if (e.key === "ArrowLeft") { e.preventDefault(); navigateRelative(-1); }
       else if (e.key === "ArrowRight") { e.preventDefault(); navigateRelative(1); }
     });
@@ -886,6 +1053,13 @@
 
   async function init() {
     bindEvents();
+    try {
+      var initialSort = new URLSearchParams(window.location.search).get("sort");
+      state.requestedSort = parseSortParam(initialSort);
+      if (initialSort != null && state.requestedSort === "newest") writeSortParam();
+    } catch (e) {
+      state.requestedSort = "newest";
+    }
     try {
       const res = await fetch("catalog.json?t=" + Date.now(), { cache: "no-store" });
       if (!res.ok) throw new Error("HTTP " + res.status);
@@ -912,6 +1086,8 @@
         window.pswStats.load(statIds).then(function (result) {
           if (!result || !result.ok) return;
           state.statsReady = true;
+          state.sort = state.requestedSort || "newest";
+          revealSortOptions();
           renderGrid();
           if (state.activeDrop) renderModalStats(state.activeDrop);
         });
@@ -960,6 +1136,7 @@
             const hero = defaultHeroUrl(found, vehicleParam);
             state.activeStill = hero.still;
             setHero(hero.url, (found.title || found.slug) + " preview");
+            setHistoryForDrop(found);
           }
         }
       }
