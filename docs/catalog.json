@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T14:36:01.428Z",
+  "generatedAt": "2026-10-23T19:10:57.232Z",
   "repo": "bowiehole/wrap-factory",
   "site": "https://paintshopwraps.com",
   "vehicleOrder": [
@@ -44,73 +44,73 @@
           "label": "Cybertruck",
           "file": "sprinkle-glaze.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-23/cybertruck/sprinkle-glaze.png",
-          "bytes": 337210
+          "bytes": 358363
         },
         "model3": {
           "label": "Model 3",
           "file": "sprinkle-glaze.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-23/model3/sprinkle-glaze.png",
-          "bytes": 440861
+          "bytes": 481328
         },
         "model3-2024-base": {
           "label": "Model 3 2024 Base",
           "file": "sprinkle-glaze.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-23/model3-2024-base/sprinkle-glaze.png",
-          "bytes": 434626
+          "bytes": 463313
         },
         "model3-2024-performance": {
           "label": "Model 3 2024 Performance",
           "file": "sprinkle-glaze.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-23/model3-2024-performance/sprinkle-glaze.png",
-          "bytes": 440559
+          "bytes": 466696
         },
         "modely": {
           "label": "Model Y",
           "file": "sprinkle-glaze.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-23/modely/sprinkle-glaze.png",
-          "bytes": 455000
+          "bytes": 487671
         },
         "modely-2025-base": {
           "label": "Model Y 2025 Base",
           "file": "sprinkle-glaze.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-23/modely-2025-base/sprinkle-glaze.png",
-          "bytes": 356941
+          "bytes": 379290
         },
         "modely-2025-premium": {
           "label": "Model Y 2025 Premium",
           "file": "sprinkle-glaze.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-23/modely-2025-premium/sprinkle-glaze.png",
-          "bytes": 369329
+          "bytes": 396962
         },
         "modely-2025-performance": {
           "label": "Model Y 2025 Performance",
           "file": "sprinkle-glaze.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-23/modely-2025-performance/sprinkle-glaze.png",
-          "bytes": 396195
+          "bytes": 428327
         },
         "modely-l": {
           "label": "Model Y L",
           "file": "sprinkle-glaze.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-23/modely-l/sprinkle-glaze.png",
-          "bytes": 413639
+          "bytes": 444943
         },
         "models-2021": {
           "label": "Model S 2021",
           "file": "sprinkle-glaze.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-23/models-2021/sprinkle-glaze.png",
-          "bytes": 373629
+          "bytes": 416224
         },
         "models-2025-plaid": {
           "label": "Model S 2025 Plaid",
           "file": "sprinkle-glaze.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-23/models-2025-plaid/sprinkle-glaze.png",
-          "bytes": 371037
+          "bytes": 400650
         },
         "modelx-2021": {
           "label": "Model X 2021",
           "file": "sprinkle-glaze.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-23/modelx-2021/sprinkle-glaze.png",
-          "bytes": 313503
+          "bytes": 334388
         }
       },
       "preview": {
