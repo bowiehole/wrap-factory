@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T17:42:09.404Z",
+  "generatedAt": "2026-10-24T23:19:41.785Z",
   "repo": "bowiehole/wrap-factory",
   "site": "https://paintshopwraps.com",
   "vehicleOrder": [
@@ -9436,6 +9436,174 @@
           }
         },
         "og": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-08-30/magma-rift/preview/og.png",
+        "heroVehicle": "cybertruck"
+      }
+    },
+    {
+      "kind": "workshop",
+      "id": "workshop-bologna",
+      "date": null,
+      "slug": "bologna",
+      "title": "Bologna",
+      "brief": "National Bologna Day: a fresh-sliced bologna wrap in deli pink, speckled with fine pale fat flecks and tiny darker meat specks, finished with a thin darker casing-edge band around the rockers.",
+      "previewVehicle": "cybertruck",
+      "vehicles": {
+        "cybertruck": {
+          "label": "Cybertruck",
+          "file": "bologna.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/bologna/cybertruck/bologna.png",
+          "bytes": 685298
+        },
+        "model3": {
+          "label": "Model 3",
+          "file": "bologna.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/bologna/model3/bologna.png",
+          "bytes": 652578
+        },
+        "model3-2024-base": {
+          "label": "Model 3 2024 Base",
+          "file": "bologna.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/bologna/model3-2024-base/bologna.png",
+          "bytes": 685580
+        },
+        "model3-2024-performance": {
+          "label": "Model 3 2024 Performance",
+          "file": "bologna.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/bologna/model3-2024-performance/bologna.png",
+          "bytes": 688888
+        },
+        "modely": {
+          "label": "Model Y",
+          "file": "bologna.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/bologna/modely/bologna.png",
+          "bytes": 718886
+        },
+        "modely-2025-base": {
+          "label": "Model Y 2025 Base",
+          "file": "bologna.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/bologna/modely-2025-base/bologna.png",
+          "bytes": 538238
+        },
+        "modely-2025-premium": {
+          "label": "Model Y 2025 Premium",
+          "file": "bologna.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/bologna/modely-2025-premium/bologna.png",
+          "bytes": 588177
+        },
+        "modely-2025-performance": {
+          "label": "Model Y 2025 Performance",
+          "file": "bologna.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/bologna/modely-2025-performance/bologna.png",
+          "bytes": 643732
+        },
+        "modely-l": {
+          "label": "Model Y L",
+          "file": "bologna.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/bologna/modely-l/bologna.png",
+          "bytes": 678522
+        },
+        "models-2021": {
+          "label": "Model S 2021",
+          "file": "bologna.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/bologna/models-2021/bologna.png",
+          "bytes": 598196
+        },
+        "models-2025-plaid": {
+          "label": "Model S 2025 Plaid",
+          "file": "bologna.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/bologna/models-2025-plaid/bologna.png",
+          "bytes": 582353
+        },
+        "modelx-2021": {
+          "label": "Model X 2021",
+          "file": "bologna.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/bologna/modelx-2021/bologna.png",
+          "bytes": 507777
+        }
+      },
+      "preview": {
+        "swatch": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/bologna/preview/swatch.png",
+        "stills": {
+          "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/bologna/preview/front.png",
+          "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/bologna/preview/side.png",
+          "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/bologna/preview/front-quarter.png",
+          "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/bologna/preview/rear-quarter.png"
+        },
+        "stillsByVehicle": {
+          "cybertruck": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/bologna/preview/cybertruck/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/bologna/preview/cybertruck/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/bologna/preview/cybertruck/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/bologna/preview/cybertruck/rear-quarter.png"
+          },
+          "model3": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/bologna/preview/model3/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/bologna/preview/model3/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/bologna/preview/model3/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/bologna/preview/model3/rear-quarter.png"
+          },
+          "model3-2024-base": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/bologna/preview/model3-2024-base/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/bologna/preview/model3-2024-base/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/bologna/preview/model3-2024-base/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/bologna/preview/model3-2024-base/rear-quarter.png"
+          },
+          "model3-2024-performance": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/bologna/preview/model3-2024-performance/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/bologna/preview/model3-2024-performance/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/bologna/preview/model3-2024-performance/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/bologna/preview/model3-2024-performance/rear-quarter.png"
+          },
+          "models-2021": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/bologna/preview/models-2021/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/bologna/preview/models-2021/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/bologna/preview/models-2021/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/bologna/preview/models-2021/rear-quarter.png"
+          },
+          "models-2025-plaid": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/bologna/preview/models-2025-plaid/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/bologna/preview/models-2025-plaid/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/bologna/preview/models-2025-plaid/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/bologna/preview/models-2025-plaid/rear-quarter.png"
+          },
+          "modelx-2021": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/bologna/preview/modelx-2021/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/bologna/preview/modelx-2021/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/bologna/preview/modelx-2021/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/bologna/preview/modelx-2021/rear-quarter.png"
+          },
+          "modely": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/bologna/preview/modely/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/bologna/preview/modely/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/bologna/preview/modely/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/bologna/preview/modely/rear-quarter.png"
+          },
+          "modely-2025-base": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/bologna/preview/modely-2025-base/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/bologna/preview/modely-2025-base/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/bologna/preview/modely-2025-base/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/bologna/preview/modely-2025-base/rear-quarter.png"
+          },
+          "modely-2025-performance": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/bologna/preview/modely-2025-performance/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/bologna/preview/modely-2025-performance/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/bologna/preview/modely-2025-performance/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/bologna/preview/modely-2025-performance/rear-quarter.png"
+          },
+          "modely-2025-premium": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/bologna/preview/modely-2025-premium/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/bologna/preview/modely-2025-premium/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/bologna/preview/modely-2025-premium/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/bologna/preview/modely-2025-premium/rear-quarter.png"
+          },
+          "modely-l": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/bologna/preview/modely-l/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/bologna/preview/modely-l/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/bologna/preview/modely-l/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/bologna/preview/modely-l/rear-quarter.png"
+          }
+        },
+        "og": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/bologna/preview/og.png",
         "heroVehicle": "cybertruck"
       }
     },
