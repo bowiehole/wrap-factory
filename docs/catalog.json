@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T15:47:04.123Z",
+  "generatedAt": "2026-10-26T17:51:12.488Z",
   "repo": "bowiehole/wrap-factory",
   "site": "https://paintshopwraps.com",
   "vehicleOrder": [
@@ -37,80 +37,80 @@
       "date": "2026-10-26",
       "slug": "mummy-wrap",
       "title": "Mummy Wrap",
-      "brief": "A Halloween mummy that wraps the whole car — frayed linen bandages crisscross in layered diagonal and horizontal bands over near-black gaps, and a few pairs of acid-green eyes peer out of dark slits along the sides. The bandages are laid out in 3D on the body itself, so they run unbroken across the hood, fenders, nose, corners and tailgate.",
+      "brief": "A Halloween mummy that wraps the whole car — crisp linen bandages, frayed on both edges with loose threads, crisscross in layered diagonal and horizontal bands over near-black gaps. The bandages are laid out in 3D on the body itself, so they run unbroken across the hood, fenders, nose, corners and tailgate.",
       "previewVehicle": "cybertruck",
       "vehicles": {
         "cybertruck": {
           "label": "Cybertruck",
           "file": "mummy-wrap.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-26/cybertruck/mummy-wrap.png",
-          "bytes": 685250
+          "bytes": 800318
         },
         "model3": {
           "label": "Model 3",
           "file": "mummy-wrap.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-26/model3/mummy-wrap.png",
-          "bytes": 800453
+          "bytes": 864251
         },
         "model3-2024-base": {
           "label": "Model 3 2024 Base",
           "file": "mummy-wrap.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-26/model3-2024-base/mummy-wrap.png",
-          "bytes": 849828
+          "bytes": 907779
         },
         "model3-2024-performance": {
           "label": "Model 3 2024 Performance",
           "file": "mummy-wrap.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-26/model3-2024-performance/mummy-wrap.png",
-          "bytes": 849116
+          "bytes": 906701
         },
         "modely": {
           "label": "Model Y",
           "file": "mummy-wrap.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-26/modely/mummy-wrap.png",
-          "bytes": 845187
+          "bytes": 917194
         },
         "modely-2025-base": {
           "label": "Model Y 2025 Base",
           "file": "mummy-wrap.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-26/modely-2025-base/mummy-wrap.png",
-          "bytes": 660875
+          "bytes": 719186
         },
         "modely-2025-premium": {
           "label": "Model Y 2025 Premium",
           "file": "mummy-wrap.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-26/modely-2025-premium/mummy-wrap.png",
-          "bytes": 718453
+          "bytes": 777858
         },
         "modely-2025-performance": {
           "label": "Model Y 2025 Performance",
           "file": "mummy-wrap.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-26/modely-2025-performance/mummy-wrap.png",
-          "bytes": 737525
+          "bytes": 797325
         },
         "modely-l": {
           "label": "Model Y L",
           "file": "mummy-wrap.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-26/modely-l/mummy-wrap.png",
-          "bytes": 819976
+          "bytes": 883130
         },
         "models-2021": {
           "label": "Model S 2021",
           "file": "mummy-wrap.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-26/models-2021/mummy-wrap.png",
-          "bytes": 677114
+          "bytes": 737640
         },
         "models-2025-plaid": {
           "label": "Model S 2025 Plaid",
           "file": "mummy-wrap.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-26/models-2025-plaid/mummy-wrap.png",
-          "bytes": 669673
+          "bytes": 728139
         },
         "modelx-2021": {
           "label": "Model X 2021",
           "file": "mummy-wrap.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-26/modelx-2021/mummy-wrap.png",
-          "bytes": 558984
+          "bytes": 619134
         }
       },
       "preview": {
