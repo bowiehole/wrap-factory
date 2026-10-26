@@ -4,4 +4,4 @@
 
 **Vehicle:** Model Y 2025 Base
 
-**Brief:** A Halloween mummy that wraps the whole car — frayed linen bandages crisscross in layered diagonal and horizontal bands over near-black gaps, and a few pairs of acid-green eyes peer out of dark slits along the sides. The bandages are laid out in 3D on the body itself, so they run unbroken across the hood, fenders, nose, corners and tailgate.
+**Brief:** A Halloween mummy that wraps the whole car — crisp linen bandages, frayed on both edges with loose threads, crisscross in layered diagonal and horizontal bands over near-black gaps. The bandages are laid out in 3D on the body itself, so they run unbroken across the hood, fenders, nose, corners and tailgate.
