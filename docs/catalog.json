@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T17:51:12.488Z",
+  "generatedAt": "2026-10-27T15:02:48.932Z",
   "repo": "bowiehole/wrap-factory",
   "site": "https://paintshopwraps.com",
   "vehicleOrder": [
@@ -31,6 +31,174 @@
     "modelx-2021": "Model X 2021"
   },
   "drops": [
+    {
+      "kind": "factory",
+      "id": "factory-2026-10-27-tie-dye",
+      "date": "2026-10-27",
+      "slug": "tie-dye",
+      "title": "Tie-Dye",
+      "brief": "A rainbow tie-dye spiral that wraps the whole car: magenta, orange, yellow, green, turquoise and violet bands swirl out from the middle of each side, cut by white crinkle lines where the cloth was folded. The dye is laid out in 3D on the body itself, so the bands run unbroken across the hood, fenders, nose, corners and tailgate.",
+      "previewVehicle": "cybertruck",
+      "vehicles": {
+        "cybertruck": {
+          "label": "Cybertruck",
+          "file": "tie-dye.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-27/cybertruck/tie-dye.png",
+          "bytes": 389741
+        },
+        "model3": {
+          "label": "Model 3",
+          "file": "tie-dye.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-27/model3/tie-dye.png",
+          "bytes": 460366
+        },
+        "model3-2024-base": {
+          "label": "Model 3 2024 Base",
+          "file": "tie-dye.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-27/model3-2024-base/tie-dye.png",
+          "bytes": 477674
+        },
+        "model3-2024-performance": {
+          "label": "Model 3 2024 Performance",
+          "file": "tie-dye.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-27/model3-2024-performance/tie-dye.png",
+          "bytes": 478119
+        },
+        "modely": {
+          "label": "Model Y",
+          "file": "tie-dye.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-27/modely/tie-dye.png",
+          "bytes": 480678
+        },
+        "modely-2025-base": {
+          "label": "Model Y 2025 Base",
+          "file": "tie-dye.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-27/modely-2025-base/tie-dye.png",
+          "bytes": 389934
+        },
+        "modely-2025-premium": {
+          "label": "Model Y 2025 Premium",
+          "file": "tie-dye.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-27/modely-2025-premium/tie-dye.png",
+          "bytes": 409270
+        },
+        "modely-2025-performance": {
+          "label": "Model Y 2025 Performance",
+          "file": "tie-dye.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-27/modely-2025-performance/tie-dye.png",
+          "bytes": 425771
+        },
+        "modely-l": {
+          "label": "Model Y L",
+          "file": "tie-dye.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-27/modely-l/tie-dye.png",
+          "bytes": 469197
+        },
+        "models-2021": {
+          "label": "Model S 2021",
+          "file": "tie-dye.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-27/models-2021/tie-dye.png",
+          "bytes": 406811
+        },
+        "models-2025-plaid": {
+          "label": "Model S 2025 Plaid",
+          "file": "tie-dye.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-27/models-2025-plaid/tie-dye.png",
+          "bytes": 404115
+        },
+        "modelx-2021": {
+          "label": "Model X 2021",
+          "file": "tie-dye.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-27/modelx-2021/tie-dye.png",
+          "bytes": 338552
+        }
+      },
+      "preview": {
+        "swatch": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-27/tie-dye/preview/swatch.png",
+        "stills": {
+          "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-27/tie-dye/preview/front.png",
+          "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-27/tie-dye/preview/side.png",
+          "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-27/tie-dye/preview/front-quarter.png",
+          "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-27/tie-dye/preview/rear-quarter.png"
+        },
+        "stillsByVehicle": {
+          "cybertruck": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-27/tie-dye/preview/cybertruck/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-27/tie-dye/preview/cybertruck/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-27/tie-dye/preview/cybertruck/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-27/tie-dye/preview/cybertruck/rear-quarter.png"
+          },
+          "model3": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-27/tie-dye/preview/model3/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-27/tie-dye/preview/model3/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-27/tie-dye/preview/model3/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-27/tie-dye/preview/model3/rear-quarter.png"
+          },
+          "model3-2024-base": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-27/tie-dye/preview/model3-2024-base/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-27/tie-dye/preview/model3-2024-base/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-27/tie-dye/preview/model3-2024-base/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-27/tie-dye/preview/model3-2024-base/rear-quarter.png"
+          },
+          "model3-2024-performance": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-27/tie-dye/preview/model3-2024-performance/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-27/tie-dye/preview/model3-2024-performance/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-27/tie-dye/preview/model3-2024-performance/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-27/tie-dye/preview/model3-2024-performance/rear-quarter.png"
+          },
+          "modely": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-27/tie-dye/preview/modely/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-27/tie-dye/preview/modely/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-27/tie-dye/preview/modely/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-27/tie-dye/preview/modely/rear-quarter.png"
+          },
+          "modely-2025-base": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-27/tie-dye/preview/modely-2025-base/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-27/tie-dye/preview/modely-2025-base/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-27/tie-dye/preview/modely-2025-base/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-27/tie-dye/preview/modely-2025-base/rear-quarter.png"
+          },
+          "modely-2025-premium": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-27/tie-dye/preview/modely-2025-premium/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-27/tie-dye/preview/modely-2025-premium/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-27/tie-dye/preview/modely-2025-premium/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-27/tie-dye/preview/modely-2025-premium/rear-quarter.png"
+          },
+          "modely-2025-performance": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-27/tie-dye/preview/modely-2025-performance/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-27/tie-dye/preview/modely-2025-performance/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-27/tie-dye/preview/modely-2025-performance/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-27/tie-dye/preview/modely-2025-performance/rear-quarter.png"
+          },
+          "modely-l": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-27/tie-dye/preview/modely-l/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-27/tie-dye/preview/modely-l/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-27/tie-dye/preview/modely-l/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-27/tie-dye/preview/modely-l/rear-quarter.png"
+          },
+          "models-2021": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-27/tie-dye/preview/models-2021/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-27/tie-dye/preview/models-2021/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-27/tie-dye/preview/models-2021/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-27/tie-dye/preview/models-2021/rear-quarter.png"
+          },
+          "models-2025-plaid": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-27/tie-dye/preview/models-2025-plaid/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-27/tie-dye/preview/models-2025-plaid/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-27/tie-dye/preview/models-2025-plaid/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-27/tie-dye/preview/models-2025-plaid/rear-quarter.png"
+          },
+          "modelx-2021": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-27/tie-dye/preview/modelx-2021/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-27/tie-dye/preview/modelx-2021/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-27/tie-dye/preview/modelx-2021/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-27/tie-dye/preview/modelx-2021/rear-quarter.png"
+          }
+        },
+        "og": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-10-27/tie-dye/preview/og.png",
+        "heroVehicle": "cybertruck"
+      }
+    },
     {
       "kind": "factory",
       "id": "factory-2026-10-26-mummy-wrap",
