@@ -2,7 +2,7 @@
 
 **Title:** Paper Cutout
 
-**Brief:** Mid-century paper cutouts for the whole car — big, flat, hand-cut leaf, coral and seaweed shapes in ultramarine, coral red and kelly green, scattered with plenty of breathing room over a warm paper-white body. The shapes are laid out in real surface meters, so they cross the hood, nose, corners and tailgate unbroken.
+**Brief:** Mid-century paper cutouts for the whole car — big, solid, flat hand-cut leaf, coral and kelp shapes with bold rounded lobes, in ultramarine, coral red and kelly green, scattered with plenty of breathing room over a warm paper-white body. The shapes are laid out in real surface meters, so they cross the hood, nose, corners and tailgate unbroken.
 
 Preview stills live in `preview/` (Cybertruck hero at the root, every vehicle under `preview/{vehicle}/`).
 Swatch is `preview/swatch.png`. Link image is `preview/og.png`.
