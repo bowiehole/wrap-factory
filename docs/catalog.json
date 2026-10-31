@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T19:01:32.646Z",
+  "generatedAt": "2026-10-31T20:15:46.000Z",
   "repo": "bowiehole/wrap-factory",
   "site": "https://paintshopwraps.com",
   "vehicleOrder": [
@@ -10796,73 +10796,73 @@
           "label": "Cybertruck",
           "file": "candy-corn.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/candy-corn/cybertruck/candy-corn.png",
-          "bytes": 207174
+          "bytes": 217317
         },
         "model3": {
           "label": "Model 3",
           "file": "candy-corn.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/candy-corn/model3/candy-corn.png",
-          "bytes": 295284
+          "bytes": 302440
         },
         "model3-2024-base": {
           "label": "Model 3 2024 Base",
           "file": "candy-corn.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/candy-corn/model3-2024-base/candy-corn.png",
-          "bytes": 288509
+          "bytes": 311248
         },
         "model3-2024-performance": {
           "label": "Model 3 2024 Performance",
           "file": "candy-corn.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/candy-corn/model3-2024-performance/candy-corn.png",
-          "bytes": 291174
+          "bytes": 312680
         },
         "modely": {
           "label": "Model Y",
           "file": "candy-corn.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/candy-corn/modely/candy-corn.png",
-          "bytes": 284861
+          "bytes": 304859
         },
         "modely-2025-base": {
           "label": "Model Y 2025 Base",
           "file": "candy-corn.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/candy-corn/modely-2025-base/candy-corn.png",
-          "bytes": 243889
+          "bytes": 249639
         },
         "modely-2025-premium": {
           "label": "Model Y 2025 Premium",
           "file": "candy-corn.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/candy-corn/modely-2025-premium/candy-corn.png",
-          "bytes": 249365
+          "bytes": 264231
         },
         "modely-2025-performance": {
           "label": "Model Y 2025 Performance",
           "file": "candy-corn.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/candy-corn/modely-2025-performance/candy-corn.png",
-          "bytes": 265467
+          "bytes": 292468
         },
         "modely-l": {
           "label": "Model Y L",
           "file": "candy-corn.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/candy-corn/modely-l/candy-corn.png",
-          "bytes": 281043
+          "bytes": 269686
         },
         "models-2021": {
           "label": "Model S 2021",
           "file": "candy-corn.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/candy-corn/models-2021/candy-corn.png",
-          "bytes": 245656
+          "bytes": 271831
         },
         "models-2025-plaid": {
           "label": "Model S 2025 Plaid",
           "file": "candy-corn.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/candy-corn/models-2025-plaid/candy-corn.png",
-          "bytes": 242998
+          "bytes": 264709
         },
         "modelx-2021": {
           "label": "Model X 2021",
           "file": "candy-corn.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/candy-corn/modelx-2021/candy-corn.png",
-          "bytes": 203409
+          "bytes": 218440
         }
       },
       "preview": {
