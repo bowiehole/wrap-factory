@@ -16,3 +16,4 @@ Directed skins and sister-line parks. Not 8am factory inventions.
 | [neon-cascade](neon-cascade/) | `neon-cascade` | Sister-line park (accidental automation), 2026-09-05. |
 | [plasma-vein](plasma-vein/) | `plasma-vein` | Sister-line park (accidental automation), 2026-09-05. |
 | [Bologna](bologna/) | `bologna` | National Bologna Day: a fresh-sliced bologna wrap in deli pink, speckled with fine pale fat flecks and tiny darker meat specks, finished with a thin darker casing-edge band around the rockers. Requested in issue #5. |
+| [Candy Corn](candy-corn/) | `candy-corn` | National Candy Corn Day: a scattered pile of whole candy corn kernels in yellow, orange, and white on a warm caramel-brown ground, sized so no kernel is cut at a body crease or bumper seam. |
