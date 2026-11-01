@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T14:21:38.000Z",
+  "generatedAt": "2026-11-01T17:42:51.350Z",
   "repo": "bowiehole/wrap-factory",
   "site": "https://paintshopwraps.com",
   "vehicleOrder": [
@@ -37,80 +37,80 @@
       "date": "2026-11-01",
       "slug": "dia-de-los-muertos",
       "title": "Día de los Muertos",
-      "brief": "Big flat marigolds, sugar skulls and a papel picado banner on deep indigo for Día de los Muertos.",
+      "brief": "Big flat marigolds, sugar skulls, monarch butterflies and a papel picado banner on deep indigo for Día de los Muertos.",
       "previewVehicle": "cybertruck",
       "vehicles": {
         "cybertruck": {
           "label": "Cybertruck",
           "file": "dia-de-los-muertos.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/cybertruck/dia-de-los-muertos.png",
-          "bytes": 72758
+          "bytes": 135170
         },
         "model3": {
           "label": "Model 3",
           "file": "dia-de-los-muertos.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/model3/dia-de-los-muertos.png",
-          "bytes": 151142
+          "bytes": 170820
         },
         "model3-2024-base": {
           "label": "Model 3 2024 Base",
           "file": "dia-de-los-muertos.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/model3-2024-base/dia-de-los-muertos.png",
-          "bytes": 141813
+          "bytes": 175381
         },
         "model3-2024-performance": {
           "label": "Model 3 2024 Performance",
           "file": "dia-de-los-muertos.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/model3-2024-performance/dia-de-los-muertos.png",
-          "bytes": 146351
+          "bytes": 178292
         },
         "modely": {
           "label": "Model Y",
           "file": "dia-de-los-muertos.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/modely/dia-de-los-muertos.png",
-          "bytes": 148231
+          "bytes": 189143
         },
         "modely-2025-base": {
           "label": "Model Y 2025 Base",
           "file": "dia-de-los-muertos.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/modely-2025-base/dia-de-los-muertos.png",
-          "bytes": 128700
+          "bytes": 151532
         },
         "modely-2025-premium": {
           "label": "Model Y 2025 Premium",
           "file": "dia-de-los-muertos.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/modely-2025-premium/dia-de-los-muertos.png",
-          "bytes": 129177
+          "bytes": 158260
         },
         "modely-2025-performance": {
           "label": "Model Y 2025 Performance",
           "file": "dia-de-los-muertos.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/modely-2025-performance/dia-de-los-muertos.png",
-          "bytes": 146076
+          "bytes": 176735
         },
         "modely-l": {
           "label": "Model Y L",
           "file": "dia-de-los-muertos.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/modely-l/dia-de-los-muertos.png",
-          "bytes": 130556
+          "bytes": 154586
         },
         "models-2021": {
           "label": "Model S 2021",
           "file": "dia-de-los-muertos.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/models-2021/dia-de-los-muertos.png",
-          "bytes": 120266
+          "bytes": 144334
         },
         "models-2025-plaid": {
           "label": "Model S 2025 Plaid",
           "file": "dia-de-los-muertos.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/models-2025-plaid/dia-de-los-muertos.png",
-          "bytes": 122175
+          "bytes": 143425
         },
         "modelx-2021": {
           "label": "Model X 2021",
           "file": "dia-de-los-muertos.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/modelx-2021/dia-de-los-muertos.png",
-          "bytes": 103706
+          "bytes": 121751
         }
       },
       "preview": {
