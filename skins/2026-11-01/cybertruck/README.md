@@ -4,4 +4,4 @@
 
 **Vehicle:** Cybertruck
 
-**Brief:** Big flat marigolds, sugar skulls and a papel picado banner on deep indigo for Día de los Muertos.
+**Brief:** Big flat marigolds, sugar skulls, monarch butterflies and a papel picado banner on deep indigo for Día de los Muertos.
