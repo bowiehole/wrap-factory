@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T17:42:51.350Z",
+  "generatedAt": "2026-11-02T17:22:24.045Z",
   "repo": "bowiehole/wrap-factory",
   "site": "https://paintshopwraps.com",
   "vehicleOrder": [
@@ -31,6 +31,174 @@
     "modelx-2021": "Model X 2021"
   },
   "drops": [
+    {
+      "kind": "factory",
+      "id": "factory-2026-11-02-golden-gate",
+      "date": "2026-11-02",
+      "slug": "golden-gate",
+      "title": "Golden Gate",
+      "brief": "Cities series: San Francisco — the Golden Gate in flat International Orange on a fog-white body. Twin-legged towers with cross struts stand at the nose, the tail and mid-side, the main cable swoops between them with sparse vertical suspenders, and an orange road deck runs nose to tail over a deep navy bay. Few big clean shapes, no shading. Original design; no logos or official marks.",
+      "previewVehicle": "cybertruck",
+      "vehicles": {
+        "cybertruck": {
+          "label": "Cybertruck",
+          "file": "golden-gate.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-02/cybertruck/golden-gate.png",
+          "bytes": 66126
+        },
+        "model3": {
+          "label": "Model 3",
+          "file": "golden-gate.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-02/model3/golden-gate.png",
+          "bytes": 182346
+        },
+        "model3-2024-base": {
+          "label": "Model 3 2024 Base",
+          "file": "golden-gate.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-02/model3-2024-base/golden-gate.png",
+          "bytes": 163120
+        },
+        "model3-2024-performance": {
+          "label": "Model 3 2024 Performance",
+          "file": "golden-gate.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-02/model3-2024-performance/golden-gate.png",
+          "bytes": 164378
+        },
+        "modely": {
+          "label": "Model Y",
+          "file": "golden-gate.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-02/modely/golden-gate.png",
+          "bytes": 154933
+        },
+        "modely-2025-base": {
+          "label": "Model Y 2025 Base",
+          "file": "golden-gate.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-02/modely-2025-base/golden-gate.png",
+          "bytes": 148137
+        },
+        "modely-2025-premium": {
+          "label": "Model Y 2025 Premium",
+          "file": "golden-gate.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-02/modely-2025-premium/golden-gate.png",
+          "bytes": 149545
+        },
+        "modely-2025-performance": {
+          "label": "Model Y 2025 Performance",
+          "file": "golden-gate.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-02/modely-2025-performance/golden-gate.png",
+          "bytes": 170656
+        },
+        "modely-l": {
+          "label": "Model Y L",
+          "file": "golden-gate.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-02/modely-l/golden-gate.png",
+          "bytes": 157493
+        },
+        "models-2021": {
+          "label": "Model S 2021",
+          "file": "golden-gate.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-02/models-2021/golden-gate.png",
+          "bytes": 143925
+        },
+        "models-2025-plaid": {
+          "label": "Model S 2025 Plaid",
+          "file": "golden-gate.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-02/models-2025-plaid/golden-gate.png",
+          "bytes": 143857
+        },
+        "modelx-2021": {
+          "label": "Model X 2021",
+          "file": "golden-gate.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-02/modelx-2021/golden-gate.png",
+          "bytes": 122280
+        }
+      },
+      "preview": {
+        "swatch": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-02/golden-gate/preview/swatch.png",
+        "stills": {
+          "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-02/golden-gate/preview/front.png",
+          "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-02/golden-gate/preview/side.png",
+          "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-02/golden-gate/preview/front-quarter.png",
+          "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-02/golden-gate/preview/rear-quarter.png"
+        },
+        "stillsByVehicle": {
+          "cybertruck": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-02/golden-gate/preview/cybertruck/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-02/golden-gate/preview/cybertruck/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-02/golden-gate/preview/cybertruck/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-02/golden-gate/preview/cybertruck/rear-quarter.png"
+          },
+          "model3": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-02/golden-gate/preview/model3/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-02/golden-gate/preview/model3/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-02/golden-gate/preview/model3/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-02/golden-gate/preview/model3/rear-quarter.png"
+          },
+          "model3-2024-base": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-02/golden-gate/preview/model3-2024-base/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-02/golden-gate/preview/model3-2024-base/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-02/golden-gate/preview/model3-2024-base/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-02/golden-gate/preview/model3-2024-base/rear-quarter.png"
+          },
+          "model3-2024-performance": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-02/golden-gate/preview/model3-2024-performance/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-02/golden-gate/preview/model3-2024-performance/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-02/golden-gate/preview/model3-2024-performance/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-02/golden-gate/preview/model3-2024-performance/rear-quarter.png"
+          },
+          "modely": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-02/golden-gate/preview/modely/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-02/golden-gate/preview/modely/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-02/golden-gate/preview/modely/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-02/golden-gate/preview/modely/rear-quarter.png"
+          },
+          "modely-2025-base": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-02/golden-gate/preview/modely-2025-base/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-02/golden-gate/preview/modely-2025-base/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-02/golden-gate/preview/modely-2025-base/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-02/golden-gate/preview/modely-2025-base/rear-quarter.png"
+          },
+          "modely-2025-premium": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-02/golden-gate/preview/modely-2025-premium/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-02/golden-gate/preview/modely-2025-premium/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-02/golden-gate/preview/modely-2025-premium/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-02/golden-gate/preview/modely-2025-premium/rear-quarter.png"
+          },
+          "modely-2025-performance": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-02/golden-gate/preview/modely-2025-performance/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-02/golden-gate/preview/modely-2025-performance/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-02/golden-gate/preview/modely-2025-performance/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-02/golden-gate/preview/modely-2025-performance/rear-quarter.png"
+          },
+          "modely-l": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-02/golden-gate/preview/modely-l/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-02/golden-gate/preview/modely-l/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-02/golden-gate/preview/modely-l/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-02/golden-gate/preview/modely-l/rear-quarter.png"
+          },
+          "models-2021": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-02/golden-gate/preview/models-2021/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-02/golden-gate/preview/models-2021/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-02/golden-gate/preview/models-2021/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-02/golden-gate/preview/models-2021/rear-quarter.png"
+          },
+          "models-2025-plaid": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-02/golden-gate/preview/models-2025-plaid/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-02/golden-gate/preview/models-2025-plaid/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-02/golden-gate/preview/models-2025-plaid/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-02/golden-gate/preview/models-2025-plaid/rear-quarter.png"
+          },
+          "modelx-2021": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-02/golden-gate/preview/modelx-2021/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-02/golden-gate/preview/modelx-2021/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-02/golden-gate/preview/modelx-2021/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-02/golden-gate/preview/modelx-2021/rear-quarter.png"
+          }
+        },
+        "og": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-02/golden-gate/preview/og.png",
+        "heroVehicle": "cybertruck"
+      }
+    },
     {
       "kind": "factory",
       "id": "factory-2026-11-01-dia-de-los-muertos",
