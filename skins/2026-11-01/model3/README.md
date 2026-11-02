@@ -4,4 +4,4 @@
 
 **Vehicle:** Model 3
 
-**Brief:** Big flat marigolds, sugar skulls, monarch butterflies and a papel picado banner on deep indigo for Día de los Muertos.
+**Brief:** Whole festive marigolds, sugar skulls, monarch butterflies and a papel picado banner on flat panels over deep indigo for Día de los Muertos.
