@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T17:22:24.045Z",
+  "generatedAt": "2026-11-02T23:30:25.797Z",
   "repo": "bowiehole/wrap-factory",
   "site": "https://paintshopwraps.com",
   "vehicleOrder": [
@@ -31,6 +31,174 @@
     "modelx-2021": "Model X 2021"
   },
   "drops": [
+    {
+      "kind": "factory",
+      "id": "factory-2026-11-01-dia-de-los-muertos",
+      "date": "2026-11-01",
+      "slug": "dia-de-los-muertos",
+      "title": "Día de los Muertos",
+      "brief": "Whole festive marigolds, sugar skulls, monarch butterflies and a papel picado banner on flat panels over deep indigo for Día de los Muertos.",
+      "previewVehicle": "cybertruck",
+      "vehicles": {
+        "cybertruck": {
+          "label": "Cybertruck",
+          "file": "dia-de-los-muertos.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/cybertruck/dia-de-los-muertos.png",
+          "bytes": 119869
+        },
+        "model3": {
+          "label": "Model 3",
+          "file": "dia-de-los-muertos.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/model3/dia-de-los-muertos.png",
+          "bytes": 157993
+        },
+        "model3-2024-base": {
+          "label": "Model 3 2024 Base",
+          "file": "dia-de-los-muertos.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/model3-2024-base/dia-de-los-muertos.png",
+          "bytes": 149160
+        },
+        "model3-2024-performance": {
+          "label": "Model 3 2024 Performance",
+          "file": "dia-de-los-muertos.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/model3-2024-performance/dia-de-los-muertos.png",
+          "bytes": 153926
+        },
+        "modely": {
+          "label": "Model Y",
+          "file": "dia-de-los-muertos.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/modely/dia-de-los-muertos.png",
+          "bytes": 159078
+        },
+        "modely-2025-base": {
+          "label": "Model Y 2025 Base",
+          "file": "dia-de-los-muertos.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/modely-2025-base/dia-de-los-muertos.png",
+          "bytes": 139510
+        },
+        "modely-2025-premium": {
+          "label": "Model Y 2025 Premium",
+          "file": "dia-de-los-muertos.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/modely-2025-premium/dia-de-los-muertos.png",
+          "bytes": 144989
+        },
+        "modely-2025-performance": {
+          "label": "Model Y 2025 Performance",
+          "file": "dia-de-los-muertos.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/modely-2025-performance/dia-de-los-muertos.png",
+          "bytes": 169537
+        },
+        "modely-l": {
+          "label": "Model Y L",
+          "file": "dia-de-los-muertos.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/modely-l/dia-de-los-muertos.png",
+          "bytes": 150642
+        },
+        "models-2021": {
+          "label": "Model S 2021",
+          "file": "dia-de-los-muertos.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/models-2021/dia-de-los-muertos.png",
+          "bytes": 129683
+        },
+        "models-2025-plaid": {
+          "label": "Model S 2025 Plaid",
+          "file": "dia-de-los-muertos.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/models-2025-plaid/dia-de-los-muertos.png",
+          "bytes": 131249
+        },
+        "modelx-2021": {
+          "label": "Model X 2021",
+          "file": "dia-de-los-muertos.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/modelx-2021/dia-de-los-muertos.png",
+          "bytes": 113648
+        }
+      },
+      "preview": {
+        "swatch": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/swatch.png",
+        "stills": {
+          "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/front.png",
+          "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/side.png",
+          "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/front-quarter.png",
+          "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/rear-quarter.png"
+        },
+        "stillsByVehicle": {
+          "cybertruck": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/cybertruck/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/cybertruck/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/cybertruck/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/cybertruck/rear-quarter.png"
+          },
+          "model3": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/model3/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/model3/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/model3/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/model3/rear-quarter.png"
+          },
+          "model3-2024-base": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/model3-2024-base/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/model3-2024-base/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/model3-2024-base/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/model3-2024-base/rear-quarter.png"
+          },
+          "model3-2024-performance": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/model3-2024-performance/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/model3-2024-performance/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/model3-2024-performance/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/model3-2024-performance/rear-quarter.png"
+          },
+          "modely": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/modely/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/modely/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/modely/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/modely/rear-quarter.png"
+          },
+          "modely-2025-base": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/modely-2025-base/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/modely-2025-base/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/modely-2025-base/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/modely-2025-base/rear-quarter.png"
+          },
+          "modely-2025-premium": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/modely-2025-premium/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/modely-2025-premium/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/modely-2025-premium/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/modely-2025-premium/rear-quarter.png"
+          },
+          "modely-2025-performance": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/modely-2025-performance/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/modely-2025-performance/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/modely-2025-performance/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/modely-2025-performance/rear-quarter.png"
+          },
+          "modely-l": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/modely-l/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/modely-l/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/modely-l/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/modely-l/rear-quarter.png"
+          },
+          "models-2021": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/models-2021/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/models-2021/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/models-2021/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/models-2021/rear-quarter.png"
+          },
+          "models-2025-plaid": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/models-2025-plaid/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/models-2025-plaid/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/models-2025-plaid/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/models-2025-plaid/rear-quarter.png"
+          },
+          "modelx-2021": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/modelx-2021/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/modelx-2021/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/modelx-2021/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/modelx-2021/rear-quarter.png"
+          }
+        },
+        "og": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/og.png",
+        "heroVehicle": "cybertruck"
+      }
+    },
     {
       "kind": "factory",
       "id": "factory-2026-11-02-golden-gate",
@@ -196,174 +364,6 @@
           }
         },
         "og": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-02/golden-gate/preview/og.png",
-        "heroVehicle": "cybertruck"
-      }
-    },
-    {
-      "kind": "factory",
-      "id": "factory-2026-11-01-dia-de-los-muertos",
-      "date": "2026-11-01",
-      "slug": "dia-de-los-muertos",
-      "title": "Día de los Muertos",
-      "brief": "Big flat marigolds, sugar skulls, monarch butterflies and a papel picado banner on deep indigo for Día de los Muertos.",
-      "previewVehicle": "cybertruck",
-      "vehicles": {
-        "cybertruck": {
-          "label": "Cybertruck",
-          "file": "dia-de-los-muertos.png",
-          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/cybertruck/dia-de-los-muertos.png",
-          "bytes": 135170
-        },
-        "model3": {
-          "label": "Model 3",
-          "file": "dia-de-los-muertos.png",
-          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/model3/dia-de-los-muertos.png",
-          "bytes": 170820
-        },
-        "model3-2024-base": {
-          "label": "Model 3 2024 Base",
-          "file": "dia-de-los-muertos.png",
-          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/model3-2024-base/dia-de-los-muertos.png",
-          "bytes": 175381
-        },
-        "model3-2024-performance": {
-          "label": "Model 3 2024 Performance",
-          "file": "dia-de-los-muertos.png",
-          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/model3-2024-performance/dia-de-los-muertos.png",
-          "bytes": 178292
-        },
-        "modely": {
-          "label": "Model Y",
-          "file": "dia-de-los-muertos.png",
-          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/modely/dia-de-los-muertos.png",
-          "bytes": 189143
-        },
-        "modely-2025-base": {
-          "label": "Model Y 2025 Base",
-          "file": "dia-de-los-muertos.png",
-          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/modely-2025-base/dia-de-los-muertos.png",
-          "bytes": 151532
-        },
-        "modely-2025-premium": {
-          "label": "Model Y 2025 Premium",
-          "file": "dia-de-los-muertos.png",
-          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/modely-2025-premium/dia-de-los-muertos.png",
-          "bytes": 158260
-        },
-        "modely-2025-performance": {
-          "label": "Model Y 2025 Performance",
-          "file": "dia-de-los-muertos.png",
-          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/modely-2025-performance/dia-de-los-muertos.png",
-          "bytes": 176735
-        },
-        "modely-l": {
-          "label": "Model Y L",
-          "file": "dia-de-los-muertos.png",
-          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/modely-l/dia-de-los-muertos.png",
-          "bytes": 154586
-        },
-        "models-2021": {
-          "label": "Model S 2021",
-          "file": "dia-de-los-muertos.png",
-          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/models-2021/dia-de-los-muertos.png",
-          "bytes": 144334
-        },
-        "models-2025-plaid": {
-          "label": "Model S 2025 Plaid",
-          "file": "dia-de-los-muertos.png",
-          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/models-2025-plaid/dia-de-los-muertos.png",
-          "bytes": 143425
-        },
-        "modelx-2021": {
-          "label": "Model X 2021",
-          "file": "dia-de-los-muertos.png",
-          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/modelx-2021/dia-de-los-muertos.png",
-          "bytes": 121751
-        }
-      },
-      "preview": {
-        "swatch": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/swatch.png",
-        "stills": {
-          "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/front.png",
-          "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/side.png",
-          "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/front-quarter.png",
-          "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/rear-quarter.png"
-        },
-        "stillsByVehicle": {
-          "cybertruck": {
-            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/cybertruck/front.png",
-            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/cybertruck/side.png",
-            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/cybertruck/front-quarter.png",
-            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/cybertruck/rear-quarter.png"
-          },
-          "model3": {
-            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/model3/front.png",
-            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/model3/side.png",
-            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/model3/front-quarter.png",
-            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/model3/rear-quarter.png"
-          },
-          "model3-2024-base": {
-            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/model3-2024-base/front.png",
-            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/model3-2024-base/side.png",
-            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/model3-2024-base/front-quarter.png",
-            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/model3-2024-base/rear-quarter.png"
-          },
-          "model3-2024-performance": {
-            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/model3-2024-performance/front.png",
-            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/model3-2024-performance/side.png",
-            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/model3-2024-performance/front-quarter.png",
-            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/model3-2024-performance/rear-quarter.png"
-          },
-          "modely": {
-            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/modely/front.png",
-            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/modely/side.png",
-            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/modely/front-quarter.png",
-            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/modely/rear-quarter.png"
-          },
-          "modely-2025-base": {
-            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/modely-2025-base/front.png",
-            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/modely-2025-base/side.png",
-            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/modely-2025-base/front-quarter.png",
-            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/modely-2025-base/rear-quarter.png"
-          },
-          "modely-2025-premium": {
-            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/modely-2025-premium/front.png",
-            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/modely-2025-premium/side.png",
-            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/modely-2025-premium/front-quarter.png",
-            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/modely-2025-premium/rear-quarter.png"
-          },
-          "modely-2025-performance": {
-            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/modely-2025-performance/front.png",
-            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/modely-2025-performance/side.png",
-            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/modely-2025-performance/front-quarter.png",
-            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/modely-2025-performance/rear-quarter.png"
-          },
-          "modely-l": {
-            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/modely-l/front.png",
-            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/modely-l/side.png",
-            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/modely-l/front-quarter.png",
-            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/modely-l/rear-quarter.png"
-          },
-          "models-2021": {
-            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/models-2021/front.png",
-            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/models-2021/side.png",
-            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/models-2021/front-quarter.png",
-            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/models-2021/rear-quarter.png"
-          },
-          "models-2025-plaid": {
-            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/models-2025-plaid/front.png",
-            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/models-2025-plaid/side.png",
-            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/models-2025-plaid/front-quarter.png",
-            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/models-2025-plaid/rear-quarter.png"
-          },
-          "modelx-2021": {
-            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/modelx-2021/front.png",
-            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/modelx-2021/side.png",
-            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/modelx-2021/front-quarter.png",
-            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/modelx-2021/rear-quarter.png"
-          }
-        },
-        "og": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-01/dia-de-los-muertos/preview/og.png",
         "heroVehicle": "cybertruck"
       }
     },
