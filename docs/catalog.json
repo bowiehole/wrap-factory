@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T23:30:25.797Z",
+  "generatedAt": "2026-11-03T16:20:32.391Z",
   "repo": "bowiehole/wrap-factory",
   "site": "https://paintshopwraps.com",
   "vehicleOrder": [
@@ -31,6 +31,174 @@
     "modelx-2021": "Model X 2021"
   },
   "drops": [
+    {
+      "kind": "factory",
+      "id": "factory-2026-11-03-de-stijl",
+      "date": "2026-11-03",
+      "slug": "de-stijl",
+      "title": "De Stijl",
+      "brief": "A De Stijl composition for the whole car — thick black lines meet at right angles on a warm white body, with a few big flat blocks of primary red, yellow and blue set far apart. Lines run level along the doors, around the corners and up over the hood and deck; some stop short at a crossing line, the way the old neoplastic paintings do. Few big clean shapes, no shading. Original design; no logos or reproductions of any specific painting.",
+      "previewVehicle": "cybertruck",
+      "vehicles": {
+        "cybertruck": {
+          "label": "Cybertruck",
+          "file": "de-stijl.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-03/cybertruck/de-stijl.png",
+          "bytes": 57718
+        },
+        "model3": {
+          "label": "Model 3",
+          "file": "de-stijl.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-03/model3/de-stijl.png",
+          "bytes": 168834
+        },
+        "model3-2024-base": {
+          "label": "Model 3 2024 Base",
+          "file": "de-stijl.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-03/model3-2024-base/de-stijl.png",
+          "bytes": 149254
+        },
+        "model3-2024-performance": {
+          "label": "Model 3 2024 Performance",
+          "file": "de-stijl.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-03/model3-2024-performance/de-stijl.png",
+          "bytes": 149931
+        },
+        "modely": {
+          "label": "Model Y",
+          "file": "de-stijl.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-03/modely/de-stijl.png",
+          "bytes": 138055
+        },
+        "modely-2025-base": {
+          "label": "Model Y 2025 Base",
+          "file": "de-stijl.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-03/modely-2025-base/de-stijl.png",
+          "bytes": 137114
+        },
+        "modely-2025-premium": {
+          "label": "Model Y 2025 Premium",
+          "file": "de-stijl.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-03/modely-2025-premium/de-stijl.png",
+          "bytes": 132560
+        },
+        "modely-2025-performance": {
+          "label": "Model Y 2025 Performance",
+          "file": "de-stijl.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-03/modely-2025-performance/de-stijl.png",
+          "bytes": 157212
+        },
+        "modely-l": {
+          "label": "Model Y L",
+          "file": "de-stijl.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-03/modely-l/de-stijl.png",
+          "bytes": 152376
+        },
+        "models-2021": {
+          "label": "Model S 2021",
+          "file": "de-stijl.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-03/models-2021/de-stijl.png",
+          "bytes": 141041
+        },
+        "models-2025-plaid": {
+          "label": "Model S 2025 Plaid",
+          "file": "de-stijl.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-03/models-2025-plaid/de-stijl.png",
+          "bytes": 140579
+        },
+        "modelx-2021": {
+          "label": "Model X 2021",
+          "file": "de-stijl.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-03/modelx-2021/de-stijl.png",
+          "bytes": 115655
+        }
+      },
+      "preview": {
+        "swatch": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-03/de-stijl/preview/swatch.png",
+        "stills": {
+          "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-03/de-stijl/preview/front.png",
+          "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-03/de-stijl/preview/side.png",
+          "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-03/de-stijl/preview/front-quarter.png",
+          "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-03/de-stijl/preview/rear-quarter.png"
+        },
+        "stillsByVehicle": {
+          "cybertruck": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-03/de-stijl/preview/cybertruck/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-03/de-stijl/preview/cybertruck/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-03/de-stijl/preview/cybertruck/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-03/de-stijl/preview/cybertruck/rear-quarter.png"
+          },
+          "model3": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-03/de-stijl/preview/model3/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-03/de-stijl/preview/model3/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-03/de-stijl/preview/model3/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-03/de-stijl/preview/model3/rear-quarter.png"
+          },
+          "model3-2024-base": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-03/de-stijl/preview/model3-2024-base/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-03/de-stijl/preview/model3-2024-base/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-03/de-stijl/preview/model3-2024-base/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-03/de-stijl/preview/model3-2024-base/rear-quarter.png"
+          },
+          "model3-2024-performance": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-03/de-stijl/preview/model3-2024-performance/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-03/de-stijl/preview/model3-2024-performance/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-03/de-stijl/preview/model3-2024-performance/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-03/de-stijl/preview/model3-2024-performance/rear-quarter.png"
+          },
+          "modely": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-03/de-stijl/preview/modely/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-03/de-stijl/preview/modely/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-03/de-stijl/preview/modely/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-03/de-stijl/preview/modely/rear-quarter.png"
+          },
+          "modely-2025-base": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-03/de-stijl/preview/modely-2025-base/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-03/de-stijl/preview/modely-2025-base/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-03/de-stijl/preview/modely-2025-base/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-03/de-stijl/preview/modely-2025-base/rear-quarter.png"
+          },
+          "modely-2025-premium": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-03/de-stijl/preview/modely-2025-premium/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-03/de-stijl/preview/modely-2025-premium/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-03/de-stijl/preview/modely-2025-premium/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-03/de-stijl/preview/modely-2025-premium/rear-quarter.png"
+          },
+          "modely-2025-performance": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-03/de-stijl/preview/modely-2025-performance/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-03/de-stijl/preview/modely-2025-performance/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-03/de-stijl/preview/modely-2025-performance/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-03/de-stijl/preview/modely-2025-performance/rear-quarter.png"
+          },
+          "modely-l": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-03/de-stijl/preview/modely-l/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-03/de-stijl/preview/modely-l/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-03/de-stijl/preview/modely-l/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-03/de-stijl/preview/modely-l/rear-quarter.png"
+          },
+          "models-2021": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-03/de-stijl/preview/models-2021/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-03/de-stijl/preview/models-2021/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-03/de-stijl/preview/models-2021/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-03/de-stijl/preview/models-2021/rear-quarter.png"
+          },
+          "models-2025-plaid": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-03/de-stijl/preview/models-2025-plaid/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-03/de-stijl/preview/models-2025-plaid/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-03/de-stijl/preview/models-2025-plaid/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-03/de-stijl/preview/models-2025-plaid/rear-quarter.png"
+          },
+          "modelx-2021": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-03/de-stijl/preview/modelx-2021/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-03/de-stijl/preview/modelx-2021/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-03/de-stijl/preview/modelx-2021/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-03/de-stijl/preview/modelx-2021/rear-quarter.png"
+          }
+        },
+        "og": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-03/de-stijl/preview/og.png",
+        "heroVehicle": "cybertruck"
+      }
+    },
     {
       "kind": "factory",
       "id": "factory-2026-11-01-dia-de-los-muertos",
