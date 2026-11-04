@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T16:20:32.391Z",
+  "generatedAt": "2026-11-04T02:17:03.198Z",
   "repo": "bowiehole/wrap-factory",
   "site": "https://paintshopwraps.com",
   "vehicleOrder": [
@@ -11620,6 +11620,174 @@
           }
         },
         "og": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/ember-cascade/preview/og.png",
+        "heroVehicle": "cybertruck"
+      }
+    },
+    {
+      "kind": "workshop",
+      "id": "workshop-i-voted",
+      "date": null,
+      "slug": "i-voted",
+      "title": "I Voted!",
+      "brief": "Election Day: a clean white car wearing big, whole, flat \"I Voted!\" stickers — a classic oval with a navy ring, a flat American flag and bold red I VOTED! — on each front door or side, the hood or frunk, and the rear where a whole sticker fits flat. Original design inspired by the classic oval election sticker; no logos or official seals.",
+      "previewVehicle": "cybertruck",
+      "vehicles": {
+        "cybertruck": {
+          "label": "Cybertruck",
+          "file": "i-voted.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/i-voted/cybertruck/i-voted.png",
+          "bytes": 66530
+        },
+        "model3": {
+          "label": "Model 3",
+          "file": "i-voted.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/i-voted/model3/i-voted.png",
+          "bytes": 119434
+        },
+        "model3-2024-base": {
+          "label": "Model 3 2024 Base",
+          "file": "i-voted.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/i-voted/model3-2024-base/i-voted.png",
+          "bytes": 114847
+        },
+        "model3-2024-performance": {
+          "label": "Model 3 2024 Performance",
+          "file": "i-voted.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/i-voted/model3-2024-performance/i-voted.png",
+          "bytes": 115410
+        },
+        "modely": {
+          "label": "Model Y",
+          "file": "i-voted.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/i-voted/modely/i-voted.png",
+          "bytes": 110757
+        },
+        "modely-2025-base": {
+          "label": "Model Y 2025 Base",
+          "file": "i-voted.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/i-voted/modely-2025-base/i-voted.png",
+          "bytes": 117311
+        },
+        "modely-2025-premium": {
+          "label": "Model Y 2025 Premium",
+          "file": "i-voted.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/i-voted/modely-2025-premium/i-voted.png",
+          "bytes": 114824
+        },
+        "modely-2025-performance": {
+          "label": "Model Y 2025 Performance",
+          "file": "i-voted.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/i-voted/modely-2025-performance/i-voted.png",
+          "bytes": 129775
+        },
+        "modely-l": {
+          "label": "Model Y L",
+          "file": "i-voted.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/i-voted/modely-l/i-voted.png",
+          "bytes": 112739
+        },
+        "models-2021": {
+          "label": "Model S 2021",
+          "file": "i-voted.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/i-voted/models-2021/i-voted.png",
+          "bytes": 96855
+        },
+        "models-2025-plaid": {
+          "label": "Model S 2025 Plaid",
+          "file": "i-voted.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/i-voted/models-2025-plaid/i-voted.png",
+          "bytes": 98134
+        },
+        "modelx-2021": {
+          "label": "Model X 2021",
+          "file": "i-voted.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/i-voted/modelx-2021/i-voted.png",
+          "bytes": 81611
+        }
+      },
+      "preview": {
+        "swatch": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/i-voted/preview/swatch.png",
+        "stills": {
+          "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/i-voted/preview/front.png",
+          "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/i-voted/preview/side.png",
+          "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/i-voted/preview/front-quarter.png",
+          "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/i-voted/preview/rear-quarter.png"
+        },
+        "stillsByVehicle": {
+          "cybertruck": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/i-voted/preview/cybertruck/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/i-voted/preview/cybertruck/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/i-voted/preview/cybertruck/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/i-voted/preview/cybertruck/rear-quarter.png"
+          },
+          "model3": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/i-voted/preview/model3/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/i-voted/preview/model3/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/i-voted/preview/model3/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/i-voted/preview/model3/rear-quarter.png"
+          },
+          "model3-2024-base": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/i-voted/preview/model3-2024-base/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/i-voted/preview/model3-2024-base/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/i-voted/preview/model3-2024-base/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/i-voted/preview/model3-2024-base/rear-quarter.png"
+          },
+          "model3-2024-performance": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/i-voted/preview/model3-2024-performance/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/i-voted/preview/model3-2024-performance/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/i-voted/preview/model3-2024-performance/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/i-voted/preview/model3-2024-performance/rear-quarter.png"
+          },
+          "models-2021": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/i-voted/preview/models-2021/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/i-voted/preview/models-2021/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/i-voted/preview/models-2021/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/i-voted/preview/models-2021/rear-quarter.png"
+          },
+          "models-2025-plaid": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/i-voted/preview/models-2025-plaid/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/i-voted/preview/models-2025-plaid/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/i-voted/preview/models-2025-plaid/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/i-voted/preview/models-2025-plaid/rear-quarter.png"
+          },
+          "modelx-2021": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/i-voted/preview/modelx-2021/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/i-voted/preview/modelx-2021/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/i-voted/preview/modelx-2021/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/i-voted/preview/modelx-2021/rear-quarter.png"
+          },
+          "modely": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/i-voted/preview/modely/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/i-voted/preview/modely/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/i-voted/preview/modely/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/i-voted/preview/modely/rear-quarter.png"
+          },
+          "modely-2025-base": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/i-voted/preview/modely-2025-base/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/i-voted/preview/modely-2025-base/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/i-voted/preview/modely-2025-base/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/i-voted/preview/modely-2025-base/rear-quarter.png"
+          },
+          "modely-2025-performance": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/i-voted/preview/modely-2025-performance/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/i-voted/preview/modely-2025-performance/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/i-voted/preview/modely-2025-performance/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/i-voted/preview/modely-2025-performance/rear-quarter.png"
+          },
+          "modely-2025-premium": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/i-voted/preview/modely-2025-premium/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/i-voted/preview/modely-2025-premium/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/i-voted/preview/modely-2025-premium/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/i-voted/preview/modely-2025-premium/rear-quarter.png"
+          },
+          "modely-l": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/i-voted/preview/modely-l/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/i-voted/preview/modely-l/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/i-voted/preview/modely-l/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/i-voted/preview/modely-l/rear-quarter.png"
+          }
+        },
+        "og": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/workshop/i-voted/preview/og.png",
         "heroVehicle": "cybertruck"
       }
     },
