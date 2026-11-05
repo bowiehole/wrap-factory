@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T14:53:09.362Z",
+  "generatedAt": "2026-11-05T13:46:16.719Z",
   "repo": "bowiehole/wrap-factory",
   "site": "https://paintshopwraps.com",
   "vehicleOrder": [
@@ -44,73 +44,73 @@
           "label": "Cybertruck",
           "file": "citrus-slice.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-04/cybertruck/citrus-slice.png",
-          "bytes": 176633
+          "bytes": 120765
         },
         "model3": {
           "label": "Model 3",
           "file": "citrus-slice.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-04/model3/citrus-slice.png",
-          "bytes": 242660
+          "bytes": 148388
         },
         "model3-2024-base": {
           "label": "Model 3 2024 Base",
           "file": "citrus-slice.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-04/model3-2024-base/citrus-slice.png",
-          "bytes": 244940
+          "bytes": 170016
         },
         "model3-2024-performance": {
           "label": "Model 3 2024 Performance",
           "file": "citrus-slice.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-04/model3-2024-performance/citrus-slice.png",
-          "bytes": 246762
+          "bytes": 163049
         },
         "modely": {
           "label": "Model Y",
           "file": "citrus-slice.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-04/modely/citrus-slice.png",
-          "bytes": 249217
+          "bytes": 140102
         },
         "modely-2025-base": {
           "label": "Model Y 2025 Base",
           "file": "citrus-slice.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-04/modely-2025-base/citrus-slice.png",
-          "bytes": 215068
+          "bytes": 154295
         },
         "modely-2025-premium": {
           "label": "Model Y 2025 Premium",
           "file": "citrus-slice.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-04/modely-2025-premium/citrus-slice.png",
-          "bytes": 217735
+          "bytes": 152237
         },
         "modely-2025-performance": {
           "label": "Model Y 2025 Performance",
           "file": "citrus-slice.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-04/modely-2025-performance/citrus-slice.png",
-          "bytes": 234644
+          "bytes": 168523
         },
         "modely-l": {
           "label": "Model Y L",
           "file": "citrus-slice.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-04/modely-l/citrus-slice.png",
-          "bytes": 253374
+          "bytes": 139082
         },
         "models-2021": {
           "label": "Model S 2021",
           "file": "citrus-slice.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-04/models-2021/citrus-slice.png",
-          "bytes": 219144
+          "bytes": 133040
         },
         "models-2025-plaid": {
           "label": "Model S 2025 Plaid",
           "file": "citrus-slice.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-04/models-2025-plaid/citrus-slice.png",
-          "bytes": 220819
+          "bytes": 135188
         },
         "modelx-2021": {
           "label": "Model X 2021",
           "file": "citrus-slice.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-04/modelx-2021/citrus-slice.png",
-          "bytes": 190249
+          "bytes": 127181
         }
       },
       "preview": {
