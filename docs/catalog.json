@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T14:46:20.779Z",
+  "generatedAt": "2026-11-06T21:37:25.633Z",
   "repo": "bowiehole/wrap-factory",
   "site": "https://paintshopwraps.com",
   "vehicleOrder": [
@@ -44,73 +44,73 @@
           "label": "Cybertruck",
           "file": "stained-glass.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-06/cybertruck/stained-glass.png",
-          "bytes": 97167
+          "bytes": 96213
         },
         "model3": {
           "label": "Model 3",
           "file": "stained-glass.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-06/model3/stained-glass.png",
-          "bytes": 170668
+          "bytes": 173853
         },
         "model3-2024-base": {
           "label": "Model 3 2024 Base",
           "file": "stained-glass.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-06/model3-2024-base/stained-glass.png",
-          "bytes": 164205
+          "bytes": 167140
         },
         "model3-2024-performance": {
           "label": "Model 3 2024 Performance",
           "file": "stained-glass.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-06/model3-2024-performance/stained-glass.png",
-          "bytes": 164699
+          "bytes": 168110
         },
         "modely": {
           "label": "Model Y",
           "file": "stained-glass.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-06/modely/stained-glass.png",
-          "bytes": 163539
+          "bytes": 165411
         },
         "modely-2025-base": {
           "label": "Model Y 2025 Base",
           "file": "stained-glass.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-06/modely-2025-base/stained-glass.png",
-          "bytes": 149136
+          "bytes": 147396
         },
         "modely-2025-premium": {
           "label": "Model Y 2025 Premium",
           "file": "stained-glass.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-06/modely-2025-premium/stained-glass.png",
-          "bytes": 145539
+          "bytes": 145235
         },
         "modely-2025-performance": {
           "label": "Model Y 2025 Performance",
           "file": "stained-glass.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-06/modely-2025-performance/stained-glass.png",
-          "bytes": 168519
+          "bytes": 165982
         },
         "modely-l": {
           "label": "Model Y L",
           "file": "stained-glass.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-06/modely-l/stained-glass.png",
-          "bytes": 166214
+          "bytes": 158768
         },
         "models-2021": {
           "label": "Model S 2021",
           "file": "stained-glass.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-06/models-2021/stained-glass.png",
-          "bytes": 144974
+          "bytes": 142998
         },
         "models-2025-plaid": {
           "label": "Model S 2025 Plaid",
           "file": "stained-glass.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-06/models-2025-plaid/stained-glass.png",
-          "bytes": 146914
+          "bytes": 144755
         },
         "modelx-2021": {
           "label": "Model X 2021",
           "file": "stained-glass.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-06/modelx-2021/stained-glass.png",
-          "bytes": 127484
+          "bytes": 128723
         }
       },
       "preview": {
