@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T14:38:02.882Z",
+  "generatedAt": "2026-11-09T14:38:35.934Z",
   "repo": "bowiehole/wrap-factory",
   "site": "https://paintshopwraps.com",
   "vehicleOrder": [
@@ -31,6 +31,174 @@
     "modelx-2021": "Model X 2021"
   },
   "drops": [
+    {
+      "kind": "factory",
+      "id": "factory-2026-11-09-rally-livery",
+      "date": "2026-11-09",
+      "slug": "rally-livery",
+      "title": "Rally Livery",
+      "brief": "Rally Livery for the whole car — a bright chalk-white body over a lagoon-teal lower half that sweeps up from a low nose into a tall rear haunch, traced by a hot-coral and graphite double pinstripe, with twin coral center stripes edged in graphite running nose to tail over the hood, roof and deck. Laid out in world meters so the split and stripes stay continuous around the corners and across the hood-to-nose crease. Flat colors. Original design; no logos, numbers or sponsor marks.",
+      "previewVehicle": "cybertruck",
+      "vehicles": {
+        "cybertruck": {
+          "label": "Cybertruck",
+          "file": "rally-livery.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-09/cybertruck/rally-livery.png",
+          "bytes": 63827
+        },
+        "model3": {
+          "label": "Model 3",
+          "file": "rally-livery.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-09/model3/rally-livery.png",
+          "bytes": 135085
+        },
+        "model3-2024-base": {
+          "label": "Model 3 2024 Base",
+          "file": "rally-livery.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-09/model3-2024-base/rally-livery.png",
+          "bytes": 129801
+        },
+        "model3-2024-performance": {
+          "label": "Model 3 2024 Performance",
+          "file": "rally-livery.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-09/model3-2024-performance/rally-livery.png",
+          "bytes": 134171
+        },
+        "modely": {
+          "label": "Model Y",
+          "file": "rally-livery.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-09/modely/rally-livery.png",
+          "bytes": 125618
+        },
+        "modely-2025-base": {
+          "label": "Model Y 2025 Base",
+          "file": "rally-livery.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-09/modely-2025-base/rally-livery.png",
+          "bytes": 114543
+        },
+        "modely-2025-premium": {
+          "label": "Model Y 2025 Premium",
+          "file": "rally-livery.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-09/modely-2025-premium/rally-livery.png",
+          "bytes": 106577
+        },
+        "modely-2025-performance": {
+          "label": "Model Y 2025 Performance",
+          "file": "rally-livery.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-09/modely-2025-performance/rally-livery.png",
+          "bytes": 121422
+        },
+        "modely-l": {
+          "label": "Model Y L",
+          "file": "rally-livery.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-09/modely-l/rally-livery.png",
+          "bytes": 124623
+        },
+        "models-2021": {
+          "label": "Model S 2021",
+          "file": "rally-livery.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-09/models-2021/rally-livery.png",
+          "bytes": 107632
+        },
+        "models-2025-plaid": {
+          "label": "Model S 2025 Plaid",
+          "file": "rally-livery.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-09/models-2025-plaid/rally-livery.png",
+          "bytes": 107719
+        },
+        "modelx-2021": {
+          "label": "Model X 2021",
+          "file": "rally-livery.png",
+          "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-09/modelx-2021/rally-livery.png",
+          "bytes": 96197
+        }
+      },
+      "preview": {
+        "swatch": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-09/rally-livery/preview/swatch.png",
+        "stills": {
+          "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-09/rally-livery/preview/front.png",
+          "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-09/rally-livery/preview/side.png",
+          "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-09/rally-livery/preview/front-quarter.png",
+          "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-09/rally-livery/preview/rear-quarter.png"
+        },
+        "stillsByVehicle": {
+          "cybertruck": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-09/rally-livery/preview/cybertruck/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-09/rally-livery/preview/cybertruck/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-09/rally-livery/preview/cybertruck/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-09/rally-livery/preview/cybertruck/rear-quarter.png"
+          },
+          "model3": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-09/rally-livery/preview/model3/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-09/rally-livery/preview/model3/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-09/rally-livery/preview/model3/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-09/rally-livery/preview/model3/rear-quarter.png"
+          },
+          "model3-2024-base": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-09/rally-livery/preview/model3-2024-base/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-09/rally-livery/preview/model3-2024-base/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-09/rally-livery/preview/model3-2024-base/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-09/rally-livery/preview/model3-2024-base/rear-quarter.png"
+          },
+          "model3-2024-performance": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-09/rally-livery/preview/model3-2024-performance/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-09/rally-livery/preview/model3-2024-performance/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-09/rally-livery/preview/model3-2024-performance/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-09/rally-livery/preview/model3-2024-performance/rear-quarter.png"
+          },
+          "modely": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-09/rally-livery/preview/modely/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-09/rally-livery/preview/modely/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-09/rally-livery/preview/modely/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-09/rally-livery/preview/modely/rear-quarter.png"
+          },
+          "modely-2025-base": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-09/rally-livery/preview/modely-2025-base/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-09/rally-livery/preview/modely-2025-base/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-09/rally-livery/preview/modely-2025-base/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-09/rally-livery/preview/modely-2025-base/rear-quarter.png"
+          },
+          "modely-2025-premium": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-09/rally-livery/preview/modely-2025-premium/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-09/rally-livery/preview/modely-2025-premium/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-09/rally-livery/preview/modely-2025-premium/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-09/rally-livery/preview/modely-2025-premium/rear-quarter.png"
+          },
+          "modely-2025-performance": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-09/rally-livery/preview/modely-2025-performance/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-09/rally-livery/preview/modely-2025-performance/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-09/rally-livery/preview/modely-2025-performance/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-09/rally-livery/preview/modely-2025-performance/rear-quarter.png"
+          },
+          "modely-l": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-09/rally-livery/preview/modely-l/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-09/rally-livery/preview/modely-l/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-09/rally-livery/preview/modely-l/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-09/rally-livery/preview/modely-l/rear-quarter.png"
+          },
+          "models-2021": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-09/rally-livery/preview/models-2021/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-09/rally-livery/preview/models-2021/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-09/rally-livery/preview/models-2021/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-09/rally-livery/preview/models-2021/rear-quarter.png"
+          },
+          "models-2025-plaid": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-09/rally-livery/preview/models-2025-plaid/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-09/rally-livery/preview/models-2025-plaid/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-09/rally-livery/preview/models-2025-plaid/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-09/rally-livery/preview/models-2025-plaid/rear-quarter.png"
+          },
+          "modelx-2021": {
+            "front": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-09/rally-livery/preview/modelx-2021/front.png",
+            "side": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-09/rally-livery/preview/modelx-2021/side.png",
+            "front-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-09/rally-livery/preview/modelx-2021/front-quarter.png",
+            "rear-quarter": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-09/rally-livery/preview/modelx-2021/rear-quarter.png"
+          }
+        },
+        "og": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-09/rally-livery/preview/og.png",
+        "heroVehicle": "cybertruck"
+      }
+    },
     {
       "kind": "factory",
       "id": "factory-2026-11-08-barn-quilt",
