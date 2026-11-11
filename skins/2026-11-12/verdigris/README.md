@@ -1,4 +1,4 @@
-# verdigris — 2026-11-11
+# verdigris — 2026-11-12
 
 **Title:** Verdigris
 

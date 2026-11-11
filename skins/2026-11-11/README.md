@@ -1,11 +1,11 @@
-# 2026-11-11 — Verdigris
+# 2026-11-11 — Honor Guard
 
-**verdigris** — Verdigris
+**honor-guard** — Honor Guard
 
-**Brief:** Verdigris for the whole car — a weathered copper roof in material form: burnished orange-brown copper overtaken by pale sea-green verdigris patina that mottles heaviest across the roof, hood and upper body and runs down the doors and fenders in straight vertical rain-streak drips, with warm copper showing through toward the rocker and dark tarnish rims at the patina edges. The mottling is laid out in world meters, so it wraps continuously over the nose, hood, tail and corners without stretching. Original design; no logos or text.
+**Brief:** Honor Guard for Veterans Day — a dignified flag-inspired livery: a deep navy upper body filled with rows of staggered ivory five-point stars, a fine brass pinstripe, and crisp horizontal deep-red and ivory stripes running the length of the car below it. Stars and stripes are laid out in surface meters, so the rows wrap the nose, hood, tail and corners in one piece. In honor of those who served. Original design; no logos, emblems or text.
 
 **Vehicles:** Cybertruck, Model 3, Model 3 2024 Base, Model 3 2024 Performance, Model Y, Model Y 2025 Base, Model Y 2025 Premium, Model Y 2025 Performance, Model Y L, Model S 2021, Model S 2025 Plaid, Model X 2021
 
-**Palette:** copper (#B4602A), dark copper (#7A3A18), burnished copper (#D98A4E), verdigris (#5FB8A0), pale verdigris (#8FD3C0), deep verdigris (#2E7F6E), tarnish (#3E1E0E)
+**Palette:** navy (#0F1B36), ivory (#CFC6AE), deep red (#7C111B), dark red (#5E0C14), brass (#9A7A34)
 
 Original design; no logos, team marks, seals, or copyrighted imagery.

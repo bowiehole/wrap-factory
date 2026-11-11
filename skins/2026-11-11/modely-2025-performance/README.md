@@ -1,7 +1,7 @@
-# verdigris — 2026-11-11
+# honor-guard — 2026-11-11
 
-**Title:** Verdigris
+**Title:** Honor Guard
 
 **Vehicle:** Model Y 2025 Performance
 
-**Brief:** Verdigris for the whole car — a weathered copper roof in material form: burnished orange-brown copper overtaken by pale sea-green verdigris patina that mottles heaviest across the roof, hood and upper body and runs down the doors and fenders in straight vertical rain-streak drips, with warm copper showing through toward the rocker and dark tarnish rims at the patina edges. The mottling is laid out in world meters, so it wraps continuously over the nose, hood, tail and corners without stretching. Original design; no logos or text.
+**Brief:** Honor Guard for Veterans Day — a dignified flag-inspired livery: a deep navy upper body filled with rows of staggered ivory five-point stars, a fine brass pinstripe, and crisp horizontal deep-red and ivory stripes running the length of the car below it. Stars and stripes are laid out in surface meters, so the rows wrap the nose, hood, tail and corners in one piece. In honor of those who served. Original design; no logos, emblems or text.
