@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T17:37:27.560Z",
+  "generatedAt": "2026-11-13T21:32:17.229Z",
   "repo": "bowiehole/wrap-factory",
   "site": "https://paintshopwraps.com",
   "vehicleOrder": [
@@ -380,73 +380,73 @@
           "label": "Cybertruck",
           "file": "honor-guard.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-11/cybertruck/honor-guard.png",
-          "bytes": 137234
+          "bytes": 124532
         },
         "model3": {
           "label": "Model 3",
           "file": "honor-guard.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-11/model3/honor-guard.png",
-          "bytes": 247288
+          "bytes": 224742
         },
         "model3-2024-base": {
           "label": "Model 3 2024 Base",
           "file": "honor-guard.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-11/model3-2024-base/honor-guard.png",
-          "bytes": 237535
+          "bytes": 217580
         },
         "model3-2024-performance": {
           "label": "Model 3 2024 Performance",
           "file": "honor-guard.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-11/model3-2024-performance/honor-guard.png",
-          "bytes": 242045
+          "bytes": 220821
         },
         "modely": {
           "label": "Model Y",
           "file": "honor-guard.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-11/modely/honor-guard.png",
-          "bytes": 227432
+          "bytes": 208075
         },
         "modely-2025-base": {
           "label": "Model Y 2025 Base",
           "file": "honor-guard.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-11/modely-2025-base/honor-guard.png",
-          "bytes": 208551
+          "bytes": 185482
         },
         "modely-2025-premium": {
           "label": "Model Y 2025 Premium",
           "file": "honor-guard.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-11/modely-2025-premium/honor-guard.png",
-          "bytes": 222466
+          "bytes": 204599
         },
         "modely-2025-performance": {
           "label": "Model Y 2025 Performance",
           "file": "honor-guard.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-11/modely-2025-performance/honor-guard.png",
-          "bytes": 241262
+          "bytes": 215225
         },
         "modely-l": {
           "label": "Model Y L",
           "file": "honor-guard.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-11/modely-l/honor-guard.png",
-          "bytes": 236160
+          "bytes": 207732
         },
         "models-2021": {
           "label": "Model S 2021",
           "file": "honor-guard.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-11/models-2021/honor-guard.png",
-          "bytes": 212771
+          "bytes": 191153
         },
         "models-2025-plaid": {
           "label": "Model S 2025 Plaid",
           "file": "honor-guard.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-11/models-2025-plaid/honor-guard.png",
-          "bytes": 214856
+          "bytes": 192287
         },
         "modelx-2021": {
           "label": "Model X 2021",
           "file": "honor-guard.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-11/modelx-2021/honor-guard.png",
-          "bytes": 177937
+          "bytes": 157316
         }
       },
       "preview": {
