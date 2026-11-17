@@ -1,0 +1,8 @@
+# carrara-gold — 2026-11-17
+
+**Title:** Carrara Gold
+
+**Brief:** Carrara Gold for the whole car — polished white Carrara marble with bold black veins and thin gold veining, cut as one solid block: the stone pattern runs unbroken over the hood, nose, roof, doors and tail, swelling and pinching like real marble. Laid out in world meters. Original design; no logos or text.
+
+Preview stills live in `preview/` (Cybertruck hero at the root, every vehicle under `preview/{vehicle}/`).
+Swatch is `preview/swatch.png`. Link image is `preview/og.png`.
