@@ -367,6 +367,66 @@ function scanWorkshop() {
   return drops;
 }
 
+/** Copy the newest factory skins/<date>/<slug>/preview/og.png to docs/og-latest.png. */
+function syncOgLatest() {
+  const dest = path.join(DOCS, "og-latest.png");
+  const leftUnchanged = (reason) => {
+    console.log(`Left ${dest} unchanged (${reason})`);
+  };
+  if (!fs.existsSync(SKINS)) {
+    leftUnchanged("skins directory missing");
+    return;
+  }
+  let dates;
+  try {
+    dates = fs
+      .readdirSync(SKINS, { withFileTypes: true })
+      .filter((ent) => ent.isDirectory() && DATE_RE.test(ent.name))
+      .map((ent) => ent.name)
+      .sort()
+      .reverse();
+  } catch {
+    leftUnchanged("skins directory missing");
+    return;
+  }
+  for (const date of dates) {
+    const dateDir = path.join(SKINS, date);
+    let entries;
+    try {
+      entries = fs.readdirSync(dateDir, { withFileTypes: true });
+    } catch {
+      continue;
+    }
+    const slugs = [];
+    for (const ent of entries) {
+      if (!ent.isDirectory()) continue;
+      const slug = ent.name;
+      if (/-v[0-9]+$/.test(slug)) continue;
+      const ogPath = path.join(dateDir, slug, "preview", "og.png");
+      let st;
+      try {
+        st = fs.statSync(ogPath);
+      } catch {
+        continue;
+      }
+      if (!st.isFile()) continue;
+      slugs.push(slug);
+    }
+    slugs.sort();
+    if (slugs.length === 0) continue;
+    if (slugs.length > 1) {
+      console.warn(
+        `Warning: multiple preview/og.png slugs on ${date}: ${slugs.join(", ")}; using ${slugs[0]}`
+      );
+    }
+    const slug = slugs[0];
+    fs.copyFileSync(path.join(dateDir, slug, "preview", "og.png"), dest);
+    console.log(`Wrote ${dest} from skins/${date}/${slug}/preview/og.png`);
+    return;
+  }
+  leftUnchanged("no factory preview/og.png");
+}
+
 function main() {
   const existing = indexExisting(readExisting());
   const factory = scanFactory()
@@ -395,6 +455,7 @@ function main() {
   console.log(
     `Wrote ${OUT} — ${catalog.drops.length} drops (${factory.length} factory, ${workshopFiltered.length} workshop), ${withPreview} with preview`
   );
+  syncOgLatest();
 }
 
 main();
