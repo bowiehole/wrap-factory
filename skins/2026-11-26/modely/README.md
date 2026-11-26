@@ -1,7 +1,7 @@
-# terrazzo — 2026-11-26
+# thanksgiving — 2026-11-26
 
-**Title:** Terrazzo
+**Title:** Thanksgiving
 
 **Vehicle:** Model Y
 
-**Brief:** Terrazzo for the whole car — a bold Venetian terrazzo floor blown up to body size: irregular polished stone chips in bone, coral, mustard, mint and blush, with smaller chips and fine white and sky-blue flecks, set densely in a deep ink-navy ground and laid out in surface meters so the stone keeps one size across the doors, corners, hood, nose and tail. Original design; no logos or text.
+**Brief:** Thanksgiving for the whole car — a high-contrast festive scatter of cartoon turkeys with friendly faces, vertically ribbed pumpkins, pie wedges, acorns and harvest stars on a deep roast-espresso ground, laid out in surface meters so the icons keep one size across the doors, corners, hood, nose and tail. Original design; no logos or text.
