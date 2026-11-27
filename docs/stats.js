@@ -7,7 +7,7 @@
   var BID_KEY = "psw-bid";
   var VIEW_KEY = "psw-viewed";
   var TIMEOUT_MS = 3000;
-  var BATCH_SIZE = 100;
+  var BATCH_SIZE = 50;
   var UUID_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
 
   var counts = Object.create(null);
