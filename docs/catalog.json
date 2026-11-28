@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-28T14:18:05.156Z",
+  "generatedAt": "2026-11-28T16:06:34.351Z",
   "repo": "bowiehole/wrap-factory",
   "site": "https://paintshopwraps.com",
   "vehicleOrder": [
@@ -92,7 +92,7 @@
           "label": "Model Y L",
           "file": "riso-overprint.png",
           "url": "https://raw.githubusercontent.com/bowiehole/wrap-factory/main/skins/2026-11-28/modely-l/riso-overprint.png",
-          "bytes": 446397
+          "bytes": 440756
         },
         "models-2021": {
           "label": "Model S 2021",
