@@ -1,7 +1,7 @@
 # Skins — 2026-09-11
 
 **Slug:** `kintsugi`
-**Brief:** Deep indigo-black lacquer body with luminous gold and copper kintsugi crack veins branching continuously across every panel in shared vehicle-space (u,v) — high-contrast repaired-lacquer graphic, regenerated impression, no logos/seals.
+**Brief:** Deep indigo-black lacquer body with luminous gold and copper kintsugi crack veins branching continuously across every panel in shared vehicle-space (u,v) — high-contrast repaired-lacquer graphic.
 
 Not a US holiday eve (tomorrow Sep 12 is not a US federal holiday). Not city series. Deliberately avoids terrazzo-pop chips, slash-field diagonals, bayou-dusk, volt-rail neon rails, chi-lake streams, reef-flash scales, la-dusk/sunset ribbons, city night grids, champagne, taxi-steam, norther ice, continuous-stream-on-dark-body, and height-ring thrash.
 

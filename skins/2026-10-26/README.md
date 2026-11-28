@@ -8,4 +8,3 @@
 
 **Palette:** frayed linen (#e9ddbd, #d3c39e, #8a744c), near-black gaps (#140c08)
 
-Original design; no logos, team marks, seals, or copyrighted imagery.

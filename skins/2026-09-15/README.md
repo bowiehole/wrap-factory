@@ -1,7 +1,7 @@
 # Skins — 2026-09-15
 
 **Slug:** `scale-flash`
-**Brief:** Near-black indigo body with an overlapping fish/dragon scute lattice — electric cyan rims and hot amber fills on staggered rows; continuous armor field via plane world-bake; regenerated scale impression, no logos/seals.
+**Brief:** Near-black indigo body with an overlapping fish/dragon scute lattice — electric cyan rims and hot amber fills on staggered rows; continuous armor field via plane world-bake.
 
 Not a US federal holiday eve (Wed Sep 16 is not federal). Cities roll optional (~1 in 4) — skipped for a fresh structural invent. Distinct from last 30 days especially plaid-zap, hex-comb, topo-ink, argyle-cut, terrazzo-pop, slash-field, bayou-dusk, volt-rail, chi-lake, reef-flash, la-dusk, norther, robotaxi, taxi-steam, ion-bloom, magma-rift. Avoids dusk gradients, neon power-rails, sunset ribbons, city night grids, honeycomb, tartan. Structure = overlapping scute / fish-scale lattice, NOT hex/tartan/diamond/slash/contour/rail.
 

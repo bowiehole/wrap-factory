@@ -12,4 +12,3 @@ Requested in issue #5
 
 Preview stills live in `preview/`.
 
-Original design; no logos, team marks, seals, or copyrighted imagery.

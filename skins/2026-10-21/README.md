@@ -8,4 +8,3 @@
 
 **Palette:** cobalt sky, slate-blue far range, deep ink near range, snow white, aspen gold
 
-Original design; no logos, team marks, seals, or copyrighted imagery.

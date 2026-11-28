@@ -8,4 +8,3 @@
 
 **Palette:** night (#1a1240), marigold (#f28c12), gold (#ffc21a), bone (#f4efe6), hot pink (#ff3d8b), turquoise (#19c2c0), orange (#ff6a1a)
 
-Original design; no logos, team marks, seals, or copyrighted imagery.

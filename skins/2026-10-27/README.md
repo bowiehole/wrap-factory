@@ -8,4 +8,3 @@
 
 **Palette:** magenta (#e3127d), orange (#ff5a14), yellow (#ffd60a), green (#18b04a), turquoise (#0aa6d6), violet (#5a26c2), cotton (#f4efe6)
 
-Original design; no logos, team marks, seals, or copyrighted imagery.

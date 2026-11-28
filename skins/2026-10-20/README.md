@@ -8,4 +8,3 @@
 
 **Palette:** pumpkin orange ground #FF6F00, near-black bats #0E0B10, pale cream moon #FFE8AA, moon glow #FFA03C.
 
-Original design; no licensed characters, logos, or marks.

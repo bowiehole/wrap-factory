@@ -8,4 +8,3 @@
 
 **Palette:** scarlet, black, saffron, white overcheck
 
-Original design; no logos, team marks, seals, registered setts, or copyrighted imagery.

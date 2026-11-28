@@ -2,7 +2,7 @@
 
 **Title:** I Voted!
 
-**Brief:** Election Day: a clean white car wearing big, whole, flat "I Voted!" stickers — a classic oval with a navy ring, a flat American flag and bold red I VOTED! — on each front door or side, the hood or frunk, and the rear where a whole sticker fits flat. Original design inspired by the classic oval election sticker; no logos or official seals.
+**Brief:** Election Day: a clean white car wearing big, whole, flat "I Voted!" stickers — a classic oval with a navy ring, a flat American flag and bold red I VOTED! — on each front door or side, the hood or frunk, and the rear where a whole sticker fits flat. Original design inspired by the classic oval election sticker.
 
 **Vehicles:** Cybertruck, Model 3, Model 3 2024 Base, Model 3 2024 Performance, Model Y, Model Y 2025 Base, Model Y 2025 Premium, Model Y 2025 Performance, Model Y L, Model S 2021, Model S 2025 Plaid, Model X 2021
 
@@ -14,7 +14,5 @@
 - Model 3, Model S and Model X side stickers are smaller (0.55-0.70 m) than on the Cybertruck and Model Y, because that is the largest whole sticker that fits flat on one panel.
 
 Preview stills live in `preview/`.
-
-Original design; no logos, team marks, seals, or copyrighted imagery.
 
 Unofficial fan project; not affiliated with or endorsed by Tesla.

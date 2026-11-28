@@ -1,7 +1,7 @@
 # Skins — 2026-09-16
 
 **Slug:** `moire-pulse`
-**Brief:** Deep ink body with overlapping lime and magenta diagonal gratings that interfere into cyan pulse nodes; continuous wrap via plane world-bake; regenerated moiré impression, no logos/seals.
+**Brief:** Deep ink body with overlapping lime and magenta diagonal gratings that interfere into cyan pulse nodes; continuous wrap via plane world-bake.
 
 Not a US federal holiday eve (Thu Sep 17 is not federal). Cities series NYC/LA/Chicago/Houston done — skipped for a fresh structural invent. Distinct from last 30 days especially scale-flash, plaid-zap, hex-comb, topo-ink, argyle-cut, terrazzo-pop, slash-field, bayou-dusk, volt-rail, chi-lake, reef-flash, la-dusk, norther, robotaxi, taxi-steam, ion-bloom, magma-rift. Avoids dusk gradients, neon power-rails, sunset ribbons, city night grids, honeycomb, tartan, diamond argyle, fish scales, slash-only, topo. Structure = moiré interference lattice (two overlapping diagonal gratings + cyan pulse nodes).
 

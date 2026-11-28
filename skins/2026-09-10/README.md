@@ -1,7 +1,7 @@
 # Skins — 2026-09-10
 
 **Slug:** `terrazzo-pop`
-**Brief:** Warm parchment body densely speckled with multi-color terrazzo chips (coral, teal, mustard, indigo, charcoal) — irregular chips of varying size that feel continuous across door seams via shared (u,v) noise; high-contrast graphic stone, regenerated impression, no logos.
+**Brief:** Warm parchment body densely speckled with multi-color terrazzo chips (coral, teal, mustard, indigo, charcoal) — irregular chips of varying size that feel continuous across door seams via shared (u,v) noise; high-contrast graphic stone.
 
 Not a US holiday eve. Not city series. Deliberately avoids bayou-dusk, slash-field, dusk gradients, neon rails, sunset ribbons, city night grids, champagne, taxi-steam, volt-rail streams, and diagonal slash families.
 

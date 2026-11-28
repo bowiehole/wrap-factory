@@ -7,6 +7,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { sanitizeBrief } from "./sanitize-brief.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
@@ -71,7 +72,7 @@ function parseBriefFromReadme(text) {
   // Accept "**Brief:** …" or bullet "- **Brief:** …"
   const m = text.match(/^\s*-?\s*\*\*Brief:\*\*\s*(.+)$/m);
   if (!m) return null;
-  const brief = m[1].trim();
+  const brief = sanitizeBrief(m[1].trim());
   return brief || null;
 }
 
@@ -441,13 +442,18 @@ function main() {
     (d) => publishedWorkshopIds.has(d.id) || Object.keys(d.vehicles).length >= 8
   );
 
+  const drops = [...factory, ...workshopFiltered].map((d) => ({
+    ...d,
+    brief: sanitizeBrief(d.brief || ""),
+  }));
+
   const catalog = {
     generatedAt: new Date().toISOString(),
     repo: REPO,
     site: SITE,
     vehicleOrder: VEHICLE_ORDER,
     vehicleLabels: VEHICLE_LABELS,
-    drops: [...factory, ...workshopFiltered],
+    drops,
   };
 
   fs.writeFileSync(OUT, JSON.stringify(catalog, null, 2) + "\n");

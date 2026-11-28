@@ -10,6 +10,4 @@
 
 Preview stills live in `preview/`.
 
-Original design; no logos, team marks, seals, or copyrighted imagery.
-
 Unofficial fan project; not affiliated with or endorsed by Tesla.

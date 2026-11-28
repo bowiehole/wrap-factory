@@ -8,4 +8,3 @@
 
 **Palette:** strawberry glaze #F58DB9 over golden baked dough #D9A066, with white, sky, lemon, lime, tangerine, cherry, and violet sprinkles.
 
-Original design; no licensed characters, logos, or marks.

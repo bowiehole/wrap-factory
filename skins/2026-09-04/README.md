@@ -1,7 +1,7 @@
 # Skins — 2026-09-04
 
 **Slug:** `la-dusk`
-**Brief:** Los Angeles dusk impression: coral-magenta sun disk on the roof bleeding into indigo night toward the rockers, with soft palm-frond silhouettes and thin freeway light ribbons drifting downhill — regenerated, no logos.
+**Brief:** Los Angeles dusk impression: coral-magenta sun disk on the roof bleeding into indigo night toward the rockers, with soft palm-frond silhouettes and thin freeway light ribbons drifting downhill.
 
 CITY series — Los Angeles (next after NYC). One invented wrap applied to every official Tesla custom-wrap vehicle.
 

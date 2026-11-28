@@ -2,7 +2,7 @@
 
 Factory drop **canopy-dapple**.
 
-**Brief:** Forest canopy sun-dapple — hot pale-gold sunflecks with chartreuse rims pooling through moss and teal leaf shadow over near-black shade, with rare sky-gap flecks; plane world-bake continuous wrap, regenerated outdoors impression, no logos.
+**Brief:** Forest canopy sun-dapple — hot pale-gold sunflecks with chartreuse rims pooling through moss and teal leaf shadow over near-black shade, with rare sky-gap flecks; plane world-bake continuous wrap.
 
 - **DATE:** 2026-10-02
 - **SLUG:** canopy-dapple

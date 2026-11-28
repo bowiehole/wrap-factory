@@ -2,7 +2,7 @@
 
 Factory drop **prairie-shear**.
 
-**Brief:** Wind-sheared tallgrass: amber and wheat blades leaning one way across soil-brown and charcoal ground, with sparse pale seed-head flecks; plane world-bake so the gust wraps nose to tail; regenerated prairie impression, no logos.
+**Brief:** Wind-sheared tallgrass: amber and wheat blades leaning one way across soil-brown and charcoal ground, with sparse pale seed-head flecks; plane world-bake so the gust wraps nose to tail.
 
 - **DATE:** 2026-09-28
 - **SLUG:** prairie-shear

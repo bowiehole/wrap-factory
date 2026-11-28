@@ -8,4 +8,3 @@
 
 **Palette:** cobalt (#12279a), lemon (#f5e04a)
 
-Original design; no logos, team marks, seals, or copyrighted imagery.

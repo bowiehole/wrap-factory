@@ -1,6 +1,6 @@
 # 2026-09-30 — basalt-column
 
-**Brief:** Columnar basalt — tall charcoal-obsidian prismatic columns with pale ash-cream joints and sparse lichen-green mineral flecks; plane world-bake so columns wrap nose to tail; regenerated geology impression, no logos.
+**Brief:** Columnar basalt — tall charcoal-obsidian prismatic columns with pale ash-cream joints and sparse lichen-green mineral flecks; plane world-bake so columns wrap nose to tail.
 
 - **DATE:** 2026-09-30
 - **SLUG:** basalt-column

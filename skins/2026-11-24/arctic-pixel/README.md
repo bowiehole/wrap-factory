@@ -2,7 +2,7 @@
 
 **Title:** Arctic Pixel
 
-**Brief:** Arctic Pixel for the whole car — a crisp digital snow camouflage: square pixels in snow white, glacier ice blue, steel slate and near-black, clustered into jagged stair-stepped blotches over a bright snow body. Laid out on one surface-meter pixel grid so the squares stay square and the blotches run unbroken across doors, corners, the hood-to-nose crease and the tail. Original design; no logos or text.
+**Brief:** Arctic Pixel for the whole car — a crisp digital snow camouflage: square pixels in snow white, glacier ice blue, steel slate and near-black, clustered into jagged stair-stepped blotches over a bright snow body. Laid out on one surface-meter pixel grid so the squares stay square and the blotches run unbroken across doors, corners, the hood-to-nose crease and the tail.
 
 Preview stills live in `preview/` (Cybertruck hero at the root, every vehicle under `preview/{vehicle}/`).
 Swatch is `preview/swatch.png`. Link image is `preview/og.png`.

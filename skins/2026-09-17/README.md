@@ -1,7 +1,7 @@
 # Skins — 2026-09-17
 
 **Slug:** `bar-scan`
-**Brief:** Warm paper-cream body with irregular-width vertical barcode lanes in deep ink, sparse signal-red guard pairs, and thin lemon laser accents; continuous wrap via plane world-bake; regenerated barcode/scan impression, no logos/seals.
+**Brief:** Warm paper-cream body with irregular-width vertical barcode lanes in deep ink, sparse signal-red guard pairs, and thin lemon laser accents; continuous wrap via plane world-bake.
 
 Not a US federal holiday eve (Fri Sep 18 is not federal). Cities series NYC/LA/Chicago/Houston done — skipped for a fresh structural invent. Distinct from last 30 days especially moire-pulse, scale-flash, plaid-zap, hex-comb, topo-ink, argyle-cut, terrazzo-pop, slash-field, bayou-dusk, volt-rail, chi-lake, reef-flash, la-dusk, norther, robotaxi, taxi-steam, ion-bloom, magma-rift. Avoids dusk gradients, neon power-rails, sunset ribbons, city night grids, honeycomb, tartan, diamond argyle, fish scales, slash-only, topo, moiré. Structure = irregular vertical barcode / scan lanes on cream paper (NOT lattice/diagonal/stream).
 

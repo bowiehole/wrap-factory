@@ -8,4 +8,3 @@
 
 **Palette:** violet (#1e0a36), silk (#f4f0ff), pumpkin (#f04e00)
 
-Original design; no logos, team marks, seals, or copyrighted imagery.

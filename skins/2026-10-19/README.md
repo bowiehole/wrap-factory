@@ -8,4 +8,3 @@
 
 **Palette:** jet black #0C0C0E / white #F2F2EE / gold #D4A62A / charcoal clouding
 
-Original design; no logos or marks.

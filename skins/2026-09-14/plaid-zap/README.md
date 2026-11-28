@@ -1,7 +1,7 @@
 # Skins — 2026-09-14
 
 **Slug:** `plaid-zap`
-**Brief:** Near-black body with an oversized high-contrast tartan — thick electric magenta, acid yellow, and cyan warp/weft bands that mix darker at crossings; continuous orthogonal plaid in vehicle space via plane world-bake; regenerated textile impression, no logos/seals.
+**Brief:** Near-black body with an oversized high-contrast tartan — thick electric magenta, acid yellow, and cyan warp/weft bands that mix darker at crossings; continuous orthogonal plaid in vehicle space via plane world-bake.
 
 Not a US federal holiday (Sep 15 is not federal). Cities roll already covered NYC/LA/Chicago/Houston. Distinct from last 30 days especially hex-comb, topo-ink, argyle-cut, terrazzo-pop, slash-field, bayou-dusk, volt-rail, chi-lake, reef-flash, la-dusk, norther, robotaxi, taxi-steam, ion-bloom, magma-rift. Avoids dusk gradients, neon power-rails, sunset ribbons, city night grids, continuous-stream-on-dark-body. Structure = orthogonal tartan weave, NOT hex/diamond/slash/contour/rail.
 

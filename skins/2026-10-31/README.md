@@ -8,4 +8,3 @@
 
 **Palette:** paper (#f2ead8), ultramarine (#1d32a6), coral red (#e4412a), kelly green (#158a48)
 
-Original design; no logos, team marks, seals, or copyrighted imagery.

@@ -1,6 +1,6 @@
 # 2026-09-29 — stencil-flood
 
-**Brief:** Layered spray-stencil floods — hard-edged overlapping cutouts in tomato red, cobalt, bone, and charcoal over kraft-concrete ground, with soft overspray fringe; plane world-bake so floods wrap nose to tail; regenerated print-shop impression, no logos.
+**Brief:** Layered spray-stencil floods — hard-edged overlapping cutouts in tomato red, cobalt, bone, and charcoal over kraft-concrete ground, with soft overspray fringe; plane world-bake so floods wrap nose to tail.
 
 - **DATE:** 2026-09-29
 - **SLUG:** stencil-flood

@@ -1,7 +1,7 @@
 # Skins — 2026-09-07
 
 **Slug:** `volt-rail`
-**Brief:** Graphite-black body with electric lime and cyan continuous power-rail streams running nose→tail, hot-white edge sparks cascading from the roof downhill — high contrast for the touchscreen; regenerated impression, no logos.
+**Brief:** Graphite-black body with electric lime and cyan continuous power-rail streams running nose→tail, hot-white edge sparks cascading from the roof downhill — high contrast for the touchscreen.
 
 Not a city day (chi-lake/la-dusk recent; Houston stays next city slot). Continuous UV paint so power rails cross door seams.
 

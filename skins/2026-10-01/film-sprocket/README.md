@@ -2,7 +2,7 @@
 
 Factory drop **film-sprocket**.
 
-**Brief:** Celluloid film strip — warm amber-sepia emulsion frames marching nose to tail over charcoal leader, dual cream sprocket-perforation rails at roof-edge and rocker, sparse cyan frame flashes; plane world-bake continuous wrap, regenerated print-shop impression, no logos.
+**Brief:** Celluloid film strip — warm amber-sepia emulsion frames marching nose to tail over charcoal leader, dual cream sprocket-perforation rails at roof-edge and rocker, sparse cyan frame flashes; plane world-bake continuous wrap.
 
 - **DATE:** 2026-10-01
 - **SLUG:** film-sprocket

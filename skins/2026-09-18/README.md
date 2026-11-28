@@ -1,7 +1,7 @@
 # Skins — 2026-09-18
 
 **Slug:** `radar-arc`
-**Brief:** Deep navy CRT-phosphor body with lime concentric radar rings, one amber sweep wedge, and sparse cyan ping blips; continuous wrap via plane world-bake; regenerated radar/scope impression, no logos/seals.
+**Brief:** Deep navy CRT-phosphor body with lime concentric radar rings, one amber sweep wedge, and sparse cyan ping blips; continuous wrap via plane world-bake.
 
 Not a US federal holiday eve (Sat Sep 19 is not federal). Cities series NYC/LA/Chicago/Houston done — skipped for a fresh structural invent. Distinct from last 30 days especially bar-scan, moire-pulse, scale-flash, plaid-zap, hex-comb, topo-ink, argyle-cut, terrazzo-pop, slash-field, bayou-dusk, volt-rail, chi-lake, reef-flash, la-dusk, norther, robotaxi, taxi-steam, ion-bloom, magma-rift. Avoids dusk gradients, neon power-rails, sunset ribbons, city night grids, honeycomb, tartan, diamond argyle, fish scales, slash-only, topo, moiré, barcode/vertical scan lanes. Structure = polar concentric radar rings + sweep wedge in continuous (along, heightV).
 

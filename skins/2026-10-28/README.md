@@ -8,4 +8,3 @@
 
 **Palette:** espresso (#3a2213), mid brown (#8a5a2c), blond (#e9c88a), warm honey (#f2d49a)
 
-Original design; no logos, team marks, seals, or copyrighted imagery.

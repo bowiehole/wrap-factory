@@ -1,7 +1,7 @@
 # Skins — 2026-09-17
 
 **Slug:** `bar-scan`
-**Brief:** Warm paper-cream body with irregular-width vertical barcode lanes in deep ink, sparse signal-red guard pairs, and thin lemon laser accents; continuous wrap via plane-metric world-bake (equal world-meter bar thickness on sides and fascia); regenerated barcode/scan impression, no logos/seals.
+**Brief:** Warm paper-cream body with irregular-width vertical barcode lanes in deep ink, sparse signal-red guard pairs, and thin lemon laser accents; continuous wrap via plane-metric world-bake (equal world-meter bar thickness on sides and fascia).
 
 Remaster 2026-09-18: `--mapping=plane-metric` (`along = alongZ + (wx-xMin)/zSpan`), dens=42 unchanged. Overwrites same slug in place (no `-v2`).
 

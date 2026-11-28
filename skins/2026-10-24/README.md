@@ -8,4 +8,3 @@
 
 **Palette:** lemon yellow, hot magenta, ink black
 
-Original design; no logos, team marks, seals, or copyrighted imagery.

@@ -8,4 +8,3 @@
 
 **Palette:** bottle-green barbs, gold-green fringe, copper, turquoise, sapphire and navy hearts
 
-Original design; no logos, team marks, seals, or copyrighted imagery.

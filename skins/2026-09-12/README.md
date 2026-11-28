@@ -1,7 +1,7 @@
 # Skins — 2026-09-12
 
 **Slug:** `topo-ink`
-**Brief:** Warm paper-cream body with a high-contrast topographic contour-map field — nested closed ink contours from a continuous vehicle-space height field, charcoal major/minor contour lines plus occasional cadmium index contours wrapping every panel continuously; regenerated map impression, no logos/seals.
+**Brief:** Warm paper-cream body with a high-contrast topographic contour-map field — nested closed ink contours from a continuous vehicle-space height field, charcoal major/minor contour lines plus occasional cadmium index contours wrapping every panel continuously.
 
 Not a US holiday eve (tomorrow Sep 13 is not a US federal holiday). Not city series. Deliberately avoids argyle-cut diamonds, terrazzo-pop chips, slash-field diagonals, bayou-dusk, volt-rail neon rails, chi-lake streams, reef-flash, la-dusk/sunset ribbons, norther, robotaxi, taxi-steam, ion-bloom, magma-rift, kintsugi, dusk gradients, neon power-rails, city night grids, and continuous-stream-on-dark-body. Structure is nested level-set contours (topo map), not diamonds/chips/slashes/rails/height-rings.
 

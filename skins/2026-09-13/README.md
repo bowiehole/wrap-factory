@@ -1,7 +1,7 @@
 # Skins — 2026-09-13
 
 **Slug:** `hex-comb`
-**Brief:** Charcoal-ink body with a dense honeycomb hex lattice — mint and coral cell walls, occasional filled accent cells tiling continuously in vehicle space via plane world-bake; regenerated hive impression, no logos/seals.
+**Brief:** Charcoal-ink body with a dense honeycomb hex lattice — mint and coral cell walls, occasional filled accent cells tiling continuously in vehicle space via plane world-bake.
 
 Not a US federal holiday. Not city series. Deliberately avoids topo-ink contours, argyle-cut diamonds, terrazzo-pop chips, slash-field diagonals, bayou-dusk, volt-rail neon rails, chi-lake streams, reef-flash, la-dusk/sunset ribbons, norther, robotaxi, taxi-steam, ion-bloom, magma-rift, kintsugi, dusk gradients, neon power-rails, and city night grids. Structure is axial honeycomb hex cells (hive lattice), not diamonds/chips/slashes/rails/contours.
 

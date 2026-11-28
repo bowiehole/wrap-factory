@@ -1,7 +1,7 @@
 # Skins — 2026-09-09
 
 **Slug:** `slash-field`
-**Brief:** Bone-cream body scored by bold vermillion and charcoal diagonal slash bands (~35° in vehicle space) that wrap continuously around every panel — high-contrast graphic cut fields, regenerated impression, no logos.
+**Brief:** Bone-cream body scored by bold vermillion and charcoal diagonal slash bands (~35° in vehicle space) that wrap continuously around every panel — high-contrast graphic cut fields.
 
 Not a US holiday eve. Not city series (Houston/bayou-dusk was yesterday). Deliberately avoids dusk gradients, bayou, neon power-rails, sunset ribbons, city night grids, champagne, taxi-steam, volt-rail streams, and continuous longitudinal ribbon families.
 

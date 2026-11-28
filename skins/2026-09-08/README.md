@@ -1,7 +1,7 @@
 # Skins — 2026-09-08
 
 **Slug:** `bayou-dusk`
-**Brief:** Deep bayou teal-black body with coral-orange Gulf sunset ribbons flowing continuous nose→tail across door seams, and cool silver downtown light-grid streams cascading from roof toward rockers — Space City night energy, high contrast for touchscreen; regenerated impression, no logos.
+**Brief:** Deep bayou teal-black body with coral-orange Gulf sunset ribbons flowing continuous nose→tail across door seams, and cool silver downtown light-grid streams cascading from roof toward rockers — Space City night energy, high contrast for touchscreen.
 
 Houston city series (NYC/LA/Chicago done; Houston next). Continuous UV paint so sunset ribbons and light grids cross door seams. Not a US holiday eve; not a volt-rail streak.
 
